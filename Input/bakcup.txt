@@ -1,0 +1,22 @@
+       if(data->teachers[t]->disc[d]->dayTime == "Tarde"){
+                for(int i = 0; i < 6; i++){
+                    for(int j = 6; j < 12; j++){
+                        if(limit > 0  && temp->teacher[t].schedule[i][j] == 0){
+                            limit--;
+                            temp->teacher[t].schedule[i][j] = data->teachers[t]->disc[d]->id;
+                        }
+                    }
+                }
+            }
+            if(data->teachers[t]->disc[d]->dayTime == "Noite"){
+                for(int i = 0; i < 6; i++){
+                    for(int j = 12; j < 16; j++){
+                        if(limit > 0  && temp->teacher[t].schedule[i][j] == 0){
+                            limit--;
+                            temp->teacher[t].schedule[i][j] = data->teachers[t]->disc[d]->id;
+                        }
+                    }
+                }
+            }
+        }
+    }

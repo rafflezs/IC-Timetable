@@ -1,0 +1,13 @@
+ID;Salas;Bloco;Capacidade;Tipo;SEG;TER;QUA;QUI;SEX;SAB
+1;Sala 09;Pedagógico;50;Sala;0;0;0;0;0;0
+2;Sala 10-A;Pedagógico;50;Sala;0;0;0;0;0;0
+3;Sala AT;Alan Turing;35;Sala;0;0;0;0;0;0
+4;Lab Info 1;Pedagógico;30;Info;0;0;0;0;0;0
+5;Lab Info 2;Pedagógico;30;Info;0;0;0;0;0;0
+6;Lab Info 3;Pedagógico;30;Info;0;0;0;0;0;0
+7;Lab Info 4;Alan Turing;30;Info;0;0;0;0;0;0
+8;Lab Info 5;Alan Turing;30;Info;0;0;0;0;0;0
+9;Lab Info 6;Alan Turing;30;Info;0;0;0;0;0;0
+10;Lab Hardware;Alan Turing;30;Lab;0;0;0;0;0;0
+11;Sala 04;Pedagógico;30;Sala;0;0;0;0;0;0
+12;Sala 08-D;Pedagógico;50;Sala;0;0;0;0;0;0
