@@ -10,6 +10,7 @@ applied both in colleges and middle schools (mostly brazilian educational contex
 
 ## :computer: Technologies
 [C++] (https://www.cplusplus.com/) - backbone of this application, all heuristics are writen using it.
+
 [Python] (https://www.python.org/) - ellegant solution to some C++ gaps.
 
 Uses XLSX stantardized tables to input data into it.
