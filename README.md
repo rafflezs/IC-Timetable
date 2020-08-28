@@ -1,10 +1,10 @@
-## :openbook: Timetabling
+## :books: Timetabling
 Mostly applied in logistic and engineering, timetabling is the act of construct tables with given resources,
 in order to generate the best "time-efficient" task.
 
 It's application ranges from industries, medical consultory to, in this context, educational institutes.
 
-## :motar_board: This application
+## :mortar_board: This application
 This is a "general" purpose timetabling algorithm, with non-serialization implications, meaning it could be
 applied both in colleges and middle schools (mostly brazilian educational context).
 
