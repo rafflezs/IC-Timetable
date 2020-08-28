@@ -1,3 +1,10 @@
+## TODO
+- Generate feasible solutions for initial population
+- Solve room X resource conflitct
+- Improve all the used heuristics
+
+- CLEAN THIS FORSAKEN CODE
+
 ## :books: Timetabling
 Mostly applied in logistic and engineering, timetabling is the act of construct tables with given resources,
 in order to generate the best "time-efficient" task.
