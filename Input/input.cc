@@ -20,7 +20,7 @@ void start(){
         fixAndOptimize(&scheduleList[i], d);
     }
 
-    //printSolution(scheduleList);
+    printSolution(scheduleList);
 
     cout << "Leitura finalizada!" << endl;
 
@@ -142,7 +142,6 @@ vector <int> generateRandomList(Data* data,int constructMethod){
 
     vector <int> list;
 
-    //Lucas pedofilos
     switch (constructMethod){
         case 1:{
             for(int i = 1; i < data->discSize; i++){

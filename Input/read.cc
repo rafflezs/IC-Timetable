@@ -6,7 +6,7 @@ vector <Teacher*> readTeacher(vector <Discipline*> discplines){
 
     vector <string> data;
     ifstream file;
-    file.open("/home/rafflezs/Documentos/IC University Timetable/Data/Professores.csv");
+    file.open("/home/rafflezs/Documentos/IC2020 - uniTimetable/Data/Professores.csv");
 
     string temp;
 
@@ -59,7 +59,7 @@ vector <Course*> readCourse(){
     vector <Course*> courses;
 
     ifstream file;
-    file.open("/home/rafflezs/Documentos/IC University Timetable/Data/Cursos.csv");
+    file.open("/home/rafflezs/Documentos/IC2020 - uniTimetable/Data/Cursos.csv");
 
     string temp;
 
@@ -113,7 +113,7 @@ vector <Grade*> readGrade(vector <Course*> courses){
     vector <Grade*> grades;
 
     ifstream file;
-    file.open("/home/rafflezs/Documentos/IC University Timetable/Data/Turmas.csv");
+    file.open("/home/rafflezs/Documentos/IC2020 - uniTimetable/Data/Turmas.csv");
 
     string temp;
 
@@ -169,7 +169,7 @@ vector <Discipline*> readDiscipline(vector <Room*> room){
     vector <Discipline*> disciplines;
 
     ifstream file;
-    file.open("/home/rafflezs/Documentos/IC University Timetable/Data/Disciplinas.csv");
+    file.open("/home/rafflezs/Documentos/IC2020 - uniTimetable/Data/Disciplinas.csv");
 
     string temp;
 
@@ -241,7 +241,7 @@ vector <Room*> readRoom(){
     vector <Room*> rooms;
 
     ifstream file;
-    file.open("/home/rafflezs/Documentos/IC University Timetable/Data/Salas.csv");
+    file.open("/home/rafflezs/Documentos/IC2020 - uniTimetable/Data/Salas.csv");
 
     string temp;
 
@@ -500,11 +500,11 @@ const vector<string> explode(const string& s, const char& c){
 	return v;
 }
 
-std::set <Room*> feasibleRoomList(vector <Room*> rooms){
+/* std::set <Room*> feasibleRoomList(vector <Room*> rooms){
 
     set <Room*> roomSet;
 
 
 
     return roomSet;
-}
+} */
