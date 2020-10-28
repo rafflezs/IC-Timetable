@@ -15,9 +15,9 @@ void start(){
     scheduleList = generateList(d, solution);
     cout << "Chegou aqui" << endl;
     for(int i = 1; i < scheduleList.size(); i++){
-        timeSwap(&scheduleList[i], d);
-        gradeSwap(&scheduleList[i], d);
-        fixAndOptimize(&scheduleList[i], d);
+    //    timeSwap(&scheduleList[i], d);
+    //    gradeSwap(&scheduleList[i], d);
+    //    fixAndOptimize(&scheduleList[i], d);
     }
 
     printSolution(scheduleList);
@@ -100,7 +100,7 @@ int constructDisc(Solution* temp, Data* data){
 
     //int list[] = {5,8,1,2,3,4,6,7,9,10,11,12,13,14,15,16,17,18,19,20,21,22};
 
-    for(int d = 0; d < 22 /* list.size() */; d++){
+    for(int d = 0; d < list.size() ; d++){
         if(temp->insertEarly(data, list[d]) == 1)
             return 1;
     }
@@ -115,7 +115,7 @@ int constructTeacher(Solution* temp, Data* data){
 
     //int list[] = {5,8,1,2,3,4,6,7,9,10,11,12,13,14,15,16,17,18,19,20,21,22};
 
-    for(int d = 0; d < 22 /* list.size() */; d++){
+    for(int d = 0; d < list.size() ; d++){
         if(temp->insertEarly(data, list[d]) == 1)
             return 1;
     }
@@ -130,7 +130,7 @@ int constructGrade(Solution* temp, Data* data){
 
     //int list[] = {5,8,1,2,3,4,6,7,9,10,11,12,13,14,15,16,17,18,19,20,21,22};
 
-    for(int d = 0; d < 22 /* list.size() */; d++){
+    for(int d = 0; d < list.size() ; d++){
         if(temp->insertEarly(data, list[d]) == 1)
             return 1;
     }

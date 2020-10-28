@@ -4,9 +4,9 @@ vector <Teacher*> readTeacher(vector <Discipline*> discplines){
 
     vector <Teacher*> teachers;
 
-    vector <string> data;
+    vector <string> 	data;
     ifstream file;
-    file.open("/home/rafflezs/Documentos/IC2020 - uniTimetable/Data/Professores.csv");
+    file.open("/home/rafflezs/Documentos/universityTimetabling/Data/Professores.csv");
 
     string temp;
 
@@ -59,7 +59,7 @@ vector <Course*> readCourse(){
     vector <Course*> courses;
 
     ifstream file;
-    file.open("/home/rafflezs/Documentos/IC2020 - uniTimetable/Data/Cursos.csv");
+    file.open("/home/rafflezs/Documentos/universityTimetabling/Data/Cursos.csv");
 
     string temp;
 
@@ -113,7 +113,7 @@ vector <Grade*> readGrade(vector <Course*> courses){
     vector <Grade*> grades;
 
     ifstream file;
-    file.open("/home/rafflezs/Documentos/IC2020 - uniTimetable/Data/Turmas.csv");
+    file.open("/home/rafflezs/Documentos/universityTimetabling/Data/Turmas.csv");
 
     string temp;
 
@@ -169,7 +169,7 @@ vector <Discipline*> readDiscipline(vector <Room*> room){
     vector <Discipline*> disciplines;
 
     ifstream file;
-    file.open("/home/rafflezs/Documentos/IC2020 - uniTimetable/Data/Disciplinas.csv");
+    file.open("/home/rafflezs/Documentos/universityTimetabling/Data/Disciplinas.csv");
 
     string temp;
 
@@ -241,13 +241,13 @@ vector <Room*> readRoom(){
     vector <Room*> rooms;
 
     ifstream file;
-    file.open("/home/rafflezs/Documentos/IC2020 - uniTimetable/Data/Salas.csv");
+    file.open("/home/rafflezs/Documentos/universityTimetabling/Data/Salas.csv");
 
     string temp;
 
     getline(file, temp, '\n');
 
-    //
+    //Generate index[0] with nullData
     Room* tempInp = new Room();
     tempInp->id = 0;
     tempInp->id_if = "nullData";
@@ -261,7 +261,8 @@ vector <Room*> readRoom(){
             tempInp->disponibility[i][j] = -1;
         }
     }
-    rooms.push_back(tempInp);    //
+    rooms.push_back(tempInp);    
+    //Generate index[0] with nullData
 
     int id = 1;
     while(file.good()){
