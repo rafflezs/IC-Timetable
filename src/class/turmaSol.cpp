@@ -1,15 +1,19 @@
 #include "turmaSol.hpp"
 
-TurmaSol::TurmaSol(Turma* turma, Data* data, Agenda* agendaTurma){
+TurmaSol::TurmaSol(Turma temp){
 
-    this->turma = turma;
-    this->agendaTurma = agendaTurma;
+    this->turma = temp;
+
+    Agenda* agenda = new Agenda(&temp);
+
+    this->agendaTurma = agenda;
+
 }
 
 void TurmaSol::exibeRecursos(){
 
-    std::cout << "Turma: " << this->turma->nome << std::endl;
+    std::cout << "Turma: " << this->turma.nome << std::endl;
 
-    agendaTurma->exibirAgenda(agendaTurma);
+    agendaTurma->exibirAgenda();
 
 }

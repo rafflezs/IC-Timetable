@@ -1,16 +1,18 @@
 #include "salaSol.hpp"
 
-SalaSol::SalaSol(Sala* sala, Data* data, Agenda* agenda){
+SalaSol::SalaSol(Sala sala){
 
     this->sala = sala;
-    this->agendaSala = agenda;
 
+    Agenda* agenda = new Agenda(&sala);
+
+    this->agendaSala = agenda;
 }
 
 void SalaSol::exibeRecursos(){
 
-    std::cout << "Nome: " << sala->nome << std::endl;
+    std::cout << "Nome: " << sala.nome << std::endl;
 
-    agendaSala->exibirAgenda(agendaSala);
+    agendaSala->exibirAgenda();
 
 }

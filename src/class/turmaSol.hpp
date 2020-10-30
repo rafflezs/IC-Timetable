@@ -7,12 +7,12 @@
 class TurmaSol{
 
     public:
-        Turma* turma;
+        Turma turma;
         std::list <DiscSolucao*> discLista;
-        Sala* salaBase;
+        Sala salaBase;
         Agenda* agendaTurma;
 
-        TurmaSol(Turma* turma, Data* data, Agenda* agendaTurma);
+        TurmaSol(Turma turma);
         void exibeRecursos();
 
 };

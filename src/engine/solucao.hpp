@@ -3,6 +3,11 @@
 
 #include "../class/agenda.hpp"
 #include "../class/discSolucao.hpp"
+#include "../class/turmaSol.hpp"
+#include "../class/profSol.hpp"
+#include "../class/salaSol.hpp"
+
+#include <set>
 
 class Solucao{
     public:
@@ -11,11 +16,12 @@ class Solucao{
         int janelaHorario;
         int diasTrabalhados;
         int sextoHorario;
-        std::map <Turma, Agenda> agendaTurmas;
-        std::map <Sala, Agenda> agendaSalas;
-        std::map <Professor, Agenda> agendaProfessores;
-        std::map <Disciplina*, DiscSolucao> disc;
-        std::map <Turma*, Turma> turma;
+
+        std::map <Disciplina*, DiscSolucao*> discSol;
+        
+        std::map <Turma, TurmaSol*> horarioTurma;
+        std::map <Professor, ProfSol*> horarioProf;
+        std::map <Sala, SalaSol*> horarioSala;
 
         Solucao();
 
@@ -25,7 +31,7 @@ class Solucao{
         int calcDiasTrabalhados(Agenda* professor);
 
         Sala* selecionaSala(DiscSolucao* disciplina, Data* data);
-        Sala* selecionaSala(Turma* turma, Data* data);
+        void selecionaSala(Turma* turma, Data* data);
 };
 
 #endif

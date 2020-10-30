@@ -3,6 +3,11 @@
 Agenda::Agenda(Turma* recursoTurma){
 
 
+    /* this->recursoTurma = recursoTurma; */
+
+    this->idRecurso = recursoTurma->id;
+    this->nome = recursoTurma->nome;
+
     for(int dia = 0; dia < 6; dia++){
         for(int horario = 0; horario < 16; horario++){
             this->agenda[dia][horario] = recursoTurma->disponibilidade[dia][horario];
@@ -12,7 +17,10 @@ Agenda::Agenda(Turma* recursoTurma){
 
 Agenda::Agenda(Sala* recursoSala){
     
-    this->recursoSala = recursoSala;
+/*     this->recursoSala = recursoSala; */
+
+    this->idRecurso = recursoSala->id;
+    this->nome = recursoSala->nome;
 
     for(int dia = 0; dia < 6; dia++){
         for(int horario = 0; horario < 16; horario++){
@@ -23,7 +31,10 @@ Agenda::Agenda(Sala* recursoSala){
 
 Agenda::Agenda(Professor* recursoProfessor){
     
-    this->recursoProfessor = recursoProfessor;
+/*     this->recursoProfessor = recursoProfessor; */
+
+    this->idRecurso = recursoProfessor->id;
+    this->nome = recursoProfessor->nome;
 
     for(int dia = 0; dia < 6; dia++){
         for(int horario = 0; horario < 16; horario++){
@@ -32,7 +43,7 @@ Agenda::Agenda(Professor* recursoProfessor){
     }
 }
 
-template <class genericClass> void Agenda::exibirAgenda(genericClass recurso){
+/* template <class genericClass> void Agenda::exibirAgenda(genericClass recurso){
 
     for(int dia = 0; dia < 6; dia++){
         for(int horario = 0; horario < 16; horario++){
@@ -40,6 +51,19 @@ template <class genericClass> void Agenda::exibirAgenda(genericClass recurso){
             std::cout << std::setw(5) << this->agenda[dia][horario];
         }
     }    
+} */
+
+void Agenda::exibirAgenda(){
+
+    std::cout << this->nome << std::endl;
+
+    for(int dia = 0; dia < 6; dia++){
+        for(int horario = 0; horario < 16; horario++){
+            std::cout << std::setw(5) << this->agenda[dia][horario];
+        }
+        std::cout << std::endl;
+    } 
+
 }
 
 bool Agenda::checarDisponibilidade(int* dia, int* inicio, int* fim){

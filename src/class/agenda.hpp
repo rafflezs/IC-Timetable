@@ -12,20 +12,25 @@ class Agenda{
     public:
         int agenda[6][16];
         
-        Sala* recursoSala = NULL;
+/*         Sala* recursoSala = NULL;
         Turma* recursoTurma = NULL;
-        Professor* recursoProfessor = NULL;
+        Professor* recursoProfessor = NULL; */
 
-        Agenda(Turma* recursoTurma);
-        Agenda(Sala*);
+        std::string idRecurso;
+        std::string nome;
+
+        Agenda(Turma* );
+        Agenda(Sala* );
         Agenda(Professor*);
 
         /* 
         *  Exibe matriz de horarios para determinado recurso 
         *  @param templateClass @return NULL
         */
-        template <class genericClass> void exibirAgenda(genericClass recurso);
-        
+/*         template <class genericClass> void exibirAgenda(genericClass recurso);
+         */
+        void exibirAgenda();
+
         /* 
         *  Checa a disponibilidade (consecutividade) em determinado intervalo
         *  @param int*, int*, int* @return bool
