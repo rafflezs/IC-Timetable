@@ -1,7 +1,6 @@
 ## TODO
-- Generate feasible solutions for initial population
-- Solve room X resource conflitct
-- Improve all the used heuristics
+- Fix "solution.cpp/SelecionarSala()"
+- Generate feasible solution
 
 - CLEAN THIS FORSAKEN CODE
 
