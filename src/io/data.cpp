@@ -400,7 +400,7 @@ void Data::relaciona(vector<Disciplina> disciplinas, map<string, int> *mapProf, 
 
             for(auto mp = mapTurma->begin(); mp != mapTurma->end(); mp++){
                 if(mp->first == colData[4]){
-                    disciplinas[tempDisc].TurmaIndex = mp->second;
+                    disciplinas[tempDisc].turmaIndex = mp->second;
                 }
             }
 

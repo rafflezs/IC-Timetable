@@ -1,21 +1,21 @@
-#ifndef _DISCSOLUCAO_H
-#define _DISCSOLUCAO_H
+#ifndef _DISCSOL_H
+#define _DISCSOL_H
 
 #include "../io/data.hpp"
 
 #include <list>
 
-class DiscSolucao{
+class DiscSol{
 
     public:
         Turma* turma;
         Sala* lab;
-        Disciplina* disciplina;
+        Disciplina disciplina;
         /* 
         *  Obtem os horarios consecutivos de 
         *  @param int : diaDaAula @return list : horariosConsecutivos
         */
-        DiscSolucao(Data* data, Disciplina* disciplina);
+        DiscSol(Data* data, Disciplina disciplina);
 
         Sala* selecionaSala(Disciplina* disciplina);
 

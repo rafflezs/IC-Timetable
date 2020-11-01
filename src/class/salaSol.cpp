@@ -4,9 +4,7 @@ SalaSol::SalaSol(Sala sala){
 
     this->sala = sala;
 
-    Agenda* agenda = new Agenda(&sala);
-
-    this->agendaSala = agenda;
+    this->agendaSala = new Agenda(&sala);
 }
 
 void SalaSol::exibeRecursos(){

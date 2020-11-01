@@ -11,10 +11,6 @@
 class Agenda{
     public:
         int agenda[6][16];
-        
-/*         Sala* recursoSala = NULL;
-        Turma* recursoTurma = NULL;
-        Professor* recursoProfessor = NULL; */
 
         std::string idRecurso;
         std::string nome;
@@ -25,10 +21,8 @@ class Agenda{
 
         /* 
         *  Exibe matriz de horarios para determinado recurso 
-        *  @param templateClass @return NULL
+        *  @param NULL @return NULL
         */
-/*         template <class genericClass> void exibirAgenda(genericClass recurso);
-         */
         void exibirAgenda();
 
         /* 

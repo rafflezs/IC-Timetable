@@ -1,11 +1,8 @@
-#include "./engine/solucao.hpp"
+#include "./engine/metaheuristica.hpp"
 
 int main(){
 
-    Solucao sol;
+    Metaheuristica meta = Metaheuristica();
 
-    for(auto t = sol.horarioTurma.begin(); t != sol.horarioTurma.end(); t++){
-        cout << t->second->salaBase.nome << endl;
-    }
 
 }

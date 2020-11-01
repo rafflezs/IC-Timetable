@@ -9,7 +9,7 @@
 
 class Disciplina{
     public:
-        int TurmaIndex;
+        int turmaIndex;
         std::vector <int> ProfessorIndex;
 
         int index;

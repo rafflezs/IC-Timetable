@@ -1,15 +1,15 @@
 #ifndef _TURMASOL_H
 #define _TURMASOL_H
 
-#include "discSolucao.hpp"
+#include "discSol.hpp"
 #include "agenda.hpp"
 
 class TurmaSol{
 
     public:
         Turma turma;
-        std::list <DiscSolucao*> discLista;
-        Sala salaBase;
+        std::list <DiscSol*> discLista;
+        Sala* salaBase;
         Agenda* agendaTurma;
 
         TurmaSol(Turma turma);

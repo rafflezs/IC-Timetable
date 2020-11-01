@@ -4,9 +4,7 @@ ProfSol::ProfSol(Professor professor){
 
     this->professor = professor;
 
-    Agenda* agenda = new Agenda(&professor);
-
-    this->agendaProf = agenda;
+    this->agendaProf = new Agenda(&professor);
 
 }
 

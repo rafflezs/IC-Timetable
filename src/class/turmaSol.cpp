@@ -1,12 +1,10 @@
 #include "turmaSol.hpp"
 
-TurmaSol::TurmaSol(Turma temp){
+TurmaSol::TurmaSol(Turma turma){
 
-    this->turma = temp;
+    this->turma = turma;
 
-    Agenda* agenda = new Agenda(&temp);
-
-    this->agendaTurma = agenda;
+    this->agendaTurma = new Agenda(&turma);
 
 }
 
