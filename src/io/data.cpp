@@ -17,7 +17,7 @@ void Data::lerDados(){
     relaciona(turmas, &mapProf, &mapDisc);
 }
 
-vector <Professor> Data::lerProfessor(map<string, int> *mapProf){
+vector <Professor*> Data::lerProfessor(map<string, int> *mapProf){
 
     //Corresponde as colunas de cada linha de informação
     vector <string> colData;
@@ -29,10 +29,10 @@ vector <Professor> Data::lerProfessor(map<string, int> *mapProf){
 
     getline(file, tempString, '\n');
 
-    Professor tProf;
-    tProf.index = id;
-    tProf.id = "NULL";
-    tProf.nome = "NULL";
+    Professor* tProf = new Professor();
+    tProf->index = id;
+    tProf->id = "NULL";
+    tProf->nome = "NULL";
 
     professores.push_back(tProf);
 
@@ -45,19 +45,19 @@ vector <Professor> Data::lerProfessor(map<string, int> *mapProf){
 
         if(colData.size() <= 0) break;
 
-        Professor prof;
-        prof.index = id;
-        prof.id = colData[0];
-        prof.nome = colData[1];
+        Professor* prof = new Professor();
+        prof->index = id;
+        prof->id = colData[0];
+        prof->nome = colData[1];
 
         for(int dia = 0; dia < 6; dia++){
             for(int horario = 0; horario < 16; horario++){
-                prof.disponibilidade[dia][horario] = 0;
+                prof->disponibilidade[dia][horario] = 0;
             }
         }
 
         for(int i = 3, j = 0; i < 9; i++, j++){
-            disponibilidade(&prof, &colData[i], j);
+            disponibilidade(prof, &colData[i], j);
         }
 
         mapProf->insert( pair<string, int>(colData[0], id ));
@@ -68,7 +68,7 @@ vector <Professor> Data::lerProfessor(map<string, int> *mapProf){
     return professores;
 }
 
-vector<Sala> Data::lerSala(){
+vector<Sala*> Data::lerSala(){
 
     //Corresponde as colunas de cada linha de informação
     vector <string> colData;
@@ -80,10 +80,10 @@ vector<Sala> Data::lerSala(){
 
     getline(file, tempString, '\n');
 
-    Sala tSala;
-    tSala.index = id;
-    tSala.id = "NULL";
-    tSala.nome = "NULL";
+    Sala* tSala = new Sala();
+    tSala->index = id;
+    tSala->id = "NULL";
+    tSala->nome = "NULL";
 
     salas.push_back(tSala);
 
@@ -96,22 +96,22 @@ vector<Sala> Data::lerSala(){
 
         if(colData.size() <= 0) break;
 
-        Sala sala;
-        sala.index = id;
-        sala.id = colData[0];
-        sala.nome = colData[1];
-        sala.bloco = colData[2];
-        sala.capacidade = stoi(colData[3]);
-        sala.tipo = colData[4];
+        Sala* sala = new Sala();
+        sala->index = id;
+        sala->id = colData[0];
+        sala->nome = colData[1];
+        sala->bloco = colData[2];
+        sala->capacidade = stoi(colData[3]);
+        sala->tipo = colData[4];
 
         for(int dia = 0; dia < 6; dia++){
             for(int horario = 0; horario < 16; horario++){
-                sala.disponibilidade[dia][horario] = 0;
+                sala->disponibilidade[dia][horario] = 0;
             }
         }
 
         for(int i = 5, j = 0; i < 11; i++, j++){
-            disponibilidade(&sala, &colData[i], j);
+            disponibilidade(sala, &colData[i], j);
         }
 
         salas.push_back(sala);
@@ -121,7 +121,7 @@ vector<Sala> Data::lerSala(){
 
 }
 
-vector <Disciplina> Data::lerDisc(map<string, int> *mapDisc){
+vector <Disciplina*> Data::lerDisc(map<string, int> *mapDisc){
 
     //Corresponde as colunas de cada linha de informação
     vector <string> colData;
@@ -133,10 +133,10 @@ vector <Disciplina> Data::lerDisc(map<string, int> *mapDisc){
 
     getline(file, tempString, '\n');
 
-    Disciplina tDisc;
-    tDisc.index = id;
-    tDisc.id = "NULL";
-    tDisc.nome = "NULL";
+    Disciplina* tDisc = new Disciplina();
+    tDisc->index = id;
+    tDisc->id = "NULL";
+    tDisc->nome = "NULL";
 
     disciplinas.push_back(tDisc);
 
@@ -149,26 +149,26 @@ vector <Disciplina> Data::lerDisc(map<string, int> *mapDisc){
 
         if(colData.size() <= 0) break;
 
-        Disciplina disc;
-        disc.index = id;
-        disc.id = colData[0];
-        disc.nome = colData[1];
+        Disciplina* disc = new Disciplina();
+        disc->index = id;
+        disc->id = colData[0];
+        disc->nome = colData[1];
 
-        disc.turno = colData[5];
+        disc->turno = colData[5];
 
-        disc.capacidadeTurma = stoi(colData[7]);
-        disc.cargaHoraria = stoi(colData[8]);
-        disc.minimoDiario = stoi(colData[9]);
-        disc.splits = stoi(colData[10]);
+        disc->capacidadeTurma = stoi(colData[7]);
+        disc->cargaHoraria = stoi(colData[8]);
+        disc->minimoDiario = stoi(colData[9]);
+        disc->splits = stoi(colData[10]);
 
         for(int dia = 0; dia < 6; dia++){
             for(int horario = 0; horario < 16; horario++){
-                disc.disponibilidade[dia][horario] = 0;
+                disc->disponibilidade[dia][horario] = 0;
             }
         }
 
         for(int i = 11, j = 0; i < 17; i++, j++){
-            disponibilidade(&disc, &colData[i], j);
+            disponibilidade(disc, &colData[i], j);
         }
 
         mapDisc->insert( pair<string, int>(colData[0], id ));
@@ -192,12 +192,12 @@ vector <Curso*> Data::lerCurso(){
 
     getline(file, tempString, '\n');
 
-    Curso tCurso;
-    tCurso.index = id;
-    tCurso.id = "NULL";
-    tCurso.nome = "NULL";
+    Curso* tCurso = new Curso();
+    tCurso->index = id;
+    tCurso->id = "NULL";
+    tCurso->nome = "NULL";
 
-    cursos.push_back(&tCurso);
+    cursos.push_back(tCurso);
 
     while (file.good()){
 
@@ -208,30 +208,30 @@ vector <Curso*> Data::lerCurso(){
 
         if(colData.size() <= 0) break;
 
-        Curso curso;
-        curso.index = id;
-        curso.id = colData[0];
-        curso.nome = colData[1];
-        curso.grauDeFormacao = colData[2];
+        Curso* curso = new Curso();
+        curso->index = id;
+        curso->id = colData[0];
+        curso->nome = colData[1];
+        curso->grauDeFormacao = colData[2];
 
         for(int dia = 0; dia < 6; dia++){
             for(int horario = 0; horario < 16; horario++){
-                curso.disponibilidade[dia][horario] = 0;
+                curso->disponibilidade[dia][horario] = 0;
             }
         }
 
         for(int i = 4, j = 0; i < 10; i++, j++){
-            disponibilidade(&curso, &colData[i], j);
+            disponibilidade(curso, &colData[i], j);
         }
 
-        cursos.push_back(&curso);
+        cursos.push_back(curso);
     }
     
     return cursos;
 
 }
 
-vector <Turma> Data::lerTurma(map<string, int> *mapTurma, vector <Curso*> cursos){
+vector <Turma*> Data::lerTurma(map<string, int> *mapTurma, vector <Curso*> cursos){
 
     //Corresponde as colunas de cada linha de informação
     vector <string> colData;
@@ -243,10 +243,10 @@ vector <Turma> Data::lerTurma(map<string, int> *mapTurma, vector <Curso*> cursos
 
     getline(file, tempString, '\n');
 
-    Turma tTurma;
-    tTurma.index = id;
-    tTurma.id = "NULL";
-    tTurma.nome = "NULL";
+    Turma* tTurma = new Turma();
+    tTurma->index = id;
+    tTurma->id = "NULL";
+    tTurma->nome = "NULL";
 
     turmas.push_back(tTurma);
 
@@ -259,28 +259,28 @@ vector <Turma> Data::lerTurma(map<string, int> *mapTurma, vector <Curso*> cursos
 
         if(colData.size() <= 0) break;
 
-        Turma turma;
-        turma.index = id;
-        turma.id = colData[0];
-        turma.nome = colData[1];
+        Turma* turma = new Turma();
+        turma->index = id;
+        turma->id = colData[0];
+        turma->nome = colData[1];
 
         for(vector<Curso*>::iterator it = cursos.begin();
             it != cursos.end(); it++){
                 if( (*it)->nome == colData[2] ){
-                    turma.curso = (*it);
+                    turma->curso = (*it);
                 }
             }
 
-        turma.turno = colData[3];
+        turma->turno = colData[3];
 
         for(int dia = 0; dia < 6; dia++){
             for(int horario = 0; horario < 16; horario++){
-                turma.disponibilidade[dia][horario] = 0;
+                turma->disponibilidade[dia][horario] = 0;
             }
         }
 
         for(int i = 5, j = 0; i < 11; i++, j++){
-            disponibilidade(&turma, &colData[i], j);
+            disponibilidade(turma, &colData[i], j);
         }
 
         mapTurma->insert( pair<string, int>(colData[0], id ));
@@ -344,7 +344,8 @@ void Data::disponibilidade(genericClass* objTemp, string* colunaDado, int dia){
 
 }
 
-void Data::relaciona(vector<Professor> professores, map<string, int> *mapDisc){
+//Relaciona o objeto PROFESSOR com sua Disciplina
+void Data::relaciona(vector<Professor*> professores, map<string, int> *mapDisc){
 
     string tempString;
     ifstream file;
@@ -364,18 +365,17 @@ void Data::relaciona(vector<Professor> professores, map<string, int> *mapDisc){
         for(auto index = idDisciplinas.begin(); index != idDisciplinas.end(); index++){
             for(auto mp = mapDisc->begin(); mp != mapDisc->end(); mp++){
                 if(mp->first == (*index)){
-                    professores[tempProf].listaDiscs.push_back(&disciplinas[mp->second]);
+                    professores[tempProf]->listaDiscs.push_back(disciplinas[mp->second]);
                 }
             }
         }
 
         tempProf++;
-    }
-    
-
+    }  
 }
 
-void Data::relaciona(vector<Disciplina> disciplinas, map<string, int> *mapProf, map<string, int> *mapTurma){
+//Relaciona o objeto DISCIPLINA com seu Professor e Turma
+void Data::relaciona(vector<Disciplina*> disciplinas, map<string, int> *mapProf, map<string, int> *mapTurma){
 
     string tempString;
     ifstream file;
@@ -389,18 +389,18 @@ void Data::relaciona(vector<Disciplina> disciplinas, map<string, int> *mapProf, 
     {
         getline(file, tempString, '\n');
         vector <string> colData = separadorString(tempString, ';');
-        vector <string> idProf = separadorString(colData[2], ',');
+        vector <string> idProf = separadorString(colData[0], ',');
 
         for(auto index = idProf.begin(); index != idProf.end(); index++){
             for(auto mp = mapProf->begin(); mp != mapProf->end(); mp++){
                 if(mp->first == (*index)){
-                    disciplinas[tempDisc].ProfessorIndex.push_back(mp->second);
+                    disciplinas[tempDisc]->professorIndex.push_back(mp->second);
                 }
             }
 
             for(auto mp = mapTurma->begin(); mp != mapTurma->end(); mp++){
                 if(mp->first == colData[4]){
-                    disciplinas[tempDisc].turmaIndex = mp->second;
+                    disciplinas[tempDisc]->turmaIndex = mp->second;
                 }
             }
 
@@ -408,11 +408,10 @@ void Data::relaciona(vector<Disciplina> disciplinas, map<string, int> *mapProf, 
 
         tempDisc++;
     }
-    
-
 }
 
-void Data::relaciona(vector<Turma> turmas, map<string, int> *mapProf, map<string, int> *mapDisc){
+//Relaciona o objeto TURMA com seu respectivo professor
+void Data::relaciona(vector<Turma*> turmas, map<string, int> *mapProf, map<string, int> *mapDisc){
 
     string tempString;
     ifstream file;
@@ -432,13 +431,9 @@ void Data::relaciona(vector<Turma> turmas, map<string, int> *mapProf, map<string
         for(auto index = idDisc.begin(); index != idDisc.end(); index++){
             for(auto mp = mapDisc->begin(); mp != mapDisc->end(); mp++){
                 if(mp->first == (*index)){
-                    turmas[tempTurma].listaDiscs.push_back( &disciplinas[mp->second] );
+                    turmas[tempTurma]->listaDiscs.push_back( disciplinas[mp->second] );
 
-                    auto profId = disciplinas[mp->second].ProfessorIndex;
-
-                    for(auto it = profId.begin(); it != profId.end(); it++){
-                        turmas[tempTurma].listaProfs.push_back( &professores[(*it)] );
-                    }
+                    auto profId = disciplinas[mp->second]->professorIndex;
 
                 }
             }
@@ -446,5 +441,4 @@ void Data::relaciona(vector<Turma> turmas, map<string, int> *mapProf, map<string
 
         tempTurma++;
     }
-
 }

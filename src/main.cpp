@@ -2,7 +2,6 @@
 
 int main(){
 
-    Metaheuristica meta = Metaheuristica();
-
+    Metaheuristica* meta = new Metaheuristica();
 
 }

@@ -53,7 +53,7 @@ Agenda::Agenda(Professor* recursoProfessor){
     }    
 } */
 
-void Agenda::exibirAgenda(){
+void Agenda::printAgenda(){
 
     std::cout << this->nome << std::endl;
 
@@ -77,11 +77,11 @@ bool Agenda::checarDisponibilidade(int* dia, int* inicio, int* fim){
     return true;
 }
 
-std::list <int> Agenda::checarConsecutivo(int* dia){
+std::list <int> Agenda::checarConsecutivo(int* dia, int* tamanhoSplit){
 
     std::list <int> listaHorarios;
 
-    for(int horario = 0; horario < 16; horario++){
+    for(int horario = 0, tam = 0; horario < 16 && tam <= *tamanhoSplit; horario++){
         if(checarDisponibilidade(dia, &horario, &horario+1)){
             listaHorarios.push_back(horario);
         }

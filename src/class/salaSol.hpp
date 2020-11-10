@@ -6,11 +6,11 @@
 
 class SalaSol{
     public:
-        Sala sala;
+        Sala* sala;
         Agenda* agendaSala;
 
-        SalaSol(Sala sala);
-        void exibeRecursos();
+        SalaSol(Sala* sala);
+        void print();
 };
 
 #endif

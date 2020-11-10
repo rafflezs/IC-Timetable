@@ -10,7 +10,7 @@
 class Disciplina{
     public:
         int turmaIndex;
-        std::vector <int> ProfessorIndex;
+        std::vector <int> professorIndex;
 
         int index;
         std::string nome;
@@ -23,7 +23,7 @@ class Disciplina{
         int disponibilidade[6][16]; //Matriz de horarios factíveis (diaXhorario)
 
         /* 
-        *  Função simples, inviabilizando arquivo.cpp
+        *  Função simples, inzviabilizando arquivo.cpp
         *  Imprime os dados primitivos do objeto
         *  @param NULL @return NULL
         */

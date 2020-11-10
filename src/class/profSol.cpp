@@ -1,17 +1,17 @@
 #include "profSol.hpp"
 
-ProfSol::ProfSol(Professor professor){
+ProfSol::ProfSol(Professor* professor){
 
     this->professor = professor;
 
-    this->agendaProf = new Agenda(&professor);
+    this->agendaProf = new Agenda(professor);
 
 }
 
-void ProfSol::exibeRecursos(){
+void ProfSol::print(){
 
-    std::cout << "Nome: " << professor.nome << std::endl;
+    std::cout << "Nome: " << professor->nome << std::endl;
 
-    agendaProf->exibirAgenda();
+    agendaProf->printAgenda();
 
 }

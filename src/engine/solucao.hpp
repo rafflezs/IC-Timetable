@@ -18,11 +18,11 @@ class Solucao{
         int diasTrabalhados;
         int sextoHorario;
 
-        std::map <Disciplina*, DiscSol> discSol;
+        std::map <Disciplina*, DiscSol*> discSol;
         
-        std::map <Turma*, TurmaSol> horarioTurma;
-        std::map <Professor*, ProfSol> horarioProf;
-        std::map <Sala*, SalaSol> horarioSala;
+        std::map <Turma*, TurmaSol*> horarioTurma;
+        std::map <Professor*, ProfSol*> horarioProf;
+        std::map <Sala*, SalaSol*> horarioSala;
 
         Solucao();
 

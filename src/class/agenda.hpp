@@ -23,7 +23,7 @@ class Agenda{
         *  Exibe matriz de horarios para determinado recurso 
         *  @param NULL @return NULL
         */
-        void exibirAgenda();
+        void printAgenda();
 
         /* 
         *  Checa a disponibilidade (consecutividade) em determinado intervalo
@@ -35,7 +35,7 @@ class Agenda{
         *  Obtem lista de horarios consecutivos em determinado dia 
         *  @param int* @return list
         */
-        std::list <int> checarConsecutivo(int* dia);
+        std::list <int> checarConsecutivo(int* dia, int* tamanhoSplit);
 };
 
 #endif //!_HORARIO_HPP

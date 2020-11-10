@@ -1,17 +1,17 @@
 #include "turmaSol.hpp"
 
-TurmaSol::TurmaSol(Turma turma){
+TurmaSol::TurmaSol(Turma* turma){
 
     this->turma = turma;
 
-    this->agendaTurma = new Agenda(&turma);
+    this->agendaTurma = new Agenda(turma);
 
 }
 
-void TurmaSol::exibeRecursos(){
+void TurmaSol::print(){
 
-    std::cout << "Turma: " << this->turma.nome << std::endl;
+    std::cout << "Turma: " << this->turma->nome << std::endl;
 
-    agendaTurma->exibirAgenda();
+    agendaTurma->printAgenda();
 
 }

@@ -15,10 +15,10 @@ using namespace std;
 class Data{
     public:
         vector <Curso*> cursos;
-        vector <Disciplina> disciplinas;
-        vector <Turma> turmas;
-        vector <Sala> salas;
-        vector <Professor> professores;
+        vector <Disciplina*> disciplinas;
+        vector <Turma*> turmas;
+        vector <Sala*> salas;
+        vector <Professor*> professores;
 
         void imprimirDados(void*);
 
@@ -29,20 +29,20 @@ class Data{
         */
         void lerDados();
 
-        vector <Sala> lerSala();
-        vector <Professor> lerProfessor(map<string, int> *mapProf);
-        vector <Disciplina> lerDisc(map<string, int> *mapDisc);
+        vector <Sala*> lerSala();
+        vector <Professor*> lerProfessor(map<string, int> *mapProf);
+        vector <Disciplina*> lerDisc(map<string, int> *mapDisc);
         vector <Curso*> lerCurso();
-        vector <Turma> lerTurma(map<string, int> *mapTurma, vector <Curso*> cursos);
+        vector <Turma*> lerTurma(map<string, int> *mapTurma, vector <Curso*> cursos);
 
         const vector <string> separadorString(const string& entrada, const char& operador);
 
         template <typename genericClass> 
         void disponibilidade(genericClass* objTemp, std::string* colunaDado, int dia);
 
-        void relaciona(vector<Professor> professores, map<string, int> *mapDisc);
-        void relaciona(vector<Disciplina> disciplinas, map<string, int> *mapProf, map<string, int> *mapTurma);
-        void relaciona(vector<Turma> turmas, map<string, int> *mapProf, map<string, int> *mapDisc);
+        void relaciona(vector<Professor*> professores, map<string, int> *mapDisc);
+        void relaciona(vector<Disciplina*> disciplinas, map<string, int> *mapProf, map<string, int> *mapTurma);
+        void relaciona(vector<Turma*> turmas, map<string, int> *mapProf, map<string, int> *mapDisc);
 
 };
 

@@ -5,16 +5,16 @@
 
 class Metaheuristica{
     public:
-        vector <Solucao> solucoes;
+        vector <Solucao*> solucoes;
 
         Metaheuristica();
 
         //algoritmoGenerico(Data* data);
-        bool inserirInicio(Data* data);
+        Solucao* inserirInicio(Data* data, Solucao* sol);
         bool trocarHorario(Data* data);
         bool trocarTurma(Data* data);
         bool fixAndOptimize(Data* data);
-        void exibeSolucoes();
+        void printSolucoes();
 };
 
 #endif

@@ -5,11 +5,11 @@
 
 class ProfSol{
     public:
-        Professor professor;
+        Professor* professor;
         Agenda* agendaProf;
 
-        ProfSol(Professor professor);
-        void exibeRecursos();
+        ProfSol(Professor* professor);
+        void print();
 };
 
 #endif

@@ -10,12 +10,12 @@ class DiscSol{
     public:
         Turma* turma;
         Sala* lab;
-        Disciplina disciplina;
+        Disciplina* disciplina;
         /* 
         *  Obtem os horarios consecutivos de 
         *  @param int : diaDaAula @return list : horariosConsecutivos
         */
-        DiscSol(Data* data, Disciplina disciplina);
+        DiscSol(Data* data, Disciplina* disciplina);
 
         Sala* selecionaSala(Disciplina* disciplina);
 
@@ -23,7 +23,7 @@ class DiscSol{
         *  Exibe os recursos alocados na classe 
         *  @param NULL @return NULL
         */
-        void exibeRecursos();
+        void print();
 
 };
 

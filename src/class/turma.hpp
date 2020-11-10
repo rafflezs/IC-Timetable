@@ -13,7 +13,6 @@ class Turma{
     public:
         Curso* curso;
         std::vector <Disciplina*> listaDiscs;
-        std::vector <Professor*> listaProfs;
 
         int index;
         std::string nome;
