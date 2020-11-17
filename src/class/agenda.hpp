@@ -6,7 +6,7 @@
 #include "../class/turma.hpp"
 
 #include <iostream>
-#include <list>
+#include <set>
 
 class Agenda{
     public:
@@ -26,16 +26,16 @@ class Agenda{
         void printAgenda();
 
         /* 
-        *  Checa a disponibilidade (consecutividade) em determinado intervalo
-        *  @param int*, int*, int* @return bool
-        */
-        bool checarDisponibilidade(int* dia, int* inicio, int* fim);
-
-        /* 
         *  Obtem lista de horarios consecutivos em determinado dia 
         *  @param int* @return list
         */
-        std::list <int> checarConsecutivo(int* dia, int* tamanhoSplit);
+        std::set <int> checarConsecutivo(int dia, int tamanhoSplit, int discIndex);
+
+        /* 
+        *  Checa a disponibilidade (consecutividade) em determinado intervalo
+        *  @param int*, int*, int* @return bool
+        */
+        bool checarDisponibilidade(int dia, int inicio, int fim, int discIndex, std::set <int> *listaHorarios);
 };
 
 #endif //!_HORARIO_HPP

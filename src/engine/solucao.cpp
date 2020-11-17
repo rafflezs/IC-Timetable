@@ -22,7 +22,7 @@ Solucao::Solucao(){
         horarioTurma.insert( pair<Turma*, TurmaSol*> (data->turmas[index], turma) );
     }
 
-    for(int index = 1; index < data->turmas.size(); index++){
+    for(int index = 1; index < data->disciplinas.size(); index++){
         DiscSol* disc = new DiscSol(data, data->disciplinas[index]);
         discSol.insert( pair<Disciplina*, DiscSol*> (data->disciplinas[index], disc) );
     }
@@ -70,3 +70,50 @@ int calcSextoHorario(Agenda* turma){
 int calcDiasTrabalhados(Agenda* professor){
 
 } */
+
+void Solucao::print(){
+
+    std::cout << "\n------------------------Disciplinas------------------------" << endl;
+
+    for(auto disc = discSol.begin(); disc != discSol.end(); disc++){
+        std::cout << "Disciplina (Primitivo)" << endl;
+        disc->first->print();
+        std::cout << "Disciplina (Solucao)" << endl;
+        disc->second->print();
+        std::cout << std::endl;
+
+    }
+
+    std::cout << "\n------------------------Professores------------------------" << endl;
+
+    for(auto prof = horarioProf.begin(); prof != horarioProf.end(); prof++){
+        std::cout << "Professor (Primitivo)" << endl;
+        prof->first->print();
+        std::cout << "Professor (Solucao)" << endl;
+        prof->second->print();
+        std::cout << std::endl;
+
+    }
+
+    std::cout << "\n------------------------Turmas------------------------" << endl;
+
+    for(auto turma = horarioTurma.begin(); turma != horarioTurma.end(); turma++){
+        std::cout << "Turma (Primitivo)" << endl;
+        turma->first->print();
+        std::cout << "Turma (Solucao)" << endl;
+        turma->second->print();
+        std::cout << std::endl;
+    }
+
+    std::cout << "\n------------------------Salas------------------------" << endl;
+
+    for(auto sala = horarioSala.begin(); sala != horarioSala.end(); sala++){
+        std::cout << "Sala (Primitivo)" << endl;
+        sala->first->print();
+        std::cout << "Sala (Solucao)" << endl;
+        sala->second->print();
+        std::cout << std::endl;
+
+    }
+
+}

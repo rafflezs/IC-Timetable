@@ -44,6 +44,8 @@ class Data{
         void relaciona(vector<Disciplina*> disciplinas, map<string, int> *mapProf, map<string, int> *mapTurma);
         void relaciona(vector<Turma*> turmas, map<string, int> *mapProf, map<string, int> *mapDisc);
 
+        void print();
+
 };
 
 #endif //!_DATA_H

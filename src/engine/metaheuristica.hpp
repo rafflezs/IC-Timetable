@@ -10,7 +10,7 @@ class Metaheuristica{
         Metaheuristica();
 
         //algoritmoGenerico(Data* data);
-        Solucao* inserirInicio(Data* data, Solucao* sol);
+        Solucao* inserirInicio(Data* data);
         bool trocarHorario(Data* data);
         bool trocarTurma(Data* data);
         bool fixAndOptimize(Data* data);

@@ -442,3 +442,37 @@ void Data::relaciona(vector<Turma*> turmas, map<string, int> *mapProf, map<strin
         tempTurma++;
     }
 }
+
+void Data::print(){
+
+    std::cout << "------------------------Disciplinas------------------------" << endl;
+
+    for(auto disc = disciplinas.begin(); disc != disciplinas.end(); disc++){
+        (*disc)->print();
+    }
+
+    std::cout << "\n------------------------Professores------------------------" << endl;
+
+    for(auto prof = professores.begin(); prof != professores.end(); prof++){
+        (*prof)->print();
+    }
+
+    std::cout << "\n------------------------Cursos------------------------" << endl;
+
+    for(auto cu = cursos.begin(); cu != cursos.end(); cu++){
+        (*cu)->print();
+    }
+
+    std::cout << "\n------------------------Turmas------------------------" << endl;
+
+    for(auto turmaSoQueIndividual = turmas.begin(); turmaSoQueIndividual != turmas.end(); turmaSoQueIndividual++){
+        (*turmaSoQueIndividual)->print();
+    }
+
+    std::cout << "\n------------------------Salas------------------------" << endl;
+
+    for(auto deposito = salas.begin(); deposito != salas.end(); deposito++){
+        (*deposito)->print();
+    }
+
+}

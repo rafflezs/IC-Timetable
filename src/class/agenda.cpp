@@ -53,6 +53,48 @@ Agenda::Agenda(Professor* recursoProfessor){
     }    
 } */
 
+//Devolve uma lista de horarios consecutivos
+std::set <int> Agenda::checarConsecutivo( int dia, int tamanhoSplit, int discIndex ){
+
+    std::set <int> listaHorarios;
+
+    for(int slot = 0; slot < 16; slot++){
+        if( agenda[dia][slot] == discIndex ){
+
+            if( checarDisponibilidade( dia, slot, (slot + tamanhoSplit), discIndex, &listaHorarios ) ){
+                return listaHorarios;
+            }
+
+        }
+    }
+
+    return listaHorarios;
+
+}
+
+//Checa a disponibilidade de um horario para a alocação de um recurso
+bool Agenda::checarDisponibilidade( int dia, int inicio, int fim, int discIndex, std::set <int> *listaHorarios ){
+
+    int flagIni = 0;
+    int flagFim = fim - inicio - 1;
+
+    for(int slot = inicio; slot < fim; slot++){
+        if(( agenda[dia][slot] == discIndex ) && ( agenda[dia][slot - flagIni] == discIndex ) && ( agenda[dia][slot + flagFim] == discIndex ) ){
+            (*listaHorarios).insert(slot);
+            flagFim--;
+            flagIni++;
+        }
+    }
+
+    if((*listaHorarios).size() == (fim - inicio)){
+        return true;
+    }
+
+    return false;
+
+}
+
+//Exibe a matriz agenda do recurso, juntamente do nome (função generica)
 void Agenda::printAgenda(){
 
     std::cout << this->nome << std::endl;
@@ -64,28 +106,4 @@ void Agenda::printAgenda(){
         std::cout << std::endl;
     } 
 
-}
-
-bool Agenda::checarDisponibilidade(int* dia, int* inicio, int* fim){
-
-    for(int horario = *inicio; horario < *fim; horario++){
-        if(this->agenda[*dia][horario] != 0){
-            return false;
-        }
-    }
-
-    return true;
-}
-
-std::list <int> Agenda::checarConsecutivo(int* dia, int* tamanhoSplit){
-
-    std::list <int> listaHorarios;
-
-    for(int horario = 0, tam = 0; horario < 16 && tam <= *tamanhoSplit; horario++){
-        if(checarDisponibilidade(dia, &horario, &horario+1)){
-            listaHorarios.push_back(horario);
-        }
-    }
-
-    return listaHorarios;
 }

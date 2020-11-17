@@ -33,6 +33,8 @@ class Solucao{
 
         Sala* selecionaSala(DiscSol* disciplina, Data* data);
         Sala* selecionaSala(Data* data, TurmaSol* turma);
+
+        void print();
 };
 
 #endif
