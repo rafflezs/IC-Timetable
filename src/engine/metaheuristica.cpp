@@ -51,11 +51,15 @@ Solucao* Metaheuristica::inserirInicio(Data* data){
 
         for( int qtdSplit = 0; qtdSplit < splits; qtdSplit++ ){
         
+        do
+        {
             int dia = rand() % 6;
  
             if( diaTabu.count(dia) == false ){
 
-                horariosConsec = turma->second->agendaTurma->checarConsecutivo( dia, tamanhoSplit[qtdSplit], 0 );
+                    horariosConsec = turma->second->agendaTurma->checarConsecutivo( dia, tamanhoSplit[qtdSplit], 0 );
+                
+
 
                 for(auto slot = horariosConsec.begin(); slot != horariosConsec.end(); slot++){
                     turma->second->agendaTurma->agenda[dia][*slot] = disc->first->index;
@@ -69,7 +73,8 @@ Solucao* Metaheuristica::inserirInicio(Data* data){
 
                 diaTabu.insert(dia);
             }
-
+    
+        } while (horariosConsec.size() == 0);
         }
 
     }
