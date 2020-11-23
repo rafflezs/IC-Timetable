@@ -19,7 +19,6 @@ class Solucao{
         int sextoHorario;
 
         std::map <Disciplina*, DiscSol*> discSol;
-        
         std::map <Turma*, TurmaSol*> horarioTurma;
         std::map <Professor*, ProfSol*> horarioProf;
         std::map <Sala*, SalaSol*> horarioSala;

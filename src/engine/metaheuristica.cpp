@@ -11,6 +11,7 @@ Metaheuristica::Metaheuristica(){
 
         Solucao* temp = inserirInicio(data);
         solucoes.push_back(temp);
+        std::cout << "Função objetivo: " << temp->calcFuncObjetivo(data) << std::endl;
     }
 
     //printSolucoes();
@@ -51,37 +52,34 @@ Solucao* Metaheuristica::inserirInicio(Data* data){
 
         for( int qtdSplit = 0; qtdSplit < splits; qtdSplit++ ){
         
-        do
-        {
-            int dia = rand() % 6;
- 
-            if( diaTabu.count(dia) == false ){
+            do{
+                int dia = rand() % 6;
+    
+                if( diaTabu.count(dia) == false ){
 
                     horariosConsec = turma->second->agendaTurma->checarConsecutivo( dia, tamanhoSplit[qtdSplit], 0 );
-                
 
+                    for(auto slot = horariosConsec.begin(); slot != horariosConsec.end(); slot++){
+                        turma->second->agendaTurma->agenda[dia][*slot] = disc->first->index;
+                    }
 
-                for(auto slot = horariosConsec.begin(); slot != horariosConsec.end(); slot++){
-                    turma->second->agendaTurma->agenda[dia][*slot] = disc->first->index;
+                    cout << disc->first->nome;
+                    cout << "\n" << disc->second->turma->nome << "\n";
+                    turma->second->agendaTurma->printAgenda();
+
+                    //std::getchar();
+
+                    diaTabu.insert(dia);
                 }
 
-                cout << disc->first->nome;
-                cout << "\n" << disc->second->turma->nome << "\n";
-                turma->second->agendaTurma->printAgenda();
-
-                std::getchar();
-
-                diaTabu.insert(dia);
-            }
-    
-        } while (horariosConsec.size() == 0);
-        }
-
-    }
+            }while (horariosConsec.size() == 0);
+        } // !_for(split)
+    } // !_for(*disc)
 
     return sol;
-    
-}
+
+} //!_inserirInicio()
+
 
 void Metaheuristica::printSolucoes(){
 
@@ -94,4 +92,4 @@ void Metaheuristica::printSolucoes(){
         }
 
     }
-}
+} //!_printSolucoes()
