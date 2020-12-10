@@ -2,8 +2,6 @@
 
 int main(){
 
-    //Test branch
-
     Metaheuristica* meta = new Metaheuristica();
 
 }

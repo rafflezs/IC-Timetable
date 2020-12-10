@@ -72,6 +72,10 @@ std::set <int> Agenda::checarConsecutivo( int dia, int tamanhoSplit, int discInd
 
 }
 
+bool checarConsecutivo(int dia, std::set <int> *listaHorarios, int discIndex){
+
+}
+
 //Checa a disponibilidade de um horario para a alocação de um recurso
 bool Agenda::checarDisponibilidade( int dia, int inicio, int fim, int discIndex, std::set <int> *listaHorarios ){
 

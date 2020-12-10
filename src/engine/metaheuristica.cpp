@@ -12,6 +12,7 @@ Metaheuristica::Metaheuristica(){
         Solucao* temp = inserirInicio(data);
         solucoes.push_back(temp);
         std::cout << "Função objetivo: " << temp->calcFuncObjetivo(data) << std::endl;
+        delete temp;
     }
 
     //printSolucoes();
@@ -46,12 +47,21 @@ Solucao* Metaheuristica::inserirInicio(Data* data){
         //Lista de dias consecutivos com o tamanho de determinado split
         set <int> horariosConsec;
         
+        vector <set <int> > horarios;
+
         //Lista de dias desconsiderados na busca
         set <int> diaTabu;
 
 
         for( int qtdSplit = 0; qtdSplit < splits; qtdSplit++ ){
-        
+
+
+            //fazer ponteiro de professor dentro de discSol (igual na ultima versão feita)
+
+            //checar tamanho do vector professor (aquele que esta em disciplina)
+ 
+            //checar o tipo da sala (sala,lab == lab), e usar selecionaSala(disc) caso necessario
+
             do{
                 int dia = rand() % 6;
     
@@ -62,6 +72,8 @@ Solucao* Metaheuristica::inserirInicio(Data* data){
                     for(auto slot = horariosConsec.begin(); slot != horariosConsec.end(); slot++){
                         turma->second->agendaTurma->agenda[dia][*slot] = disc->first->index;
                     }
+
+                    auto sala = turma->second->salaBase;
 
                     cout << disc->first->nome;
                     cout << "\n" << disc->second->turma->nome << "\n";
