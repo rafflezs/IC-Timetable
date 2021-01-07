@@ -1,0 +1,9 @@
+ID;Nome;Curso;Periodo ;Disciplinas;SEG;TER;QUA;QUI;SEX;SAB
+BCC1;BCC - Período 1;Ciência da Computação;Tarde;1,2,3,4,5;1-6,13-16;1-6,13-16,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+BCC3;BCC - Período 3;Ciência da Computação;Manhã;6,7,8,9,10,11;7-16;7-16;7-16;7-16;7-16;1-16
+BCC5;BCC - Período 5;Ciência da Computação;Tarde;12,13,14,15,16,17;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+BCC7;BCC - Período 7;Ciência da Computação;Manhã;18,19,20,21,22;7-16;7-16;7-16;7-16;7-16;1-16
+TI1;TI - Semestre 1;Tec. Informática;Noite;23,24,25,26,27;1-12;1-12;1-12;1-12;1-12;0
+TI2;TI - Semestre 2;Tec. Informática;Noite;28,29,30,31,32,33;1-12;1-12;1-12;1-12;1-12;0
+TI3;TI - Semestre 3;Tec. Informática;Noite;34,35,36,37,38,39;1-12;1-12;1-12;1-12;1-12;0
+TI4;TI - Semestre 4;Tec. Informática;Noite;40,41,42,43;1-12;1-12;1-12;1-12;1-12;0
