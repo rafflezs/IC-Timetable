@@ -71,7 +71,7 @@ Solucao* Metaheuristica::inserirInicio( Solucao* sol, std::vector <Disciplina*> 
             if(disc->first->tipoSala == "Sala"){
 
                 // listaDias[dia]
-                for(auto dia = 0; dia < 6; dia++){
+                for(auto dia = 0; dia < 6 && qtdSplit < splits; dia++){
 
                     //Lista com o primeiro horario em uma janela consecutiva
                     horariosConsec = turma->second->agendaTurma->checarConsecutivo(listaDias[dia], tamanhoSplit[qtdSplit], 0);
@@ -90,7 +90,7 @@ Solucao* Metaheuristica::inserirInicio( Solucao* sol, std::vector <Disciplina*> 
 
                         for(auto i = prof.begin(); i != prof.end(); i++){
 
-                            if(!(*i)->agendaProf->checarConsecutivo(listaDias[dia], (horariosConsec.front()), tamanhoSplit[qtdSplit], 0)){
+                            if((*i)->agendaProf->checarConsecutivo(listaDias[dia], (horariosConsec.front()), tamanhoSplit[qtdSplit], 0) == false){
                                 flag = 1;
                                 break;
                             }
@@ -103,7 +103,7 @@ Solucao* Metaheuristica::inserirInicio( Solucao* sol, std::vector <Disciplina*> 
                         }
 
                         for(auto i = prof.begin(); i != prof.end(); i++){
-                            for(int slot = horariosConsec.front(); slot < tamanhoSplit[qtdSplit]; slot++){
+                            for(int slot = horariosConsec.front(), cont = tamanhoSplit[qtdSplit]; slot < (slot + tamanhoSplit[qtdSplit]) && cont > 0; slot++, cont--){
 
                                 (*i)->agendaProf->agenda[listaDias[dia]][slot] = disc->first->index;
                                 (*i)->print();
@@ -111,7 +111,7 @@ Solucao* Metaheuristica::inserirInicio( Solucao* sol, std::vector <Disciplina*> 
                             }   
                         }
                         auto sala = sol->horarioSala.find( turma->second->salaBase )->second;
-                        for(int slot = (*horariosConsec.begin()); slot < tamanhoSplit[qtdSplit]; slot++){    
+                        for(int slot = horariosConsec.front(); tamanhoSplit[qtdSplit] > 0; tamanhoSplit[qtdSplit]--){
                             turma->second->agendaTurma->agenda[listaDias[dia]][slot] = disc->first->index;
                             sala->agendaSala->agenda[listaDias[dia]][slot] = disc->first->index;
                             turma->second->print();
@@ -121,6 +121,9 @@ Solucao* Metaheuristica::inserirInicio( Solucao* sol, std::vector <Disciplina*> 
 
                         break;
 
+                    }
+                    if(tamanhoSplit[qtdSplit] == 0){
+                        break;
                     }
                 }
                         
@@ -143,7 +146,7 @@ Solucao* Metaheuristica::inserirInicio( Solucao* sol, std::vector <Disciplina*> 
 
                         for(auto i = prof.begin(); i != prof.end(); i++){
 
-                            if(!(*i)->agendaProf->checarConsecutivo(listaDias[dia], (*horariosConsec.begin()), tamanhoSplit[qtdSplit], 0)){
+                            if(!(*i)->agendaProf->checarConsecutivo(listaDias[dia], horariosConsec.front(), tamanhoSplit[qtdSplit], 0)){
                                  flag = 1;
                                 break;
                             }
@@ -159,14 +162,14 @@ Solucao* Metaheuristica::inserirInicio( Solucao* sol, std::vector <Disciplina*> 
                         SalaSol* lab;
 
                         for(auto it = listaSalas.begin(); it != listaSalas.end(); it++){
-                            if((*it)->agendaSala->checarConsecutivo(listaDias[dia], (*horariosConsec.begin()), tamanhoSplit[qtdSplit], 0) ){
+                            if((*it)->agendaSala->checarConsecutivo(listaDias[dia], horariosConsec.front(), tamanhoSplit[qtdSplit], 0) ){
                                 lab = (*it);
                                 break;
                             }
                         }
 
                         for(auto i = prof.begin(); i != prof.end(); i++){
-                            for(int slot = (*horariosConsec.begin()); slot < tamanhoSplit[qtdSplit]; slot++){
+                            for(int slot = horariosConsec.front(), cont = tamanhoSplit[qtdSplit]; slot < (slot + tamanhoSplit[qtdSplit]) && cont > 0; slot++, cont--){
 
                                 (*i)->agendaProf->agenda[listaDias[dia]][slot] = disc->first->index;
                                 (*i)->print();
@@ -175,7 +178,7 @@ Solucao* Metaheuristica::inserirInicio( Solucao* sol, std::vector <Disciplina*> 
                         
                         auto sala = sol->horarioSala.find( turma->second->salaBase )->second;
                         
-                        for(int slot = (*horariosConsec.begin()); slot < tamanhoSplit[qtdSplit]; slot++){    
+                        for(int slot = horariosConsec.front(); tamanhoSplit[qtdSplit] > 0; tamanhoSplit[qtdSplit]--){
                             turma->second->agendaTurma->agenda[listaDias[dia]][slot] = disc->first->index;
                             lab->agendaSala->agenda[listaDias[dia]][slot] = disc->first->index;
                             sala->agendaSala->agenda[listaDias[dia]][slot] = disc->first->index;
@@ -186,6 +189,10 @@ Solucao* Metaheuristica::inserirInicio( Solucao* sol, std::vector <Disciplina*> 
 
                         break;
 
+                    }
+
+                    if(tamanhoSplit[qtdSplit] == 0){
+                        break;
                     }
                 }
 
