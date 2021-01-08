@@ -32,8 +32,7 @@ Solucao* Metaheuristica::inserirInicio( Solucao* sol, std::vector <Disciplina*> 
         auto disc = sol->discSol.find( *d );
 
         cout << "\n-----------------------------------------------------------------\n";
-
-        cout << "Disciplina: " << disc->first->nome << endl;
+        cout << "Disciplina: " << disc->first->id << " | " << disc->first->nome << endl;
 
         //Pega o mapa da turma associada a disciplina
         auto turma = sol->horarioTurma.find(disc->second->turma);
@@ -45,6 +44,7 @@ Solucao* Metaheuristica::inserirInicio( Solucao* sol, std::vector <Disciplina*> 
         int tamanhoSplit[splits];
             
         //Gera vetor com o tamanho de cada split (mesma tecnica do Legacy)
+
         for(int i = 0; i < splits; i++){
             tamanhoSplit[i] = minimoDiario;
         }
@@ -54,7 +54,6 @@ Solucao* Metaheuristica::inserirInicio( Solucao* sol, std::vector <Disciplina*> 
             
         //Lista de dias consecutivos com o tamanho de determinado split
         list <int> horariosConsec;
-
         list <ProfSol*> prof;
 
         for(int i = 0; i < disc->first->professorIndex.size(); i++){
@@ -77,7 +76,7 @@ Solucao* Metaheuristica::inserirInicio( Solucao* sol, std::vector <Disciplina*> 
                     //Lista com o primeiro horario em uma janela consecutiva
                     horariosConsec = turma->second->agendaTurma->checarConsecutivo(listaDias[dia], tamanhoSplit[qtdSplit], 0);
                     
-                    cout << "Horarios: " ;
+                    cout << "Dia: " << listaDias[dia] << " | Horarios: " ;
                     for(auto h = horariosConsec.begin(); h != horariosConsec.end(); h++){
                         cout << (*h) << " ";
                     }
@@ -85,25 +84,26 @@ Solucao* Metaheuristica::inserirInicio( Solucao* sol, std::vector <Disciplina*> 
                     getchar();
 
                     //Enquanto a lista não completamente popada
-                    while( !horariosConsec.empty() ){
+                    while( !(horariosConsec.empty()) ){
 
                         int flag = 0;
 
                         for(auto i = prof.begin(); i != prof.end(); i++){
 
-                            if(!(*i)->agendaProf->checarConsecutivo(dia, (*horariosConsec.begin()), tamanhoSplit[qtdSplit], 0)){
+                            if(!(*i)->agendaProf->checarConsecutivo(listaDias[dia], (horariosConsec.front()), tamanhoSplit[qtdSplit], 0)){
                                 flag = 1;
                                 break;
                             }
                         }
 
                         if(flag == 1){
+                            cout << "Horario popado: " << horariosConsec.front() << endl;
                             horariosConsec.pop_front();
                             continue;
                         }
 
                         for(auto i = prof.begin(); i != prof.end(); i++){
-                            for(int slot = (*horariosConsec.begin()); slot < tamanhoSplit[qtdSplit]; slot++){
+                            for(int slot = horariosConsec.front(); slot < tamanhoSplit[qtdSplit]; slot++){
 
                                 (*i)->agendaProf->agenda[listaDias[dia]][slot] = disc->first->index;
                                 (*i)->print();
@@ -125,25 +125,32 @@ Solucao* Metaheuristica::inserirInicio( Solucao* sol, std::vector <Disciplina*> 
                 }
                         
 
-             }else{
+            }else{
 
                 for(auto dia = 0; dia < 6; dia++){
 
                     horariosConsec = turma->second->agendaTurma->checarConsecutivo(listaDias[dia], tamanhoSplit[qtdSplit], 0);
-                        
+                    
+                    cout << "Dia: " << listaDias[dia] << " | Horarios: " ;
+                    for(auto h = horariosConsec.begin(); h != horariosConsec.end(); h++){
+                        cout << (*h) << " ";
+                    }                        
+                    getchar();
+
                     while ( !horariosConsec.empty() ){
 
                         int flag = 0;
 
                         for(auto i = prof.begin(); i != prof.end(); i++){
 
-                            if(!(*i)->agendaProf->checarConsecutivo(dia, (*horariosConsec.begin()), tamanhoSplit[qtdSplit], 0)){
+                            if(!(*i)->agendaProf->checarConsecutivo(listaDias[dia], (*horariosConsec.begin()), tamanhoSplit[qtdSplit], 0)){
                                  flag = 1;
                                 break;
                             }
                         }
 
                         if(flag == 1){
+                            cout << "Horario popado: " << horariosConsec.front() << endl;
                             horariosConsec.pop_front();
                             continue;
                         }
@@ -152,7 +159,7 @@ Solucao* Metaheuristica::inserirInicio( Solucao* sol, std::vector <Disciplina*> 
                         SalaSol* lab;
 
                         for(auto it = listaSalas.begin(); it != listaSalas.end(); it++){
-                            if((*it)->agendaSala->checarConsecutivo(dia, (*horariosConsec.begin()), tamanhoSplit[qtdSplit], 0) ){
+                            if((*it)->agendaSala->checarConsecutivo(listaDias[dia], (*horariosConsec.begin()), tamanhoSplit[qtdSplit], 0) ){
                                 lab = (*it);
                                 break;
                             }
@@ -161,8 +168,8 @@ Solucao* Metaheuristica::inserirInicio( Solucao* sol, std::vector <Disciplina*> 
                         for(auto i = prof.begin(); i != prof.end(); i++){
                             for(int slot = (*horariosConsec.begin()); slot < tamanhoSplit[qtdSplit]; slot++){
 
-                                //(*i)->print();
                                 (*i)->agendaProf->agenda[listaDias[dia]][slot] = disc->first->index;
+                                (*i)->print();
                             }   
                         }
                         
@@ -172,6 +179,7 @@ Solucao* Metaheuristica::inserirInicio( Solucao* sol, std::vector <Disciplina*> 
                             turma->second->agendaTurma->agenda[listaDias[dia]][slot] = disc->first->index;
                             lab->agendaSala->agenda[listaDias[dia]][slot] = disc->first->index;
                             sala->agendaSala->agenda[listaDias[dia]][slot] = disc->first->index;
+                            turma->second->print();
                         }
 
                         //getchar();
