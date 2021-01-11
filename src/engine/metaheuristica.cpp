@@ -64,146 +64,53 @@ Solucao* Metaheuristica::inserirInicio( Solucao* sol, std::vector <Disciplina*> 
         int listaDias[6] = {0,1,2,3,4,5};
         geraListaDias(listaDias, 6);
 
-        //Loop passando agendando todos os splits da disciplina
-        for( int qtdSplit = 0; qtdSplit < splits; qtdSplit++ ){
+        list <SalaSol*> sala;
+        if(disc->first->tipoSala != "Sala"){
+            sala = selecionaSala(sol, disc->first);
+        }
 
-            //Checagem do tipo de sala requerido pela disciplina
-            if(disc->first->tipoSala == "Sala"){
+        for(int s = 0, dia = 0; s < splits; s++, dia++){
+            horariosConsec = turma->second->agendaTurma->checarConsecutivo(listaDias[dia], tamanhoSplit[s], 0);
 
-                // listaDias[dia]
-                for(auto dia = 0; dia < 6 && qtdSplit < splits; dia++){
+            while ( !horariosConsec.empty() ){
+                int flag = 0;
 
-                    //Lista com o primeiro horario em uma janela consecutiva
-                    horariosConsec = turma->second->agendaTurma->checarConsecutivo(listaDias[dia], tamanhoSplit[qtdSplit], 0);
-                    
-                    cout << "Dia: " << listaDias[dia] << " | Horarios: " ;
-                    for(auto h = horariosConsec.begin(); h != horariosConsec.end(); h++){
-                        cout << (*h) << " ";
-                    }
-                    cout << endl;
-                    getchar();
-
-                    //Enquanto a lista não completamente popada
-                    while( !(horariosConsec.empty()) ){
-
-                        int flag = 0;
-
-                        for(auto i = prof.begin(); i != prof.end(); i++){
-
-                            if((*i)->agendaProf->checarConsecutivo(listaDias[dia], (horariosConsec.front()), tamanhoSplit[qtdSplit], 0) == false){
-                                flag = 1;
-                                break;
-                            }
-                        }
-
-                        if(flag == 1){
-                            cout << "Horario popado: " << horariosConsec.front() << endl;
-                            horariosConsec.pop_front();
-                            continue;
-                        }
-
-                        for(auto i = prof.begin(); i != prof.end(); i++){
-                            for(int slot = horariosConsec.front(), cont = tamanhoSplit[qtdSplit]; slot < (slot + tamanhoSplit[qtdSplit]) && cont > 0; slot++, cont--){
-
-                                (*i)->agendaProf->agenda[listaDias[dia]][slot] = disc->first->index;
-                                (*i)->print();
-                    
-                            }   
-                        }
-                        auto sala = sol->horarioSala.find( turma->second->salaBase )->second;
-                        for(int slot = horariosConsec.front(); tamanhoSplit[qtdSplit] > 0; tamanhoSplit[qtdSplit]--){
-                            turma->second->agendaTurma->agenda[listaDias[dia]][slot] = disc->first->index;
-                            sala->agendaSala->agenda[listaDias[dia]][slot] = disc->first->index;
-                            turma->second->print();
-                        }
-
-                        //getchar();
-
-                        break;
-
-                    }
-                    if(tamanhoSplit[qtdSplit] == 0){
+                for(auto p = prof.begin(); p != prof.end(); p++){
+                    if(!(*p)->agendaProf->checarConsecutivo(listaDias[dia], (horariosConsec.front()), tamanhoSplit[s], 0)){
+                        flag = 1;
                         break;
                     }
                 }
-                        
+            
+                if(!sala.front()->agendaSala->checarConsecutivo(listaDias[dia], (horariosConsec.front()), tamanhoSplit[s], 0)){
+                    sala.pop_front();
+                }
 
-            }else{
+                if(flag == 1){
+                    horariosConsec.pop_front();
+                    break;
+                }
 
-                for(auto dia = 0; dia < 6; dia++){
-
-                    horariosConsec = turma->second->agendaTurma->checarConsecutivo(listaDias[dia], tamanhoSplit[qtdSplit], 0);
-                    
-                    cout << "Dia: " << listaDias[dia] << " | Horarios: " ;
-                    for(auto h = horariosConsec.begin(); h != horariosConsec.end(); h++){
-                        cout << (*h) << " ";
-                    }                        
-                    getchar();
-
-                    while ( !horariosConsec.empty() ){
-
-                        int flag = 0;
-
-                        for(auto i = prof.begin(); i != prof.end(); i++){
-
-                            if(!(*i)->agendaProf->checarConsecutivo(listaDias[dia], horariosConsec.front(), tamanhoSplit[qtdSplit], 0)){
-                                 flag = 1;
-                                break;
-                            }
-                        }
-
-                        if(flag == 1){
-                            cout << "Horario popado: " << horariosConsec.front() << endl;
-                            horariosConsec.pop_front();
-                            continue;
-                        }
-
-                        auto listaSalas = selecionaSala(sol, disc->first);
-                        SalaSol* lab;
-
-                        for(auto it = listaSalas.begin(); it != listaSalas.end(); it++){
-                            if((*it)->agendaSala->checarConsecutivo(listaDias[dia], horariosConsec.front(), tamanhoSplit[qtdSplit], 0) ){
-                                lab = (*it);
-                                break;
-                            }
-                        }
-
-                        for(auto i = prof.begin(); i != prof.end(); i++){
-                            for(int slot = horariosConsec.front(), cont = tamanhoSplit[qtdSplit]; slot < (slot + tamanhoSplit[qtdSplit]) && cont > 0; slot++, cont--){
-
-                                (*i)->agendaProf->agenda[listaDias[dia]][slot] = disc->first->index;
-                                (*i)->print();
-                            }   
-                        }
-                        
-                        auto sala = sol->horarioSala.find( turma->second->salaBase )->second;
-                        
-                        for(int slot = horariosConsec.front(); tamanhoSplit[qtdSplit] > 0; tamanhoSplit[qtdSplit]--){
-                            turma->second->agendaTurma->agenda[listaDias[dia]][slot] = disc->first->index;
-                            lab->agendaSala->agenda[listaDias[dia]][slot] = disc->first->index;
-                            sala->agendaSala->agenda[listaDias[dia]][slot] = disc->first->index;
-                            turma->second->print();
-                        }
-
-                        //getchar();
-
-                        break;
-
+                for(auto p = prof.begin(); p != prof.end(); p++){
+                    for(int slot = horariosConsec.front(); slot < tamanhoSplit[s] + horariosConsec.front(); slot++){
+                        (*p)->agendaProf->agenda[listaDias[dia]][slot] = disc->first->index;
                     }
-
-                    if(tamanhoSplit[qtdSplit] == 0){
-                        break;
-                    }
+                }
+            
+                for(int slot = horariosConsec.front(); slot < tamanhoSplit[s] + horariosConsec.front(); slot++){
+                    turma->second->agendaTurma->agenda[listaDias[dia]][slot] = disc->first->index;
+                        sol->horarioSala.find(turma->second->salaBase)->second->agendaSala->agenda[listaDias[dia]][slot] = disc->first->index;
+                        if(disc->first->tipoSala != "Sala")
+                            sala.front()->agendaSala->agenda[listaDias[dia]][slot] = disc->first->index;
                 }
 
             }
+            
 
         }
 
-    } // !_for(*disc)
-
+    } //!for (disc)
     return temp;
-
 } //!_inserirInicio()
 
 
