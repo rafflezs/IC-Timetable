@@ -44,24 +44,38 @@ Agenda::Agenda(Professor* recursoProfessor){
 }
 
 //Devolve uma lista de horarios consecutivos
-std::list <int> Agenda::checarConsecutivo( int dia, int tamanhoSplit, int discIndex ){
+std::list <int> Agenda::checarConsecutivo( Disciplina* disc, int dia, int tamanhoSplit, int discIndex ){
+
+    int slotInicio, slotFim;
+
+    if(disc->turno == "Manhã"){
+        slotInicio = 0;
+        slotFim = 5;
+    }else if(disc->turno == "Tarde"){
+        slotInicio = 6;
+        slotFim = 11;
+    }else{
+        slotInicio = 12;
+        slotFim = 15;
+    }
 
     std::list <int> listaHorarios;
 
-    for(int slot = 0; slot < 16 - tamanhoSplit + 1; slot++){
+    for(; slotInicio <= slotFim - (tamanhoSplit-1); slotInicio++){
         
         int flag = 0;
 
-        for(int i = slot; i < slot + tamanhoSplit; i++){
-            if(this->agenda[dia][i] != discIndex){
+        for(int i = slotInicio; i < slotInicio + tamanhoSplit; i++){
+            if(this->agenda[dia][i] != 0){
                 flag = 1;
+                std::cout << discIndex << " NÃO FOI INCLUIDO NO [" << dia <<"] " << "[" << slotInicio << "]" << std::endl;
                 break;
             }
 
         }
 
        if(flag == 0){
-           listaHorarios.push_back(slot);
+           listaHorarios.push_back(slotInicio);
        } 
 
     }

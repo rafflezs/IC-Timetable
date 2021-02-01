@@ -31,8 +31,8 @@ Solucao* Metaheuristica::inserirInicio( Solucao* sol, std::vector <Disciplina*> 
 
         auto disc = sol->discSol.find( *d );
 
-        cout << "\n-----------------------------------------------------------------\n";
-        cout << "Disciplina: " << disc->first->id << " | " << disc->first->nome << endl;
+        cout << "\nDisciplina passando pela heuristica construtiva\n";
+        cout << "Disciplina: " << disc->first->id << " | " << disc->first->nome << " | ";
 
         //Pega o mapa da turma associada a disciplina
         auto turma = sol->horarioTurma.find(disc->second->turma);
@@ -58,32 +58,34 @@ Solucao* Metaheuristica::inserirInicio( Solucao* sol, std::vector <Disciplina*> 
 
         for(int i = 0; i < disc->first->professorIndex.size(); i++){
             prof.push_back(sol->horarioProf.find( sol->data->professores[disc->first->professorIndex[i]] )->second);
+            cout << "Nome do corno " << prof.front()->professor->nome << endl;
         }
 
         //Lista de dias randomizados
         int listaDias[6] = {0,1,2,3,4,5};
         geraListaDias(listaDias, 6);
 
-        list <SalaSol*> sala;
-        if(disc->first->tipoSala != "Sala"){
-            sala = selecionaSala(sol, disc->first);
-        }
+        for(int s = 0, dia = 0; s < splits; s++){
 
-        for(int s = 0, dia = 0; s < splits; s++, dia++){
-            horariosConsec = turma->second->agendaTurma->checarConsecutivo(listaDias[dia], tamanhoSplit[s], 0);
+            horariosConsec = turma->second->agendaTurma->checarConsecutivo( *d ,listaDias[dia], tamanhoSplit[s],disc->first->index);
+
+            if(dia > 6){
+                dia = 0;
+            }
+
+            while(horariosConsec.empty()) {
+                dia++;
+                horariosConsec = turma->second->agendaTurma->checarConsecutivo( *d ,listaDias[dia], tamanhoSplit[s],disc->first->index);
+            };
 
             while ( !horariosConsec.empty() ){
                 int flag = 0;
-
+                
                 for(auto p = prof.begin(); p != prof.end(); p++){
-                    if(!(*p)->agendaProf->checarConsecutivo(listaDias[dia], (horariosConsec.front()), tamanhoSplit[s], 0)){
+                    if(!(*p)->agendaProf->checarConsecutivo(listaDias[dia], horariosConsec.front(), tamanhoSplit[s], 0)){
                         flag = 1;
                         break;
                     }
-                }
-            
-                if(!sala.front()->agendaSala->checarConsecutivo(listaDias[dia], (horariosConsec.front()), tamanhoSplit[s], 0)){
-                    sala.pop_front();
                 }
 
                 if(flag == 1){
@@ -92,22 +94,25 @@ Solucao* Metaheuristica::inserirInicio( Solucao* sol, std::vector <Disciplina*> 
                 }
 
                 for(auto p = prof.begin(); p != prof.end(); p++){
-                    for(int slot = horariosConsec.front(); slot < tamanhoSplit[s] + horariosConsec.front(); slot++){
+                    for(auto slot = horariosConsec.front(); slot < tamanhoSplit[s] + horariosConsec.front(); slot++){
                         (*p)->agendaProf->agenda[listaDias[dia]][slot] = disc->first->index;
                     }
+                    (*p)->agendaProf->printAgenda();
                 }
-            
-                for(int slot = horariosConsec.front(); slot < tamanhoSplit[s] + horariosConsec.front(); slot++){
+
+                for(auto slot = horariosConsec.front(); tamanhoSplit[s] > 0; slot++, tamanhoSplit[s]--){
                     turma->second->agendaTurma->agenda[listaDias[dia]][slot] = disc->first->index;
-                        sol->horarioSala.find(turma->second->salaBase)->second->agendaSala->agenda[listaDias[dia]][slot] = disc->first->index;
-                        if(disc->first->tipoSala != "Sala")
-                            sala.front()->agendaSala->agenda[listaDias[dia]][slot] = disc->first->index;
+                    //getchar();
                 }
+                turma->second->agendaTurma->printAgenda();
 
-            }
-            
+                horariosConsec.clear();
 
-        }
+            } //!_while (!empty)
+
+            dia++;
+
+        } //!_for(int s)
 
     } //!for (disc)
     return temp;
@@ -130,21 +135,20 @@ void Metaheuristica::printSolucoes(){
     }
 } //!_printSolucoes()
 
-list <SalaSol*> Metaheuristica::selecionaSala(Solucao* sol, Disciplina* disc){
+/* SalaSol* Metaheuristica::selecionaSala(Solucao* sol, Disciplina* disc, list <int> horariosConsec){
 
-    list <SalaSol*> listaSalas;
+    SalaSol* sala;
 
     for( auto temp = sol->horarioSala.begin(); temp != sol->horarioSala.end(); temp++ ){
 
-        if( disc->tipoSala == (*temp).first->tipo ){
-            listaSalas.push_back((*temp).second);
+        if(temp->first->tipo == disc->tipoSala){
+            sala = (*temp).second;
         }
-
     }
 
-    return listaSalas;
+    return sala;
 
-}
+} */
 
 void Metaheuristica::geraListaDias(int listaDias[], int tam){
 

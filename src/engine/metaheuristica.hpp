@@ -24,7 +24,7 @@ class Metaheuristica{
 
         std::vector <Disciplina*> geraListaDisc(Solucao* sol);
 
-        list <SalaSol*> selecionaSala(Solucao* sol, Disciplina* disc);
+        SalaSol* selecionaSala(Solucao* sol, Disciplina* disc, list <int> horariosConsec);
 };
 
 #endif

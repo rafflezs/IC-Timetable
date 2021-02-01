@@ -30,7 +30,7 @@ class Agenda{
         *  Obtem lista de horarios consecutivos em determinado dia 
         *  @param int* @return list
         */
-        std::list <int> checarConsecutivo(int dia, int tamanhoSplit, int discIndex);
+        std::list <int> checarConsecutivo(Disciplina* disc, int dia, int tamanhoSplit, int discIndex);
 
         bool checarConsecutivo(int dia, int horarioInicial, int tamSplit, int discIndex);
 
