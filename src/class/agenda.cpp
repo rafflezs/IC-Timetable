@@ -44,6 +44,7 @@ Agenda::Agenda(Professor* recursoProfessor){
 }
 
 //Devolve uma lista de horarios consecutivos
+//Possivelmente o problema esta aqui nessa função ou na debaixo
 std::list <int> Agenda::checarConsecutivo( Disciplina* disc, int dia, int tamanhoSplit, int discIndex ){
 
     int slotInicio, slotFim;
@@ -65,13 +66,13 @@ std::list <int> Agenda::checarConsecutivo( Disciplina* disc, int dia, int tamanh
         
         int flag = 0;
 
-        for(int i = slotInicio; i < slotInicio + tamanhoSplit; i++){
+        for(int i = slotInicio; i <= slotFim - tamanhoSplit; i++){
             if(this->agenda[dia][i] != 0){
+                std::cout << "[" << dia << "]" << "[" << i << "] ocupado por" << this->agenda[dia][i];
                 flag = 1;
-                std::cout << discIndex << " NÃO FOI INCLUIDO NO [" << dia <<"] " << "[" << slotInicio << "]" << std::endl;
+                std::cout << " logo " << disc->index << " NÃO FOI INCLUIDO NO [" << dia <<"] " << "[" << slotInicio << "]" << std::endl;
                 break;
             }
-
         }
 
        if(flag == 0){
@@ -80,6 +81,10 @@ std::list <int> Agenda::checarConsecutivo( Disciplina* disc, int dia, int tamanh
 
     }
 
+    for(auto i = listaHorarios.begin(); i != listaHorarios.end(); i++){
+        std::cout << " H" << *i;
+    }
+    std::cout << std::endl;
     return listaHorarios;
 
 }

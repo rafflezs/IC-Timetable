@@ -67,26 +67,29 @@ Solucao* Metaheuristica::inserirInicio( Solucao* sol, std::vector <Disciplina*> 
 
         for(int s = 0, dia = 0; s < splits; s++){
 
-            horariosConsec = turma->second->agendaTurma->checarConsecutivo( *d ,listaDias[dia], tamanhoSplit[s],disc->first->index);
+            //Obtem um horario inicial pela agenda turma
+            horariosConsec = turma->second->agendaTurma->checarConsecutivo( *d ,listaDias[dia], tamanhoSplit[s],0);
 
-            if(dia > 6){
-                dia = 0;
+            cout << "Dia: "<< dia << " .front(): " << horariosConsec.front() << " .size(): " << horariosConsec.size() << endl;
+
+            //Caso não obtenha horario nesse dia, iterar até achar um dia com horario
+            while(horariosConsec.size() == 0) {
+                cout << "Deu runho" << endl;
+                dia++;
+                horariosConsec = turma->second->agendaTurma->checarConsecutivo( *d ,listaDias[dia], tamanhoSplit[s], 0);
             }
 
-            while(horariosConsec.empty()) {
-                dia++;
-                horariosConsec = turma->second->agendaTurma->checarConsecutivo( *d ,listaDias[dia], tamanhoSplit[s],disc->first->index);
-            };
+            //Checa se o professor tem horario pra esse dia
+            for(auto p = prof.begin(); p != prof.end(); p++){
+                if(!(*p)->agendaProf->checarConsecutivo(listaDias[dia], horariosConsec.front(), tamanhoSplit[s], 0)){
+                    break;
+                }
+            }
+
+            cout << "Achou horario\n";
 
             while ( !horariosConsec.empty() ){
                 int flag = 0;
-                
-                for(auto p = prof.begin(); p != prof.end(); p++){
-                    if(!(*p)->agendaProf->checarConsecutivo(listaDias[dia], horariosConsec.front(), tamanhoSplit[s], 0)){
-                        flag = 1;
-                        break;
-                    }
-                }
 
                 if(flag == 1){
                     horariosConsec.pop_front();
