@@ -57,6 +57,8 @@ std::list <int> Agenda::checarConsecutivo( Disciplina* disc, int dia, int tamanh
         slotFim = 11;
     }else{
         slotInicio = 12;
+        if(dia == 6)
+            slotInicio = 0;
         slotFim = 15;
     }
 
@@ -68,19 +70,13 @@ std::list <int> Agenda::checarConsecutivo( Disciplina* disc, int dia, int tamanh
 
         for(int i = slotInicio; i <= slotFim; i++){
             if(this->agenda[dia][i] != 0){
-                std::cout << "[" << dia << "]" << "[" << i << "] ocupado por" << this->agenda[dia][i];
                 flag = 1;
-                std::cout << " logo " << disc->index << " NÃO FOI INCLUIDO NO [" << dia <<"] " << "[" << slotInicio << "]" << std::endl;
                 break;
             }
         }
 
         if(flag == 0){
            listaHorarios.push_back(slotInicio);
-/*             for(auto i = listaHorarios.begin(); i != listaHorarios.end(); i++){
-                std::cout << " H" << *i;
-                std::cout << std::endl;
-            } */
        }
     }
 
