@@ -66,7 +66,7 @@ std::list <int> Agenda::checarConsecutivo( Disciplina* disc, int dia, int tamanh
         
         int flag = 0;
 
-        for(int i = slotInicio; i <= slotFim - tamanhoSplit; i++){
+        for(int i = slotInicio; i <= slotFim; i++){
             if(this->agenda[dia][i] != 0){
                 std::cout << "[" << dia << "]" << "[" << i << "] ocupado por" << this->agenda[dia][i];
                 flag = 1;
@@ -75,16 +75,15 @@ std::list <int> Agenda::checarConsecutivo( Disciplina* disc, int dia, int tamanh
             }
         }
 
-       if(flag == 0){
+        if(flag == 0){
            listaHorarios.push_back(slotInicio);
-       } 
-
+/*             for(auto i = listaHorarios.begin(); i != listaHorarios.end(); i++){
+                std::cout << " H" << *i;
+                std::cout << std::endl;
+            } */
+       }
     }
 
-    for(auto i = listaHorarios.begin(); i != listaHorarios.end(); i++){
-        std::cout << " H" << *i;
-    }
-    std::cout << std::endl;
     return listaHorarios;
 
 }
