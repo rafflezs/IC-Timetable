@@ -57,9 +57,11 @@ Sala* Solucao::selecionaSala(Data* data, TurmaSol* turma){
 
 int Solucao::calcFuncObjetivo(Data* data){
     
-    this->sextoHorario = 0;
+    //minimizar aulas de sabado //Aumentar o peso
+    //
+    this->sextoHorario = 0; //Aumentar o peso
     this->janelaHorario = 0;
-    this->diasTrabalhados = 0;
+    this->diasTrabalhados = 0; //exclusivamente professor
 
     for( auto turma = horarioTurma.begin(); turma != horarioTurma.end(); turma++ ){
         this->sextoHorario += calcSextoHorario( turma->second->agendaTurma );
@@ -184,6 +186,8 @@ int Solucao::calcSextoHorario(Agenda* turma){
 
 
 int Solucao::calcDiasTrabalhados(Agenda* professor){
+
+    //Calcular total de dias trabalhados, e não janela
 
     int atividade[6];
 

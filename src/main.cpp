@@ -2,7 +2,8 @@
 
 int main(){
 
-    //srand( time( 0 ) );
+    srand( time( NULL ) );
+
 
     Metaheuristica* meta = new Metaheuristica();
 

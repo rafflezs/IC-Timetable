@@ -57,7 +57,7 @@ std::list <int> Agenda::checarConsecutivo( Disciplina* disc, int dia, int tamanh
         slotFim = 11;
     }else{
         slotInicio = 12;
-        if(dia == 6)
+        if(dia == 5)
             slotInicio = 0;
         slotFim = 15;
     }

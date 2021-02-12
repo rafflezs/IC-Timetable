@@ -9,14 +9,15 @@
 
 class Metaheuristica{
     public:
-        vector <Solucao*> solucoes;
+        vector <Solucao> solucoes;
 
         Metaheuristica();
 
         //algoritmoGenerico(Data* data);
-        Solucao* inserirInicio( Solucao* sol, std::vector <Disciplina*> listaDisc);
-        bool trocarHorario(Data* data);
-        bool trocarTurma(Data* data);
+        void inserirInicio( Solucao* sol, std::vector <Disciplina*> listaDisc);
+        bool trocarHorario(Data* data);             // Essas três //
+        bool trocarTurma(Data* data);               // funções estão
+        //bool trocarSala( param );                 // atreladas ///
         bool fixAndOptimize(Data* data);
         void printSolucoes();
 
