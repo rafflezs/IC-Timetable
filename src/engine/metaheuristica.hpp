@@ -5,27 +5,26 @@
 
 #include <algorithm>
 #include <random>
-#include <ctime>
+#include <cmath>
 
 class Metaheuristica{
     public:
         vector <Solucao> solucoes;
-
+    
         Metaheuristica();
-
+    
         //algoritmoGenerico(Data* data);
         void inserirInicio( Solucao* sol, std::vector <Disciplina*> listaDisc);
-        bool trocarHorario(Data* data);             // Essas três //
-        bool trocarTurma(Data* data);               // funções estão
-        //bool trocarSala( param );                 // atreladas ///
-        bool fixAndOptimize(Data* data);
+        void trocarDisciplinas(Solucao* sol);
+        void trocarHorario(Data* data);             // Essas três //
+        void trocarTurma(Data* data);               // funções estão
+        //void trocarSala( param );                 // atreladas ///
+        void fixAndOptimize(Data* data);
         void printSolucoes();
-
         void geraListaDias(int listaDias[], int tam);
-
+    
         std::vector <Disciplina*> geraListaDisc(Solucao* sol);
-
-        SalaSol* selecionaSala(Solucao* sol, Disciplina* disc, list <int> horariosConsec);
+        list <SalaSol*> selecionaSala(Solucao* sol, Disciplina* disc, TurmaSol* turma, int* dia, int* horario, int* tamanho);
 };
 
 #endif

@@ -4,11 +4,12 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+
         {
             "name": "(gdb) Iniciar",
             "type": "cppdbg",
             "request": "launch",
-            "program": "insira o nome do programa, por exemplo ${workspaceFolder}/a.out",
+            "program": "/home/rafflezs/Documentos/universityTimetabling/src/exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",

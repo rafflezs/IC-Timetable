@@ -8,7 +8,8 @@ class SalaSol{
     public:
         Sala* sala;
         Agenda* agendaSala;
-
+        bool usado = false;
+    
         SalaSol(Sala* sala);
         void print();
 };
