@@ -15,7 +15,7 @@ class Metaheuristica{
     
         //algoritmoGenerico(Data* data);
         void inserirInicio( Solucao* sol, std::vector <Disciplina*> listaDisc);
-        void trocarDisciplinas(Solucao* sol);
+        Solucao* trocarDisciplinas(Solucao sol);
         void trocarHorario(Data* data);             // Essas três //
         void trocarTurma(Data* data);               // funções estão
         //void trocarSala( param );                 // atreladas ///

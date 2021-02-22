@@ -18,15 +18,15 @@ class DiscSol{
         *  @param int : diaDaAula @return list : horariosConsecutivos
         */
         DiscSol(Data* data, Disciplina* disciplina);
-
+        
         Sala* selecionaSala(Disciplina* disciplina);
-
+        
         /* 
         *  Exibe os recursos alocados na classe 
         *  @param NULL @return NULL
         */
         void print();
-
+        std::list <SalaSol*> listaSalas;
 };
 
 #endif

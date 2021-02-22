@@ -5,16 +5,15 @@
 #include "agenda.hpp"
 
 class TurmaSol{
-
+    
     public:
         Turma* turma;
         std::list <DiscSol*> discLista;
         Sala* salaBase;
         Agenda* agendaTurma;
-
+    
         TurmaSol(Turma* turma);
         void print();
-
 };
 
 #endif

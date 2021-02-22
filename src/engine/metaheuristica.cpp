@@ -77,6 +77,7 @@ void Metaheuristica::inserirInicio( Solucao* sol, std::vector <Disciplina*> list
                 }
             }
             list <SalaSol*> listaSalas = selecionaSala(sol, *d, turma->second, &listaDias[dia], &horariosConsec.front(), &tamanhoSplit[s]);
+            disc->second->listaSalas = listaSalas;
             while ( !horariosConsec.empty() ){
                 int flag = 0;
                 if(flag == 1){
@@ -104,38 +105,61 @@ void Metaheuristica::inserirInicio( Solucao* sol, std::vector <Disciplina*> list
     } //!for (disc)
 } //!_inserirInicio()
 
-void trocarDisciplina(Solucao* sol){
+Solucao* trocarDisciplina(Solucao sol){
     
-    int discIndex = rand() % 1 + (sol->data->disciplinas.size()-1);
+    auto disc1 = sol.discSol.find( sol.data->disciplinas[rand() % 1 + (sol.data->disciplinas.size()-1)] );
+    auto turma = sol.horarioTurma.find( disc1->second->turma );
+    do{
+        turma->second->discLista.sort();
+    } while (turma->second->discLista.front() == disc1->second);
     
-    if(int r = rand() % 1){
-        int tamanhoSplit = ceil(sol->data->disciplinas[discIndex]->splits / sol->data->disciplinas[discIndex]->minimoDiario);
-    }else{
-        int tamanhoSplit = floor(sol->data->disciplinas[discIndex]->splits / sol->data->disciplinas[discIndex]->minimoDiario + 1);
+    auto disc2 = turma->second->discLista.front();
+    
+    int dia, tamanhoSplit, slot = 0;
+    
+    do {
+        dia = rand() % 6;
+        tamanhoSplit = desalocar( disc1->second, &sol, &dia, &slot );
+    } while(tamanhoSplit == 0);
+    
+    for(slot = slot - (tamanhoSplit - 1); slot < tamanhoSplit; slot++){
+        turma->second->agendaTurma->agenda[dia][slot] = disc2->disciplina->index;
     }
-    
-
 }
 
-void desalocar(int* tamanhoSplit, DiscSol* disc, Solucao* sol){
+int desalocar(DiscSol* disc, Solucao* sol, int* dia, int* slot){
+    
+    auto turma = sol->horarioTurma.find(disc->turma);
+    list <ProfSol*> prof;
+    for(auto p = disc->profLista.begin(); p != disc->profLista.end(); p++)
+        prof.push_back( sol->horarioProf.find(*p)->second );
+    auto salas = disc->listaSalas;
+    int tamanhoSplit;
+    int slotFim;
 
-    auto agendaTurma = sol->horarioTurma.find(disc->turma);
-    int dia = 0, slot = 0;
+    if(disc->disciplina->turno == "Manhã"){
+        *slot = 0;
+        slotFim = 6;
+    }else if(disc->disciplina->turno == "Tarde"){
+        *slot = 6;
+        slotFim = 12;
+    }else if(disc->disciplina->turno == "Noite"){
+        *slot = 12;
+        slotFim = 16;
+    }
 
-    for(dia; dia < 6; dia++){
-        for(slot; slot < 16; slot++){
-            if(agendaTurma->second->agendaTurma->agenda[dia][slot] == disc->disciplina->index && agendaTurma->second->agendaTurma->agenda[dia][slot + *tamanhoSplit - 1] ){
-                break;
-            }
+    for(*slot; *slot < slotFim; *slot++){
+        if( turma->second->agendaTurma->agenda[*dia][*slot] == disc->disciplina->index ){
+            turma->second->agendaTurma->agenda[*dia][*slot] = 0;
+            for(auto s = salas.begin(); s != salas.end(); s++)
+                (*s)->agendaSala->agenda[*dia][*slot] = 0;
+            for(auto p = prof.begin(); p != prof.end(); p++)
+                (*p)->agendaProf->agenda[*dia][*slot] = 0;
+            tamanhoSplit++;
         }
     }
-
-    for(int i = slot; i < slot + *tamanhoSplit - 1; i++){
-        agendaTurma->second->agendaTurma->agenda[dia][i] = 0;
-        for(auto prof = disc->profLista.begin(); prof != disc->profLista.end(); prof++)
-            
-    }
-
+    
+    return tamanhoSplit;
 }
 
 void Metaheuristica::printSolucoes(){

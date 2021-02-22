@@ -46,9 +46,9 @@ Agenda::Agenda(Professor* recursoProfessor){
 //Devolve uma lista de horarios consecutivos
 //Possivelmente o problema esta aqui nessa função ou na debaixo
 std::list <int> Agenda::checarConsecutivo( Disciplina* disc, int dia, int tamanhoSplit, int discIndex ){
-
+    
     int slotInicio, slotFim;
-
+    
     if(disc->turno == "Manhã"){
         slotInicio = 0;
         slotFim = 5;
@@ -61,27 +61,23 @@ std::list <int> Agenda::checarConsecutivo( Disciplina* disc, int dia, int tamanh
             slotInicio = 0;
         slotFim = 15;
     }
-
+    
     std::list <int> listaHorarios;
-
+    
     for(; slotInicio <= slotFim - (tamanhoSplit-1); slotInicio++){
         
         int flag = 0;
-
         for(int i = slotInicio; i <= slotFim; i++){
             if(this->agenda[dia][i] != 0){
                 flag = 1;
                 break;
             }
         }
-
         if(flag == 0){
-           listaHorarios.push_back(slotInicio);
-       }
+            listaHorarios.push_back(slotInicio);
+        }
     }
-
     return listaHorarios;
-
 }
 
 bool Agenda::checarConsecutivo(int dia, int horarioInicial, int tamSplit, int discIndex){
