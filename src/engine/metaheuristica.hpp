@@ -14,11 +14,24 @@ class Metaheuristica{
         Metaheuristica();
     
         //algoritmoGenerico(Data* data);
-        void inserirInicio( Solucao* sol, std::vector <Disciplina*> listaDisc);
+        void inserirInicio( Solucao* sol, std::vector <Disciplina*> listaDisc /* <- a lista é o parametro de caso  */);
+
+        //inserirEspalhado( param )
+
+        //troca duas disc (splits) de lugar
         Solucao* trocarDisciplinas(Solucao sol);
-        void trocarHorario(Data* data);             // Essas três //
-        void trocarTurma(Data* data);               // funções estão
-        //void trocarSala( param );                 // atreladas ///
+        
+        //refaz o horario de uma turma aleatoriamente
+        Solucao trocarHorario(Solucao sol);
+        
+        //pega uma disciplina de um sala e aloca em outra sala
+        //void trocarSala( param );                 
+        
+        //
+        //void trocarHorarioProfessor( param ); 
+        
+        //espalahar aulas de um professor -> função objetivo 
+
         void fixAndOptimize(Data* data);
         void printSolucoes();
         void geraListaDias(int listaDias[], int tam);

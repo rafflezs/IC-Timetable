@@ -2,6 +2,7 @@
 #define _DISCSOL_H
 
 #include "../io/data.hpp"
+#include "../class/salaSol.hpp"
 
 #include <list>
 

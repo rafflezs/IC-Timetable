@@ -15,7 +15,8 @@ class Disciplina{
         int index;
         std::string nome;
         std::string id; //ID unico relativo ao valor usado pela instituição
-        int cargaHoraria;
+        int chPresencial;
+        int chEad;
         int minimoDiario;
         int splits;
         int capacidadeTurma;
