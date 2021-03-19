@@ -159,9 +159,10 @@ vector <Disciplina*> Data::lerDisc(map<string, int> *mapDisc){
         disc->tipoSala = colData[6];
 
         disc->capacidadeTurma = stoi(colData[7]);
-        disc->cargaHoraria = stoi(colData[8]);
-        disc->minimoDiario = stoi(colData[9]);
-        disc->splits = stoi(colData[10]);
+        disc->chPresencial = stoi(colData[8]);
+        disc->chEad = stoi(colData[9]);
+        disc->minimoDiario = stoi(colData[10]);
+        disc->splits = stoi(colData[11]);
 
         for(int dia = 0; dia < 6; dia++){
             for(int horario = 0; horario < 16; horario++){
@@ -169,7 +170,7 @@ vector <Disciplina*> Data::lerDisc(map<string, int> *mapDisc){
             }
         }
 
-        for(int i = 11, j = 0; i < 17; i++, j++){
+        for(int i = 12, j = 0; i < colData.size(); i++, j++){
             disponibilidade(disc, &colData[i], j);
         }
 
@@ -322,7 +323,7 @@ void Data::disponibilidade(genericClass* objTemp, string* colunaDado, int dia){
     }else{
         for(auto n:inicio){
             if(n.length()>2){
-                vector<string> temp;
+                vector<string> temp;    
                 string  tempWord;
                 temp = separadorString(n, '-');
                 int start, end;
@@ -355,13 +356,12 @@ void Data::relaciona(vector<Professor*> professores, map<string, int> *mapDisc){
 
     getline(file, tempString, '\n');
 
-    auto tempProf = 1;
+    int tempProf = 1;
 
     while (file.good())
     {
         getline(file, tempString, '\n');
         vector <string> colData = separadorString(tempString, ';');
-
         vector <string> idDisciplinas = separadorString(colData[2], ',');
 
         for(auto index = idDisciplinas.begin(); index != idDisciplinas.end(); index++){
@@ -371,7 +371,6 @@ void Data::relaciona(vector<Professor*> professores, map<string, int> *mapDisc){
                 }
             }
         }
-
         tempProf++;
     }  
 }
@@ -392,22 +391,19 @@ void Data::relaciona(vector<Disciplina*> disciplinas, map<string, int> *mapProf,
         getline(file, tempString, '\n');
         vector <string> colData = separadorString(tempString, ';');
         vector <string> nomeProf = separadorString(colData[2], ',');
-
+        
         for(auto nome = nomeProf.begin(); nome != nomeProf.end(); nome++){
             for(auto mp = mapProf->begin(); mp != mapProf->end(); mp++){
                 if(mp->first == (*nome)){
                     disciplinas[tempDisc]->professorIndex.push_back(mp->second);
                 }
             }
-
             for(auto mp = mapTurma->begin(); mp != mapTurma->end(); mp++){
                 if(mp->first == colData[4]){
                     disciplinas[tempDisc]->turmaIndex = mp->second;
                 }
             }
-
         }
-
         tempDisc++;
     }
 }

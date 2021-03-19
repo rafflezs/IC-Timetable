@@ -1,19 +1,101 @@
 ID;Professores;Disciplinas;SEG;TER;QUA;QUI;SEX;SAB
-1;Adriano Soares de Oliveira Bailão;1,15,18,19;0;0;0;0;0;0
-2;Aline Gobbi Dutra Guimarães;4;0;0;0;0;0;0
-3;André da Cunha Ribeiro;2,10,14,20;0;0;0;0;0;0
-4;Douglas Cedrim Oliveira;12,21,30,35;0;0;0;0;0;0
-5;Fábio Montanha Ramos;8,26,41;0;0;0;0;0;0
-6;Heverton Barros de Macêdo;6,17,22,28;0;0;0;0;0;0
-7;Idalci Cruvinel dos Reis;7;0;0;0;0;0;0
-8;João Areis Ferreira Barbosa Júnior;3;0;0;0;0;0;0
-9;Márcio Antônio Ferreira Belo Filho;5;0;0;0;0;0;0
-10;Marlus Dias Silva;11,16,42;0;0;0;0;0;0
-11;Rafael Carvalho de Mendonça;9,13,25,40;0;0;0;0;0;0
-12;Leonel;23,29,38;0;0;0;0;0;0
-13;Luís Guilherme;24,32,33,34,36;0;0;0;0;0;0
-14;Abner;27;0;0;0;0;0;0
-15;Calixto;31;0;0;0;0;0;0
-16;Raquel;37;0;0;0;0;0;0
-17;Lídia;39;0;0;0;0;0;0
-18;Luciene;43;0;0;0;0;0;0
+1;Abner Santos Baroni Sales;Grad.GAAL.01,Grad.GAAL.01;0;0;0;0;0;0
+3;Adriano Jakelaitis;Grad.EE.01,Grad.EE.02;0;0;0;0;0;0
+5;Adriano Soares de Oliveira Bailão;Grad.FundSist.01,Grad.ES.01,Grad.PS.01,Grad.IA.01;0;0;0;0;0;0
+8;Alessandro Ribeiro de Morais;Grad.CA.02,Grad.FCV.01;0;0;0;0;0;0
+9;Alexsandro dos Santos Felipe;Grad.ECA-I.01,Grad.EM.01;0;0;0;0;0;0
+10;Aline Ditomaso;Grad.MC.02,Grad.MC.02;0;0;0;0;0;0
+11;Aline Gobbi Dutra Guimarães;Grad.CDI.01,Grad.LM.01;0;0;0;0;0;0
+12;Amanda Barbosa de Faria;Grad.TCAD.01,Grad.AEA.01;0;0;0;0;0;0
+13;Ana Carolina Ribeiro Aguiar;Grad.QA.01;0;0;0;0;0;0
+14;Ana Paula Cardoso Gomide;Grad.AS.01;0;0;0;0;0;0
+15;André da Cunha Ribeiro;Grad.APC.01,Grad.PLP.01,Grad.TG.01,Grad.PLP.05;0;0;0;0;0;0
+18;Bacus de Oliveira Nahime;Grad.MCC-II.01;0;0;0;0;0;0
+19;Bruna Elói do Amaral;Grad.HST.01;0;0;0;0;0;0
+20;Bruna Oliveira Campos;Grad.DT.02,Grad.AU.01;0;0;0;0;0;0
+21;Bruna Vilela Buiatte Silva;Grad.IPH.02;0;0;0;0;0;0
+22;Brunna Dias Cardoso;Grad.Libras.02,Grad.FFE.01,Grad.Libras.02;0;0;0;0;0;0
+23;Caíke da Rocha Damke;Grad.SED.01,Grad.SEDO.02;0;0;0;0;0;0
+25;Carlos Antônio Cardoso Sobrinho;GRAD.ADM.CO.04,GRAD.ADM.MARK-I.14;0;0;0;0;0;0
+27;Carlos Ribeiro Rodrigues;Grad.AP.01,Grad.EP.03;0;0;0;0;0;0
+28;Cássia Cristina Fernandes Alves;Grad.QG.01,Grad.QG.03;0;0;0;0;0;0
+30;Celso Martins Belisário;Grad.QGA.01;0;0;0;0;0;0
+34;David Vieira Lima;Grad.T.01;0;0;0;0;0;0
+35;Douglas Cedrim Oliveira;Grad.PLP.03,Grad.SD.02;0;0;0;0;0;0
+36;Édio Damásio da Silva Júnior;Grad.SAAE.01;0;0;0;0;0;0
+37;Ednalva Patrícia de Andrade Silva;Grad.F.32;0;0;0;0;0;0
+38;Edson Luiz Souchie;Grad.IA.07,Grad.MA.1;0;0;0;0;0;0
+39;Eduardo da Costa Severiano;Grad.FS.01,Grad.MCSA.01;0;0;0;0;0;0
+42;Emival da Cunha Ribeiro;Grad.SCE.01,Grad.PTUR.01;0;0;0;0;0;0
+45;Fábio Henrique Dyszy;Grad.Bioq.03;0;0;0;0;0;0
+46;Fábio Martins Vilar de Carvalho;Grad.Evoluç.01,Grad.ZI-II.01,Grad.EPC.01,Grad.Evoluç.02;0;0;0;0;0;0
+47;Fábio Montanha Ramos;Grad.LEC.01;0;0;0;0;0;0
+48;Fernanda dos Santos Farnese;Grad.FV.01;0;0;0;0;0;0
+50;Fernando Henrique Antoniolli Farache;Grad.Embriol.01,Grad.Parasitol.01,Grad.Embriol.01;0;0;0;0;0;0
+51;Flávio Hiochio Sato;Grad.MS-I.01,Grad.RM-I.01;0;0;0;0;0;0
+52;Francisco Ribeiro de Araújo Neto;Grad.ZG.02;0;0;0;0;0;0
+53;Frankcione Borges de Almeida;GRAD.ADM.CONT.11;0;0;0;0;0;0
+54;Frederico Antonio Loureiro Soares;Grad.Bioestat.01;0;0;0;0;0;0
+55;Geovana Rocha Plácido;Grad.TOGS.01,Grad.EP.01;0;0;0;0;0;0
+56;Gilberto Colodro;Grad.Hidrolog.02;0;0;0;0;0;0
+57;Gisele Cristina de Oliveira Menino;Grad.ICB.01,Grad.SV.01,Grad.ILFFC.01,Grad.MOV.02;0;0;0;0;0;0
+59;Gustavo Quereza de Freitas;Grad.FF.02,Grad.FísicaIII.01,Grad.FE-III.01,Grad.FMB.01;0;0;0;0;0;0
+60;Haihani Silva Passos;GRAD.ADM.GP-II.10;0;0;0;0;0;0
+61;Heverton Barros de Macêdo;Grad.ED.01,Grad.LFA.01,Grad.IH.01;0;0;0;0;0;0
+62;Hipólito Tadeu Ferreira da Silva;Grad.EG.07;0;0;0;0;0;0
+63;Hugo Leonardo Souza Lara Leão;Grad.FT.05,Grad.Hidrául.I.01;0;0;0;0;0;0
+64;Idalci Cruvinel dos Reis;GRAD.ADM.MFC.01,Grad.EB.02;0;0;0;0;0;0
+66;Jânio Moreira Cordeiro;Grad.ZV.02,Grad.GP.01,Grad.ILFFC.01;0;0;0;0;0;0
+67;Jesiel Souza Silva;TCC-212,Grad.SER.03,Grad.RC.03,Grad.ECRER.02;0;0;0;0;0;0
+69;João Areis Ferreira Barbosa Júnior;Grad.FC.01;0;0;0;0;0;0
+70;Jean Marc Nacife;GRAD.ADM.TGA-I.01,Grad.Administraç.01;0;0;0;0;0;0
+72;José Aurélio Vazquez Rúbio;GRAD.ADM.LOGIST.21,Grad.AI.01;0;0;0;0;0;0
+73;José Milton Alves;Grad.EGP.02;0;0;0;0;0;0
+74;José Weselli de Sá Andrade;Grad.O.45;0;0;0;0;0;0
+75;Juarez Martins Rodrigues;Grad.A.01;0;0;0;0;0;0
+79;Kátia Aparecida de Pinho Costa;Grad.FP.01;0;0;0;0;0;0
+82;Lauro Bucker Neto;Grad.B.49,Grad.BC.02;0;0;0;0;0;0
+85;Leandro Carlos;Grad.S.01,Grad.PPJ.01,Grad.EIA.01;0;0;0;0;0;0
+86;Leonardo Nazário Silva dos Santos;Grad.A.25;0;0;0;0;0;0
+88;Letícia Fleury Viana;Grad.MA.03,Grad.CGQ.01;0;0;0;0;0;0
+89;Lia Raquel de Souza Santos;Grad.ZI.02;0;0;0;0;0;0
+91;Lucas Anjos de Souza;Grad.Bioq.01;0;0;0;0;0;0
+92;Lucas Peres Angelini;Grad.G.01,Grad.TRI.01;0;0;0;0;0;0
+93;Luciana Cristina Vitorino;Grad.MG.01;0;0;0;0;0;0
+97;Luíza Ferreira Rezende de Medeiros;Grad.PE-I.02;0;0;0;0;0;0
+98;Márcia Cristina Puydinger de Fazio;GRAD.ADM.DLE.09;0;0;0;0;0;0
+99;Márcio da Silva Vilela;Grad.Termodinam.01,Grad.MS.01;0;0;0;0;0;0
+100;Márcio Antônio Ferreira Belo Filho;Grad.AC.01,Grad.GAA.01;0;0;0;0;0;0
+102;Maria Andréia Corrêa Mendonça;Grad.BC.12,Grad.G.02,Grad.BM.02,Grad.G.42;0;0;0;0;0;0
+103;Marconi Batista Teixeira;Grad.Hidrául.I.01;0;0;0;0;0;0
+104;Marlus Dias Silva;Grad.POO.01,Grad.EW.01;0;0;0;0;0;0
+106;Matheus de Paula Ferreira;Grad.CDI.03,Grad.CDI.03;0;0;0;0;0;0
+107;Melissa Cássia Favaro Boldrin Freire;Grad.IEA.01,Grad.NB.01,Grad.TCPD.01,Grad.DNP.01;0;0;0;0;0;0
+108;Michell Macedo Alves;Grad.TE-I.01,Grad.EstMet.01;0;0;0;0;0;0
+111;Pablo da Costa Gontijo;Grad.EG.05,Grad.CSFGAM.01,Grad.PPR.01;0;0;0;0;0;0
+112;Pablo Diego Silva Cabral;Grad.Genét.02;0;0;0;0;0;0
+114;Paulo Eduardo de Menezes Silva;Grad.FV.01,Grad.FMPC.01;0;0;0;0;0;0
+115;Paulo Henrique Rodrigues Gonçalves;Grad.FC.02,Grad.FC.02,Grad.CDI.03;0;0;0;0;0;0
+116;Philippe Barbosa da Silva;Grad.IEC.01,Grad.ProjEst.01,Grad.EP.01,Grad.PortAero.01;0;0;0;0;0;0
+118;Priscila Alonso dos Santos;Grad.AA.02;0;0;0;0;0;0
+119;Rafael Carvalho de Mendonça;Grad.AC.02,Grad.RC.02;0;0;0;0;0;0
+121;Rafael Marques Pereira Leal;Grad.GP.01;0;0;0;0;0;0
+122;Raphaela Gabrí Bitencourt;Grad.IOE.01,Grad.OU.01,Grad.PI.01;0;0;0;0;0;0
+126;Roberta de Almeida Carvalho;Grad.QGA.01;0;0;0;0;0;0
+127;Roberto Castillo Pizarro;Grad.MC.01,Grad.MC.02;0;0;0;0;0;0
+128;Rodrigo Braghiroli;Grad.QE.01,Grad.QE.01,Grad.QGA.01;0;0;0;0;0;0
+129;Rogério Favareto;Grad.EQB.01,Grad.FT.02,Grad.RIA.01;0;0;0;0;0;0
+130;Rosenilde Nogueira Paniago;Grad.FC.03,Grad.PPIE-I.01,Grad.PE-II.01,Grad.PPIE-II.01;0;0;0;0;0;0
+132;Salmon Landi Júnior;Grad.FF.01,Grad.FE.01,Grad.FE.01,Grad.FEE.01;0;0;0;0;0;0
+133;Samantha Rezende Mendes;AGN-201,Grad.EA.52;0;0;0;0;0;0
+134;Samylla Tassia Ferreira de Freitas;Grad.BB.03;0;0;0;0;0;0
+135;Sebastião Carvalho Vasconcelos Filho;Grad.AV.1,Grade.BC.02;0;0;0;0;0;0
+136;Silvia Ferreira Marques Salustiano;Grad.Econom.01;0;0;0;0;0;0
+137;Suzana Maria Loures de Oliveira Marcionilio;Grade.QGA.01;0;0;0;0;0;0
+140;Tiago Clarimundo Ramos;Grad.FísicaI.01,Grad.FísicaI.01;0;0;0;0;0;0
+142;Valdnéa Casagrandre Dalvi;Grad.BC.02,Grad.AV.01;0;0;0;0;0;0
+143;Victor Baldin;Grad.DT.01;0;0;0;0;0;0
+144;Wellington Donizete Guimarães;Grad.Topog.02;0;0;0;0;0;0
+145;Wesley Renato Viali;Grad.QG.03,Grad.FQ.01;0;0;0;0;0;0
+146;Wilciene Nunes do Vale;GRAD.ADM.LPCC.05;0;0;0;0;0;0
+147;Wilker Alves Morais;Grad.APA.01,Grad.TC-I.01;0;0;0;0;0;0

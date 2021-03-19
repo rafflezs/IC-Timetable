@@ -47,6 +47,11 @@ Agenda::Agenda(Professor* recursoProfessor){
 //Possivelmente o problema esta aqui nessa função ou na debaixo
 std::list <int> Agenda::checarConsecutivo( Disciplina* disc, int dia, int tamanhoSplit, int discIndex ){
     
+    /*
+     * Comentar com o Belo sobre a mudança de disciplinas com turno "Integral" e disciplinas ministradas em contra-turnos
+     * unificando duas turmas e falar de Agronegocio (deletado)
+    */
+
     int slotInicio, slotFim;
     
     if(disc->turno == "Manhã"){
@@ -61,14 +66,14 @@ std::list <int> Agenda::checarConsecutivo( Disciplina* disc, int dia, int tamanh
             slotInicio = 0;
         slotFim = 15;
     }
-    
+
     std::list <int> listaHorarios;
     
     for(; slotInicio <= slotFim - (tamanhoSplit-1); slotInicio++){
         
         int flag = 0;
         for(int i = slotInicio; i <= slotFim; i++){
-            if(this->agenda[dia][i] != 0){
+            if(this->agenda[dia][i] != discIndex){
                 flag = 1;
                 break;
             }

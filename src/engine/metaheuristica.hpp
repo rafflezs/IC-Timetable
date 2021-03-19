@@ -36,7 +36,7 @@ class Metaheuristica{
         void printSolucoes();
         void geraListaDias(int listaDias[], int tam);
     
-        std::vector <Disciplina*> geraListaDisc(Solucao* sol);
+        std::vector <Disciplina*> geraListaDisc(Solucao* sol, int parametro);
         list <SalaSol*> selecionaSala(Solucao* sol, Disciplina* disc, TurmaSol* turma, int* dia, int* horario, int* tamanho);
 };
 

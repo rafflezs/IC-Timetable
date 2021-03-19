@@ -5,7 +5,6 @@ Solucao::Solucao(){
     this->data = new Data();
 
     data->lerDados();
-
     for(int index = 1; index < data->professores.size(); index++){
         ProfSol* prof = new ProfSol(data->professores[index]);
         this->horarioProf.insert( pair <Professor*, ProfSol*>(data->professores[index], prof) );         
