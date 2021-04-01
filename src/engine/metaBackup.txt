@@ -1,0 +1,23 @@
+for(auto p = prof.begin(); p != prof.end(); p++){
+    if(!(*p)->agendaProf->checarConsecutivo(listaDias[dia], (horariosConsec.front()), tamanhoSplit[s], 0)){
+        flag = 1;
+        break;
+    }
+}
+
+if(flag == 1){
+    horariosConsec.pop_front();
+    break;
+}
+
+for(auto p = prof.begin(); p != prof.end(); p++){
+    for(int slot = horariosConsec.front(); slot < tamanhoSplit[s] + horariosConsec.front(); slot++){
+        (*p)->agendaProf->agenda[listaDias[dia]][slot] = disc->first->index;
+    }
+}
+            
+for(int slot = horariosConsec.front(); tamanhoSplit[s] > 0; slot++, tamanhoSplit[s]--){
+    turma->second->agendaTurma->agenda[listaDias[dia]][slot] = disc->first->index;
+    turma->second->agendaTurma->printAgenda();
+    //getchar();
+}

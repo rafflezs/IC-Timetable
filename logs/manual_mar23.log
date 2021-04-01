@@ -1,0 +1,56 @@
+{
+        User: 'rafflezs-notebook'
+        Date: 23/03/2021
+
+        # Log file gerada manualmente.
+}
+
+----------------------------NOTA PESSOAL---------------------------------
+Eu gostaria de começar esse log alertando que eu estou preparado para
+dizer a n-word. Lá vai
+
+Nogueira
+
+haha você realmente pensou que eu ia dizer nigger? Bobinho.
+----------------------------FIM DA NOTA---------------------------------
+
+
+
+21:01 - O código recebeu uma pequena alteração na função Metaheuristica::geraListaDisc().
+        Devido a arquitetura do G++, todas as funções tipadas devem ter um retorno expli-
+        cito em seus escopos, o que me obrigou a colocar o vector listaDisc para fora do 
+        laço.
+
+21:06 - O código foi compilado corretamente e apresentou falhas da execução (segue abaixo):
+
+"       ...
+        Dentro do loop - Dia: 4[0] | Size of horariosConsec: 0
+        Achou horario no dia 4[0]
+        Dentro do loop - Dia: 5[2] | Size of horariosConsec: 3
+        Achou horario no dia 5[2]
+        Fora do loop - Dia: 6[1173679104] | Size of horariosConsec: 3
+        Falha de segmentação (imagem do núcleo gravada)
+"
+
+        Na função Metaheuristica::inserirInicio(), linha 85 é implementada à lógica para obter
+        um dia onde é possível inserir a disciplina.
+        Assuma uma disciplina A, e todos os horários livres para a turma a qual A pertence.
+        É correto assumir que o contador 'dia' encontraria horario logo na sua primeira iteração
+        logo 'dia = 0' para 'listaDias[dia]' (lista circular de dias possíveis).
+        O problema ocorre ao termino desse for (linha 93), o contador dia é incrementado, e esse
+        contador agora é usado na função Agenda::checarDisponibilidade(), alocando a disciplina A
+        em outro horario (até mesmo substituindo disciplinas já alocadas) ou no pior dos casos onde
+        'dia = 5' dia é incrementado para 'dia = 6', causando estouro de pilha (listaDias tem size
+        5).
+
+21:50 - Eu levei 30 minutos pra pensar em colocar uma variavel temporaria que armazena o valor cor-
+        reto de dia. Sim é uma gambiarra, mas funciona, e no momento eu não quero código bonito, eu
+        só quero seguir adiante pra poder fazer a porra da Heuristica logo.
+
+21:52 - Alice mandou um oi!
+
+22:02 - Em determinadas situações (ainda não catalogadas) o código entra em loop infinito, devido ao
+        for(dia) (linha 85) iterar até achar um horario (horariosConsec != vazio).
+        Aparentemente o problema está na função Agenda::checarConsecutivo() (linha 89).
+
+# FIM DO LOG

@@ -1,0 +1,187 @@
+ID;Disciplinas;Professor;Curso;Turma;Turno;Tipo de Sala;Qtd Alunos;CH Presencial;CH EaD;Mínimo;Splits;SEG;TER;QUA;QUI;SEX;SAB
+GRAD.ADM.MFC.01;Matemática Comercial e Financeira;Idalci Cruvinel dos Reis;Administração;ADM.BC.01;Noite;Sala;50;4;0;4;1;1-12;1-12;1-12;1-12;1-12;1-16
+GRAD.ADM.TGA-I.01;Teoria Geral da Administração I;Jean Marc Nacife;Administração;ADM.BC.01;Noite;Sala;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+GRAD.ADM.EGP.03;Ética Geral e Profissional;José Aurélio Vazquez Rúbio;Administração;ADM.BC.01;Noite;Sala;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+GRAD.ADM.CO.04;Comportamento Organizacional;Carlos Antônio Cardoso Sobrinho;Administração;ADM.BC.01;Noite;Sala;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+GRAD.ADM.LPCC.05;Língua Portuguesa e Correspondência Comercial;Wilciene Nunes do Vale;Administração;ADM.BC.01;Noite;Sala;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+GRAD.ADM.DLE.09;Direito e Legislação empresarial;Márcia Cristina Puydinger de Fazio;Administração;ADM.BC.03;Noite;Sala;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+GRAD.ADM.MARK-I.14;Marketing I;Carlos Antônio Cardoso Sobrinho;Administração;ADM.BC.03;Noite;Sala;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+GRAD.ADM.LOGIST.21;Logística;José Aurélio Vazquez Rúbio;Administração;ADM.BC.03;Noite;Sala;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+GRAD.ADM.CONT.11;Contabilidade;Frankcione Borges de Almeida;Administração;ADM.BC.03;Noite;Sala;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+GRAD.ADM.GP-II.10;Gestão de Pessoas II;Haihani Silva Passos;Administração;ADM.BC.03;Noite;Sala;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Grad.EG.07;Ecologia Geral;Hipólito Tadeu Ferreira da Silva;Agronomia;AGRO.BC.01;Tarde;Sala;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.BC.12;Biologia Celular;Maria Andréia Corrêa Mendonça;Agronomia;AGRO.BC.01;Tarde;Sala;50;5;0;5;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.MC.01;Metodologia Científica;Roberto Castillo Pizarro;Agronomia;AGRO.BC.01;Tarde;Sala;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.DT.01;Desenho Técnico;Victor Baldin;Agronomia;AGRO.BC.01;Tarde;Sala;50;6;0;2;3;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.QG.01;Química Geral;Cássia Cristina Fernandes Alves;Agronomia;AGRO.BC.01;Tarde;Sala;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.CDI.01;Cálculo Diferencial e Integral I;Aline Gobbi Dutra Guimarães;Agronomia;AGRO.BC.01;Tarde;Sala;50;5;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.IA.07;Introdução à Agronomia;Edson Luiz Souchie;Agronomia;AGRO.BC.01;Tarde;Sala;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.FS.01;Física do Solo;Eduardo da Costa Severiano;Agronomia;AGRO.BC.03;Manhã;Sala;50;5;0;5;1;7-16;7-16;7-16;7-16;7-16;1-16
+Grad.EE.01;Estatística Experimental;Adriano Jakelaitis;Agronomia;AGRO.BC.03;Manhã;Sala;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
+Grad.QA.01;Química Analítica;Ana Carolina Ribeiro Aguiar;Agronomia;AGRO.BC.03;Manhã;Sala;50;6;0;2;3;7-16;7-16;7-16;7-16;7-16;1-16
+Grad.T.01;Topografia - Planimetria;David Vieira Lima;Agronomia;AGRO.BC.03;Tarde;Sala;50;4;0;4;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.AV.1;Anatomia Vegetal;Sebastião Carvalho Vasconcelos Filho;Agronomia;AGRO.BC.03;Manhã;Sala;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
+Grad.MA.1;Microbiologia Agrícola;Edson Luiz Souchie;Agronomia;AGRO.BC.03;Manhã;Sala;50;6;0;2;3;7-16;7-16;7-16;7-16;7-16;1-16
+Grad.EG.05;Entomologia Geral;Pablo da Costa Gontijo;Agronomia;AGRO.BC.03;Manhã;Sala;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
+Grad.G.01;Geoprocessamento;Lucas Peres Angelini;Agronomia;AGRO.BC.05;Tarde;Lab;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.FV.01;Fisiologia Vegetal;Fernanda dos Santos Farnese,Paulo Eduardo de Menezes Silva;Agronomia;AGRO.BC.05;Tarde;Sala;50;5;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.MCSA.01;Manejo e Conservação do Solo e da Água;Eduardo da Costa Severiano;Agronomia;AGRO.BC.05;Tarde;Sala;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.G.02;Genética;Maria Andréia Corrêa Mendonça;Agronomia;AGRO.BC.05;Tarde;Sala;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.F.32;Fitopatologia I;Ednalva Patrícia de Andrade Silva;Agronomia;AGRO.BC.05;Tarde;Sala;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.A.25;Agrometeorologia;Leonardo Nazário Silva dos Santos;Agronomia;AGRO.BC.05;Tarde;Sala;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.ZG.02;Zootecnia Geral;Francisco Ribeiro de Araújo Neto;Agronomia;AGRO.BC.05;Tarde;Sala;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.CSFGAM.01;Culturas II (Soja, Feijão, Girassol, Algodão , Mandioca);Pablo da Costa Gontijo;Agronomia;AGRO.BC.07;Manhã;Sala;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
+Grad.AS.01;Aves e Suínos;Ana Paula Cardoso Gomide;Agronomia;AGRO.BC.07;Manhã;Sala;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
+Grad.EA.52;Economia Agrícola;Samantha Rezende Mendes;Agronomia;AGRO.BC.07;Manhã;Sala;50;2;0;2;1;7-16;7-16;7-16;7-16;7-16;1-16
+Grad.S.01;Silvicultura;Leandro Carlos;Agronomia;AGRO.BC.07;Manhã;Sala;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
+Grad.FP.01;Forragicultura e Pastagens;Kátia Aparecida de Pinho Costa;Agronomia;AGRO.BC.07;Manhã;Sala;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
+Grad.O.45;Olericultura;José Weselli de Sá Andrade;Agronomia;AGRO.BC.07;Manhã;Sala;50;4;0;4;1;7-16;7-16;7-16;7-16;7-16;1-16
+Grad.B.49;Biotecnologia;Lauro Bucker Neto;Agronomia;AGRO.BC.07;Manhã;Sala;50;2;0;2;1;7-16;7-16;7-16;7-16;7-16;1-16
+Grad.A.01;Agroecologia;Juarez Martins Rodrigues;Agronomia;AGRO.BC.07;Manhã;Sala;50;2;0;2;1;7-16;7-16;7-16;7-16;7-16;1-16
+Grad.AP.01;Avaliação e Perícias;Carlos Ribeiro Rodrigues;Agronomia;AGRO.BC.09;Tarde;Sala;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.EP.03;Ética Profissional;Carlos Ribeiro Rodrigues;Agronomia;AGRO.BC.09;Tarde;Sala;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.SER.03;Sociologia e Extensão Rural;Jesiel Souza Silva;Agronomia;AGRO.BC.09;Tarde;Sala;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.FMPC.01;Fisiologia e Manejo de Pós-Colheita;Paulo Eduardo de Menezes Silva;Agronomia;AGRO.BC.09;Tarde;Sala;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.PPR.01;Proteção de Plantas e Receituário Agronômico;Pablo da Costa Gontijo;Agronomia;AGRO.BC.09;Tarde;Sala;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.EGP.02;Elaboração e Gestão de Projetos;José Milton Alves;Agronomia;AGRO.BC.09;Tarde;Sala;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.PPJ.01;Parques e Jardins;Leandro Carlos;Agronomia;AGRO.BC.09;Tarde;Sala;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.FC.01;Física para Computação;João Areis Ferreira Barbosa Júnior;Ciência da Computação;BCC.BC.01;Tarde;Sala;50;5;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.FundSist.01;Fundamentos de Sistemas;Adriano Soares de Oliveira Bailão;Ciência da Computação;BCC.BC.01;Tarde;Sala;50;5;0;5;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.AC.01;Análise Combinatória;Márcio Antônio Ferreira Belo Filho;Ciência da Computação;BCC.BC.01;Tarde;Sala;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.LM.01;Lógica Matemática;Aline Gobbi Dutra Guimarães;Ciência da Computação;BCC.BC.01;Tarde;Sala;50;5;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.APC.01;Algoritmos e Programação de Computadores;André da Cunha Ribeiro;Ciência da Computação;BCC.BC.01;Tarde;Info;50;5;0;5;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.ED.01;Estruturas de Dados I;Heverton Barros de Macêdo;Ciência da Computação;BCC.BC.03;Manhã;Info;50;5;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
+Grad.POO.01;Programação Orientada a Objetos;Marlus Dias Silva;Ciência da Computação;BCC.BC.03;Manhã;Info;50;5;0;5;1;7-16;7-16;7-16;7-16;7-16;1-16
+Grad.EB.02;Estatística Básica;Idalci Cruvinel dos Reis;Ciência da Computação;BCC.BC.03;Manhã;Sala;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
+Grad.LEC.01;Legislação e Ética na Computação;Fábio Montanha Ramos;Ciência da Computação;BCC.BC.03;Manhã;Sala;50;2;0;2;1;7-16;7-16;7-16;7-16;7-16;1-16
+Grad.AC.02;Arquitetura de Computadores;Rafael Carvalho de Mendonça;Ciência da Computação;BCC.BC.03;Manhã;Info;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
+Grad.PLP.01;Prática de Laboratório de Pesquisa (Ambientação);André da Cunha Ribeiro;Ciência da Computação;BCC.BC.03;Manhã;Info;50;4;0;4;1;7-16;7-16;7-16;7-16;7-16;1-16
+Grad.PLP.03;Prática de Laboratório de Pesquisa (Maturação 1);Douglas Cedrim Oliveira;Ciência da Computação;BCC.BC.05;Tarde;Info;50;4;0;4;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.RC.02;Redes de Computadores II;Rafael Carvalho de Mendonça;Ciência da Computação;BCC.BC.05;Tarde;Info;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.TG.01;Teoria dos Grafos;André da Cunha Ribeiro;Ciência da Computação;BCC.BC.05;Tarde;Info;50;4;0;4;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.ES.01;Engenharia de Software;Adriano Soares de Oliveira Bailão;Ciência da Computação;BCC.BC.05;Tarde;Info;50;5;0;5;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.EW.01;Engenharia Web;Marlus Dias Silva;Ciência da Computação;BCC.BC.05;Tarde;Info;50;4;0;4;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.LFA.01;Linguagens Formais e Autômatos;Heverton Barros de Macêdo;Ciência da Computação;BCC.BC.05;Tarde;Info;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.PS.01;Projeto de Software;Adriano Soares de Oliveira Bailão;Ciência da Computação;BCC.BC.07;Manhã;Sala;50;4;0;4;1;7-16;7-16;7-16;7-16;7-16;1-16
+Grad.IA.01;Inteligência Artificial;Adriano Soares de Oliveira Bailão;Ciência da Computação;BCC.BC.07;Manhã;Sala;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
+Grad.SD.02;Sistemas Distribuídos;Douglas Cedrim Oliveira;Ciência da Computação;BCC.BC.07;Manhã;Info;50;4;0;4;1;7-16;7-16;7-16;7-16;7-16;1-16
+Grad.PLP.05;Prática de Laboratório de Pesquisa (TCC - parte 1);André da Cunha Ribeiro;Ciência da Computação;BCC.BC.07;Manhã;Info;50;4;0;4;1;7-16;7-16;7-16;7-16;7-16;1-16
+Grad.IH.01;Interação Humano - Computador;Heverton Barros de Macêdo;Ciência da Computação;BCC.BC.07;Manhã;Info;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
+Grad.RC.03;Redação Científica;Jesiel Souza Silva;Ciências Biológicas (bacharelado);BIO.BC.01;Tarde;Sala;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.FC.02;Fundamentos de Cálculo;Paulo Henrique Rodrigues Gonçalves;Ciências Biológicas (bacharelado);BIO.BC.01;Tarde;Sala;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.BC.02;Biologia Celular;Valdnéa Casagrandre Dalvi;Ciências Biológicas (bacharelado);BIO.BC.01;Tarde;Sala;50;5;0;1;3;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.MC.02;Metodologia Científica;Roberto Castillo Pizarro;Ciências Biológicas (bacharelado);BIO.BC.01;Tarde;Sala;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.QGA.01;Química Geral e Analítica;Roberta de Almeida Carvalho;Ciências Biológicas (bacharelado);BIO.BC.01;Tarde;Sala;50;5;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.FF.01;Fundamentos de Física;Salmon Landi Júnior;Ciências Biológicas (bacharelado);BIO.BC.01;Tarde;Sala;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.ICB.01;Introdução as Ciências Biológicas;Gisele Cristina de Oliveira Menino;Ciências Biológicas (bacharelado);BIO.BC.01;Tarde;Sala;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.FC.03;Filosofia da Ciência;Rosenilde Nogueira Paniago;Ciências Biológicas (bacharelado);BIO.BC.01;Tarde;Sala;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.AV.01;Anatomia Vegetal;Valdnéa Casagrandre Dalvi;Ciências Biológicas (bacharelado);BIO.BC.03;Manhã;Sala;50;5;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
+Grad.Bioq.01;Bioquímica;Lucas Anjos de Souza;Ciências Biológicas (bacharelado);BIO.BC.03;Manhã;Sala;50;5;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
+Grad.BM.02;Biologia Molecular;Maria Andréia Corrêa Mendonça;Ciências Biológicas (bacharelado);BIO.BC.03;Manhã;Sala;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
+Grad.Embriol.01;Embriologia;Fernando Henrique Antoniolli Farache;Ciências Biológicas (bacharelado);BIO.BC.03;Manhã;Sala;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
+Grad.G.42;Genética II;Maria Andréia Corrêa Mendonça;Ciências Biológicas (bacharelado);BIO.BC.03;Manhã;Sala;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
+Grad.ZI.02;Zoologia dos Invertebrados II;Lia Raquel de Souza Santos;Ciências Biológicas (bacharelado);BIO.BC.03;Manhã;Sala;50;6;0;2;3;7-16;7-16;7-16;7-16;7-16;1-16
+Grad.CA.02;Comportamento Animal;Alessandro Ribeiro de Morais;Ciências Biológicas (bacharelado);BIO.BC.05;Tarde;Sala;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.EIA.01;Estudos de Impacto Ambiental;Leandro Carlos;Ciências Biológicas (bacharelado);BIO.BC.05;Tarde;Sala;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.Evoluç.01;Evolução;Fábio Martins Vilar de Carvalho;Ciências Biológicas (bacharelado);BIO.BC.05;Tarde;Sala;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.MG.01;Microbiologia Geral;Luciana Cristina Vitorino;Ciências Biológicas (bacharelado);BIO.BC.05;Tarde;Sala;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.Parasitol.01;Parasitologia;Fernando Henrique Antoniolli Farache;Ciências Biológicas (bacharelado);BIO.BC.05;Tarde;Sala;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.Libras.02;Libras;Brunna Dias Cardoso;Ciências Biológicas (bacharelado);BIO.BC.05;Tarde;Sala;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.ZV.02;Zoologia de Vertebrados II;Jânio Moreira Cordeiro;Ciências Biológicas (bacharelado);BIO.BC.05;Tarde;Sala;50;4;0;4;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.SV.01;Sistemática Vegetal;Gisele Cristina de Oliveira Menino;Ciências Biológicas (bacharelado);BIO.BC.05;Tarde;Sala;50;4;0;4;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.APA.01;Auditoria e Perícia Ambiental;Wilker Alves Morais;Ciências Biológicas (bacharelado);BIO.BC.07;Tarde;Sala;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.FCV.01;Fisiologia Comparada de Vertebrados;Alessandro Ribeiro de Morais;Ciências Biológicas (bacharelado);BIO.BC.07;Manhã;Sala;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
+Grad.GP.01;Geologia e Paleontologia;Rafael Marques Pereira Leal,Jânio Moreira Cordeiro;Ciências Biológicas (bacharelado);BIO.BC.07;Manhã;Sala;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
+Grad.ILFFC.01;Inventário e Levantamento de Fauna e Flora do Cerrado;Gisele Cristina de Oliveira Menino,Jânio Moreira Cordeiro;Ciências Biológicas (bacharelado);BIO.BC.07;Manhã;Sala;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
+Grade.BC.02;Biologia Celular;Sebastião Carvalho Vasconcelos Filho;Ciências Biológicas (licenciatura);BIO.LI.01;Noite;Sala;50;5;0;2;2;1-12;1-12;1-12;1-12;1-12;0
+Grad.FF.02;Fundamentos da Física;Gustavo Quereza de Freitas;Ciências Biológicas (licenciatura);BIO.LI.01;Noite;Sala;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;0
+Grad.FC.02;Fundamentos de Cálculo;Paulo Henrique Rodrigues Gonçalves;Ciências Biológicas (licenciatura);BIO.LI.01;Noite;Sala;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;0
+Grad.FFE.01;Fundamentos Filosóficos da Educação;Brunna Dias Cardoso;Ciências Biológicas (licenciatura);BIO.LI.01;Noite;Sala;50;3;0;3;1;1-12;1-12;1-12;1-12;1-12;0
+Grad.MC.02;Metodologia Científica;Aline Ditomaso;Ciências Biológicas (licenciatura);BIO.LI.01;Noite;Sala;50;6;0;2;3;1-12;1-12;1-12;1-12;1-12;0
+Grade.QGA.01;Química Geral e Analítica;Suzana Maria Loures de Oliveira Marcionilio;Ciências Biológicas (licenciatura);BIO.LI.01;Noite;Sala;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;0
+Grad.Bioestat.01;Bioestatística;Frederico Antonio Loureiro Soares;Ciências Biológicas (licenciatura);BIO.LI.03;Noite;Sala;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;0
+Grad.Bioq.03;Bioquímica;Fábio Henrique Dyszy;Ciências Biológicas (licenciatura);BIO.LI.03;Noite;Sala;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;0
+Grad.Embriol.01;Embriologia;Fernando Henrique Antoniolli Farache;Ciências Biológicas (licenciatura);BIO.LI.03;Noite;Sala;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;0
+Grad.PE-I.02;Psicologia da Educação I;Luíza Ferreira Rezende de Medeiros;Ciências Biológicas (licenciatura);BIO.LI.03;Noite;Sala;50;3;0;1;1;1-12;1-12;1-12;1-12;1-12;0
+Grad.ZI-II.01;Zoologia dos Invertebrados II;Fábio Martins Vilar de Carvalho;Ciências Biológicas (licenciatura);BIO.LI.03;Noite;Sala;50;6;0;2;3;1-12;1-12;1-12;1-12;1-12;0
+Grad.EPC.01;Ecologia de Populações e Comunidades;Fábio Martins Vilar de Carvalho;Ciências Biológicas (licenciatura);BIO.LI.05;Noite;Sala;50;3;0;1;2;1-12;1-12;1-12;1-12;1-12;0
+Grad.Genét.02;Genética;Pablo Diego Silva Cabral;Ciências Biológicas (licenciatura);BIO.LI.05;Noite;Sala;50;5;0;2;2;1-12;1-12;1-12;1-12;1-12;0
+Grad.MOV.02;Morfologia e Organografia Vegetal;Gisele Cristina de Oliveira Menino;Ciências Biológicas (licenciatura);BIO.LI.05;Noite;Sala;50;4;1;2;2;1-12;1-12;1-12;1-12;1-12;0
+Grad.PPIE-I.01;Pesquisa e Práticas de Intervenção em Educação I;Rosenilde Nogueira Paniago;Ciências Biológicas (licenciatura);BIO.LI.05;Noite;Sala;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;0
+Grad.PE-II.01;Psicologia da Educação II;Rosenilde Nogueira Paniago;Ciências Biológicas (licenciatura);BIO.LI.05;Noite;Sala;50;2;1;2;1;1-12;1-12;1-12;1-12;1-12;0
+Grad.SCE.01;Sociedade, Cultura e Educação;Emival da Cunha Ribeiro;Ciências Biológicas (licenciatura);BIO.LI.05;Noite;Sala;50;3;0;3;1;1-12;1-12;1-12;1-12;1-12;0
+Grad.ECRER.02;Educação, Cultura e Relações Etníco-Raciais;Jesiel Souza Silva;Ciências Biológicas (licenciatura);BIO.LI.07;Noite;Sala;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Grad.Evoluç.02;Evolução;Fábio Martins Vilar de Carvalho;Ciências Biológicas (licenciatura);BIO.LI.07;Noite;Sala;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Grad.PPIE-II.01;Pesquisa e Práticas de Intervenção em Educação II;Rosenilde Nogueira Paniago;Ciências Biológicas (licenciatura);BIO.LI.07;Noite;Sala;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Grad.Libras.02;Libras;Brunna Dias Cardoso;Ciências Biológicas (licenciatura);BIO.LI.07;Noite;Sala;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Grad.CDI.03;Cálculo Diferencial e Integral I;Matheus de Paula Ferreira;Engenharia Química;ENG.QUI.01;Tarde;Sala;50;5;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
+Grad.QG.03;Química Geral;Wesley Renato Viali;Engenharia Química;ENG.QUI.01;Tarde;Sala;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
+Grad.QE.01;Química Experimental;Rodrigo Braghiroli;Engenharia Química;ENG.QUI.01;Tarde;Sala;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
+Grad.FísicaI.01;Física I;Tiago Clarimundo Ramos;Engenharia Química;ENG.QUI.01;Tarde;Sala;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
+Grad.FE.01;Física Experimental I;Salmon Landi Júnior;Engenharia Química;ENG.QUI.01;Tarde;Sala;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
+Grad.GAAL.01;Geometria Analítica e Álgebra Linear;Abner Santos Baroni Sales;Engenharia Química;ENG.QUI.01;Tarde;Sala;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
+Grad.EQB.01;Introdução à Engenharia Química;Rogério Favareto;Engenharia Química;ENG.QUI.01;Tarde;Sala;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
+Grad.IEC.01;Introdução à Engenharia Civil;Philippe Barbosa da Silva;Engenharia Civil;ENG.CIV.01;Tarde;Sala;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
+Grad.QG.03;Química Geral;Cássia Cristina Fernandes Alves;Engenharia Civil;ENG.CIV.01;Tarde;Sala;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
+Grad.DT.02;Desenho Técnico;Bruna Oliveira Campos;Engenharia Civil;ENG.CIV.01;Tarde;Sala;50;6;0;2;3;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
+Grad.QE.01;Química Experimental;Rodrigo Braghiroli;Engenharia Civil;ENG.CIV.01;Tarde;Sala;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
+Grad.CDI.03;Cálculo Diferencial e Integral I;Matheus de Paula Ferreira;Engenharia Civil;ENG.CIV.01;Tarde;Sala;50;5;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
+Grad.FísicaI.01;Física I;Tiago Clarimundo Ramos;Engenharia Civil;ENG.CIV.01;Tarde;Sala;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
+Grad.FE.01;Física Experimental I;Salmon Landi Júnior;Engenharia Civil;ENG.CIV.01;Tarde;Sala;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
+Grad.FísicaIII.01;Física III;Gustavo Quereza de Freitas;Engenharia Civil;ENG.CIV.03;Manhã;Sala;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;0
+Grad.FE-III.01;Física Experimental III;Gustavo Quereza de Freitas;Engenharia Civil;ENG.CIV.03;Manhã;Sala;50;2;0;2;1;7-16;7-16;7-16;7-16;7-16;0
+Grad.AU.01;Arquitetura e Urbanismo;Bruna Oliveira Campos;Engenharia Civil;ENG.CIV.03;Manhã;Sala;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;0
+Grad.GAA.01;Geometria Analítica e Álgebra Linear;Márcio Antônio Ferreira Belo Filho;Engenharia Civil;ENG.CIV.03;Manhã;Sala;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;0
+Grad.FT.05;Fenômenos dos Transportes;Hugo Leonardo Souza Lara Leão;Engenharia Civil;ENG.CIV.03;Manhã;Sala;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;0
+Grad.Topog.02;Topografia - Altimetria;Wellington Donizete Guimarães;Engenharia Civil;ENG.CIV.03;Manhã;Sala;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;0
+Grad.SED.01;Séries e Equações Diferenciais Ordinárias;Caíke da Rocha Damke;Engenharia Civil;ENG.CIV.03;Manhã;Sala;50;2;0;2;1;7-16;7-16;7-16;7-16;7-16;0
+Grad.MS-I.01;Mecânica dos Solos I;Flávio Hiochio Sato;Engenharia Civil;ENG.CIV.05;Manhã;Sala;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;0
+Grad.MCC-II.01;Materiais de Construção Civil II;Bacus de Oliveira Nahime;Engenharia Civil;ENG.CIV.05;Tarde;Sala;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
+Grad.Hidrolog.02;Hidrologia;Gilberto Colodro;Engenharia Civil;ENG.CIV.05;Tarde;Sala;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
+Grad.TE-I.01;Teoria das Estruturas I;Michell Macedo Alves;Engenharia Civil;ENG.CIV.05;Tarde;Sala;50;5;0;5;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
+Grad.RM-I.01;Resistência dos Materiais I;Flávio Hiochio Sato;Engenharia Civil;ENG.CIV.05;Tarde;Sala;50;5;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
+Grad.Hidrául.I.01;Hidráulica I;Marconi Batista Teixeira,Hugo Leonardo Souza Lara Leão;Engenharia Civil;ENG.CIV.05;Tarde;Sala;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
+Grad.ECA-I.01;Estruturas de Concreto Armado I;Alexsandro dos Santos Felipe;Engenharia Civil;ENG.CIV.07;Manhã;Sala;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
+Grad.EstMet.01;Estruturas Metálicas;Michell Macedo Alves;Engenharia Civil;ENG.CIV.07;Manhã;Sala;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
+Grad.SAAE.01;Sistemas de Abastecimento de Água e Coleta de Esgoto;Édio Damásio da Silva Júnior;Engenharia Civil;ENG.CIV.07;Manhã;Sala;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
+Grad.IPH.02;Instalações Prediais Hidrosanitárias;Bruna Vilela Buiatte Silva;Engenharia Civil;ENG.CIV.07;Manhã;Sala;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
+Grad.ProjEst.01;Projeto de Estradas;Philippe Barbosa da Silva;Engenharia Civil;ENG.CIV.07;Manhã;Sala;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
+Grad.EM.01;Estruturas de Madeira;Alexsandro dos Santos Felipe;Engenharia Civil;ENG.CIV.09;Tarde;Sala;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.Econom.01;Economia;Silvia Ferreira Marques Salustiano;Engenharia Civil;ENG.CIV.09;Tarde;Sala;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.Administraç.01;Administração;Jean Marc Nacife;Engenharia Civil;ENG.CIV.09;Tarde;Sala;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.EP.01;Ética Profissional;Philippe Barbosa da Silva;Engenharia Civil;ENG.CIV.09;Tarde;Sala;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.HST.01;Higiene e Segurança do Trabalho;Bruna Elói do Amaral;Engenharia Civil;ENG.CIV.09;Tarde;Sala;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.PortAero.01;Portos e Aeroportos;Philippe Barbosa da Silva;Engenharia Civil;ENG.CIV.09;Tarde;Sala;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.TC-I.01;Trabalho de Curso I;Wilker Alves Morais;Engenharia Civil;ENG.CIV.09;Tarde;Sala;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.CDI.03;Cálculo Diferencial e Integral I;Paulo Henrique Rodrigues Gonçalves;Engenharia de Alimentos;ENG.ALI.01;Tarde;Sala;50;5;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
+Grad.BC.02;Biologia Celular;Lauro Bucker Neto;Engenharia de Alimentos;ENG.ALI.01;Tarde;Sala;50;5;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
+Grad.FMB.01;Física I;Gustavo Quereza de Freitas;Engenharia de Alimentos;ENG.ALI.01;Tarde;Sala;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
+Grad.GAAL.01;Geometria Analítica e Álgebra Linear;Abner Santos Baroni Sales;Engenharia de Alimentos;ENG.ALI.01;Tarde;Sala;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
+Grad.QGA.01;Química Geral e Analítica;Celso Martins Belisário,Rodrigo Braghiroli;Engenharia de Alimentos;ENG.ALI.01;Tarde;Sala;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
+Grad.IEA.01;Introdução à Engenharia de Alimentos;Melissa Cássia Favaro Boldrin Freire;Engenharia de Alimentos;ENG.ALI.01;Tarde;Sala;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
+Grad.MC.02;Metodologia Científica;Aline Ditomaso;Engenharia de Alimentos;ENG.ALI.01;Tarde;Sala;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
+Grad.SEDO.02;Séries e Equações e Diferenciais Ordinárias;Caíke da Rocha Damke;Engenharia de Alimentos;ENG.ALI.03;Manhã;Sala;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;0
+Grad.FEE.01;Física II;Salmon Landi Júnior;Engenharia de Alimentos;ENG.ALI.03;Manhã;Sala;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;0
+Grad.FQ.01;Físico-Química I;Wesley Renato Viali;Engenharia de Alimentos;ENG.ALI.03;Manhã;Sala;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;0
+Grad.EE.02;Estatística Experimental;Adriano Jakelaitis;Engenharia de Alimentos;ENG.ALI.03;Manhã;Sala;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;0
+Grad.BB.03;Bioquímica Básica;Samylla Tassia Ferreira de Freitas;Engenharia de Alimentos;ENG.ALI.03;Manhã;Sala;50;5;0;2;2;7-16;7-16;7-16;7-16;7-16;0
+Grad.IOE.01;Introdução às Operações para Engenharia;Raphaela Gabrí Bitencourt;Engenharia de Alimentos;ENG.ALI.03;Manhã;Sala;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;0
+Grad.AI.01;Administração Industrial;José Aurélio Vazquez Rúbio;Engenharia de Alimentos;ENG.ALI.03;Manhã;Sala;50;2;0;2;1;7-16;7-16;7-16;7-16;7-16;0
+Grad.MA.03;Microbiologia de Alimentos;Letícia Fleury Viana;Engenharia de Alimentos;ENG.ALI.05;Tarde;Sala;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
+Grad.Termodinam.01;Termodinâmica;Márcio da Silva Vilela;Engenharia de Alimentos;ENG.ALI.05;Tarde;Sala;50;5;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
+Grad.FT.02;Fenômenos de Transporte II;Rogério Favareto;Engenharia de Alimentos;ENG.ALI.05;Tarde;Sala;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
+Grad.AA.02;Análise de Alimentos;Priscila Alonso dos Santos;Engenharia de Alimentos;ENG.ALI.05;Tarde;Sala;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
+Grad.NB.01;Nutrição Básica;Melissa Cássia Favaro Boldrin Freire;Engenharia de Alimentos;ENG.ALI.05;Tarde;Sala;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
+Grad.MS.01;Mecânica dos Sólidos;Márcio da Silva Vilela;Engenharia de Alimentos;ENG.ALI.05;Tarde;Sala;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
+Grad.RIA.01;Refrigeração na Indústria de Alimentos;Rogério Favareto;Engenharia de Alimentos;ENG.ALI.07;Manhã;Sala;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
+Grad.TCPD.01;Tecnologia de Carnes, Pescados e Derivados;Melissa Cássia Favaro Boldrin Freire;Engenharia de Alimentos;ENG.ALI.07;Manhã;Sala;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
+Grad.TCAD.01;Tecnologia de Cereais, Amidos e Derivados;Amanda Barbosa de Faria;Engenharia de Alimentos;ENG.ALI.07;Manhã;Sala;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
+Grad.OU.01;Operações Unitárias I;Raphaela Gabrí Bitencourt;Engenharia de Alimentos;ENG.ALI.07;Manhã;Sala;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
+Grad.PTUR.01;Planejamento Territorial Urbano e Rural;Emival da Cunha Ribeiro;Engenharia de Alimentos;ENG.ALI.07;Manhã;Sala;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
+Grad.AEA.01;Acondicionamento e Embalagem de Alimentos;Amanda Barbosa de Faria;Engenharia de Alimentos;ENG.ALI.09;Tarde;Sala;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.TRI.01;Tratamento de Rejeitos Industriais;Lucas Peres Angelini;Engenharia de Alimentos;ENG.ALI.09;Tarde;Sala;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.TOGS.01;Tecnologia de Óleos, Gorduras e Subprodutos;Geovana Rocha Plácido;Engenharia de Alimentos;ENG.ALI.09;Tarde;Sala;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.CGQ.01;Controle e Gestão da Qualidade;Letícia Fleury Viana;Engenharia de Alimentos;ENG.ALI.09;Tarde;Sala;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.DNP.01;Desenvolvimento de Novos Produtos;Melissa Cássia Favaro Boldrin Freire;Engenharia de Alimentos;ENG.ALI.09;Tarde;Sala;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.PI.01;Projetos Industriais;Raphaela Gabrí Bitencourt;Engenharia de Alimentos;ENG.ALI.09;Tarde;Sala;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Grad.EP.01;Ética Profissional;Geovana Rocha Plácido;Engenharia de Alimentos;ENG.ALI.09;Tarde;Sala;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
