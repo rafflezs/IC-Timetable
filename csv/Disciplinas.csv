@@ -69,7 +69,11 @@ Grad.PLP.05;Prática de Laboratório de Pesquisa (TCC - parte 1);André da Cunha
 Grad.IH.01;Interação Humano - Computador;Heverton Barros de Macêdo;Ciência da Computação;BCC.BC.07;Manhã;Info;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
 Grad.RC.03;Redação Científica;Jesiel Souza Silva;Ciências Biológicas (bacharelado);BIO.BC.01;Tarde;Sala;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
 Grad.FC.02;Fundamentos de Cálculo;Paulo Henrique Rodrigues Gonçalves;Ciências Biológicas (bacharelado);BIO.BC.01;Tarde;Sala;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+<<<<<<< HEAD
 Grad.BC.02;Biologia Celular;Valdnéa Casagrandre Dalvi;Ciências Biológicas (bacharelado);BIO.BC.01;Tarde;Sala;50;5;0;1;3;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+=======
+Grad.BC.02;Biologia Celular;Valdnéa Casagrandre Dalvi;Ciências Biológicas (bacharelado);BIO.BC.01;Tarde;Sala;50;5;0;1;3z;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+>>>>>>> 4134e65c2532db22460681a29833cc4cc6e09d47
 Grad.MC.02;Metodologia Científica;Roberto Castillo Pizarro;Ciências Biológicas (bacharelado);BIO.BC.01;Tarde;Sala;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
 Grad.QGA.01;Química Geral e Analítica;Roberta de Almeida Carvalho;Ciências Biológicas (bacharelado);BIO.BC.01;Tarde;Sala;50;5;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
 Grad.FF.01;Fundamentos de Física;Salmon Landi Júnior;Ciências Biológicas (bacharelado);BIO.BC.01;Tarde;Sala;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
