@@ -88,8 +88,6 @@ void Metaheuristica::inserirInicio( Solucao* sol, std::set <Disciplina*> listaDi
         horariosConsec.clear();
         for(int s = 0, dia = 0; s < splits; s++, dia++){
             
-
-
             cout << "Faltam " << disc->second->aulasRestantes << "para alocar\n";
             int travaDisc;
             
