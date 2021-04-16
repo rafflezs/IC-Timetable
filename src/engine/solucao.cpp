@@ -23,6 +23,8 @@ Solucao::Solucao(){
 
     for(int index = 1; index < data->disciplinas.size(); index++){
         DiscSol* disc = new DiscSol(data, data->disciplinas[index]);
+        cout << "Leu disc: ";
+        cout << disc->disciplina->index << endl;
         discSol.insert( pair<Disciplina*, DiscSol*> (data->disciplinas[index], disc) );
     }
 }

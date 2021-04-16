@@ -25,7 +25,7 @@ vector <Professor*> Data::lerProfessor(map<string, int> *mapProf){
     int id = 0;
 
     ifstream file;
-    file.open("../csv/Professores.csv");
+    file.open("/home/rafflezs/Documentos/universityTimetabling/csv/Professores.csv");
 
     getline(file, tempString, '\n');
 
@@ -76,7 +76,7 @@ vector<Sala*> Data::lerSala(){
     int id = 0;
 
     ifstream file;
-    file.open("../csv/Salas.csv");
+    file.open("/home/rafflezs/Documentos/universityTimetabling/csv/Salas.csv");
 
     getline(file, tempString, '\n');
 
@@ -129,7 +129,7 @@ vector <Disciplina*> Data::lerDisc(map<string, int> *mapDisc){
     int id = 0;
 
     ifstream file;
-    file.open("../csv/Disciplinas.csv");
+    file.open("/home/rafflezs/Documentos/universityTimetabling/csv/Disciplinas.csv");
 
     getline(file, tempString, '\n');
 
@@ -191,7 +191,7 @@ vector <Curso*> Data::lerCurso(){
     int id = 0;
 
     ifstream file;
-    file.open("../csv/Cursos.csv");
+    file.open("/home/rafflezs/Documentos/universityTimetabling/csv/Cursos.csv");
 
     getline(file, tempString, '\n');
 
@@ -242,7 +242,7 @@ vector <Turma*> Data::lerTurma(map<string, int> *mapTurma, vector <Curso*> curso
     int id = 0;
 
     ifstream file;
-    file.open("../csv/Turmas.csv");
+    file.open("/home/rafflezs/Documentos/universityTimetabling/csv/Turmas.csv");
 
     getline(file, tempString, '\n');
 
@@ -352,7 +352,7 @@ void Data::relaciona(vector<Professor*> professores, map<string, int> *mapDisc){
 
     string tempString;
     ifstream file;
-    file.open("../csv/Professores.csv");
+    file.open("/home/rafflezs/Documentos/universityTimetabling/csv/Professores.csv");
 
     getline(file, tempString, '\n');
 
@@ -380,7 +380,7 @@ void Data::relaciona(vector<Disciplina*> disciplinas, map<string, int> *mapProf,
 
     string tempString;
     ifstream file;
-    file.open("../csv/Disciplinas.csv");
+    file.open("/home/rafflezs/Documentos/universityTimetabling/csv/Disciplinas.csv");
 
     getline(file, tempString, '\n');
 
@@ -393,6 +393,7 @@ void Data::relaciona(vector<Disciplina*> disciplinas, map<string, int> *mapProf,
         vector <string> nomeProf = separadorString(colData[2], ',');
         
         for(auto nome = nomeProf.begin(); nome != nomeProf.end(); nome++){
+            std::cout << colData[1] << " " << (*nome) << std::endl;
             for(auto mp = mapProf->begin(); mp != mapProf->end(); mp++){
                 if(mp->first == (*nome)){
                     disciplinas[tempDisc]->professorIndex.push_back(mp->second);
@@ -413,7 +414,7 @@ void Data::relaciona(vector<Turma*> turmas, map<string, int> *mapProf, map<strin
 
     string tempString;
     ifstream file;
-    file.open("../csv/Turmas.csv");
+    file.open("/home/rafflezs/Documentos/universityTimetabling/csv/Turmas.csv");
 
     getline(file, tempString, '\n');
 

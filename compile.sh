@@ -1,0 +1,1 @@
+g++ -g ./src/main.cpp ./src/class/*.cpp ./src/engine/*.cpp ./src/io/*.cpp -o exe -lm && ./exe

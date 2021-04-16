@@ -9,15 +9,21 @@ Metaheuristica::Metaheuristica(){
     
     for( int i = 1; i < solucoes.size(); i++ ){
         auto listaDisc = geraListaDisc( &solucoes[i], rand() % 2);
+        cout << "ListaDisc size(): " << listaDisc.size() << endl;
+        cout << "Comecando inserirInicio" << endl;
         inserirInicio( &solucoes[i], listaDisc );
         //std::cout << endl << "Função objetivo: " << solucoes[i].calcFuncObjetivo(solucoes[i].data) << std::endl;
     }
     //trocarHorario(solucoes[1]);
-    printSolucoes();
+    //printSolucoes();
 }
 
 void Metaheuristica::inserirInicio( Solucao* sol, std::set <Disciplina*> listaDisc ){
     /*  Loop de disciplinas em ordem randomica (ver geraListaDisc) */
+
+    for(auto l = listaDisc.begin(); l != listaDisc.end(); l++){
+        cout << (*l)->id << " ";
+    }cout << endl;
 
     
 } //!_inserirInicio()
@@ -93,9 +99,11 @@ std::set <Disciplina*> Metaheuristica::geraListaDisc(Solucao* sol, int parametro
         random_shuffle( discResto.begin(), discResto.end() ); 
 
         for(auto it = discPrioridade.begin(); it != discPrioridade.end(); it++){
+            cout << *it;
             listaDisc.insert( sol->data->disciplinas[(*it)] );
         }
         for(auto it = discResto.begin(); it != discResto.end(); it++){
+            cout << *it;
             listaDisc.insert( sol->data->disciplinas[(*it)] );
         }
     } break;
@@ -105,12 +113,13 @@ std::set <Disciplina*> Metaheuristica::geraListaDisc(Solucao* sol, int parametro
         random_shuffle(temp.begin(), temp.end());
         for (auto prof = temp.begin(); prof != temp.end(); prof++){
             for (auto disc = (*prof)->listaDiscs.begin(); disc != (*prof)->listaDiscs.end(); disc++) {
+                cout << (*disc)->index;
                 listaDisc.insert((*disc));
             }
         }
     } break;
 
     }
-
+    cout << endl;
     return listaDisc;
 }
