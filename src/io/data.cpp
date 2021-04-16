@@ -393,7 +393,6 @@ void Data::relaciona(vector<Disciplina*> disciplinas, map<string, int> *mapProf,
         vector <string> nomeProf = separadorString(colData[2], ',');
         
         for(auto nome = nomeProf.begin(); nome != nomeProf.end(); nome++){
-            std::cout << colData[1] << " " << (*nome) << std::endl;
             for(auto mp = mapProf->begin(); mp != mapProf->end(); mp++){
                 if(mp->first == (*nome)){
                     disciplinas[tempDisc]->professorIndex.push_back(mp->second);
