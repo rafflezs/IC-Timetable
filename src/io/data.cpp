@@ -1,5 +1,6 @@
 #include "data.hpp"
 
+
 void Data::lerDados(){
 
     map<string, int> mapProf;
@@ -17,8 +18,8 @@ void Data::lerDados(){
     relaciona(turmas, &mapProf, &mapDisc);
 }
 
-vector <Professor*> Data::lerProfessor(map<string, int> *mapProf){
 
+vector <Professor*> Data::lerProfessor(map<string, int> *mapProf){
     //Corresponde as colunas de cada linha de informação
     vector <string> colData;
     string tempString;
@@ -64,12 +65,11 @@ vector <Professor*> Data::lerProfessor(map<string, int> *mapProf){
 
         professores.push_back(prof);
     }
-    
     return professores;
 }
 
-vector<Sala*> Data::lerSala(){
 
+vector<Sala*> Data::lerSala(){
     //Corresponde as colunas de cada linha de informação
     vector <string> colData;
     string tempString;
@@ -147,6 +147,9 @@ vector <Disciplina*> Data::lerDisc(map<string, int> *mapDisc){
         getline(file, tempString, '\n');
         colData = separadorString(tempString, ';');
 
+        //Linha que descobre merda
+        //cout << colData[1] << endl;
+
         if(colData.size() <= 0) break;
 
         Disciplina* disc = new Disciplina();
@@ -154,15 +157,22 @@ vector <Disciplina*> Data::lerDisc(map<string, int> *mapDisc){
         disc->id = colData[0];
         disc->nome = colData[1];
 
+        cout << disc->nome << endl;
+
         disc->turno = colData[5];
 
-        disc->tipoSala = colData[6];
+        disc->sala = separadorString(colData[6], ',');
+        disc->lab = separadorString(colData[7], ',');
+        cout << "Lab: " << colData[7] << endl;
+        for(auto cu = disc->lab.begin(); cu != disc->lab.end(); cu++){
+            cout << (*cu) << endl;
+        } cout << endl;
 
-        disc->capacidadeTurma = stoi(colData[7]);
-        disc->chPresencial = stoi(colData[8]);
-        disc->chEad = stoi(colData[9]);
-        disc->minimoDiario = stoi(colData[10]);
-        disc->splits = stoi(colData[11]);
+        disc->capacidadeTurma = stoi(colData[8]);
+        disc->chPresencial = stoi(colData[9]);
+        disc->chEad = stoi(colData[10]);
+        disc->minimoDiario = stoi(colData[11]);
+        disc->splits = stoi(colData[12]);
 
         for(int dia = 0; dia < 6; dia++){
             for(int horario = 0; horario < 16; horario++){
@@ -170,7 +180,7 @@ vector <Disciplina*> Data::lerDisc(map<string, int> *mapDisc){
             }
         }
 
-        for(int i = 12, j = 0; i < colData.size(); i++, j++){
+        for(int i = 13, j = 0; i < colData.size(); i++, j++){
             disponibilidade(disc, &colData[i], j);
         }
 
@@ -444,31 +454,26 @@ void Data::relaciona(vector<Turma*> turmas, map<string, int> *mapProf, map<strin
 void Data::print(){
 
     std::cout << "------------------------Disciplinas------------------------" << endl;
-
     for(auto disc = disciplinas.begin(); disc != disciplinas.end(); disc++){
         (*disc)->print();
     }
 
     std::cout << "\n------------------------Professores------------------------" << endl;
-
     for(auto prof = professores.begin(); prof != professores.end(); prof++){
         (*prof)->print();
     }
 
     std::cout << "\n------------------------Cursos------------------------" << endl;
-
     for(auto cu = cursos.begin(); cu != cursos.end(); cu++){
         (*cu)->print();
     }
 
     std::cout << "\n------------------------Turmas------------------------" << endl;
-
     for(auto turmaSoQueIndividual = turmas.begin(); turmaSoQueIndividual != turmas.end(); turmaSoQueIndividual++){
         (*turmaSoQueIndividual)->print();
     }
 
     std::cout << "\n------------------------Salas------------------------" << endl;
-
     for(auto deposito = salas.begin(); deposito != salas.end(); deposito++){
         (*deposito)->print();
     }

@@ -1,6 +1,6 @@
 import pandas as pd
 #print("Digite o nome do arquivo-instancia")
-fileName = "Parcial2020.xlsx" #input()
+fileName = "Completo.xlsx" #input()
 xls = pd.ExcelFile(fileName)
 for sheet_name in xls.sheet_names:
     teste = xls.parse(sheet_name)

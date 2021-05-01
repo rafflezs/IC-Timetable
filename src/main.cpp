@@ -3,8 +3,29 @@
 int main(){
 
     srand( time( NULL ) );
-    std::cout << "\n\nEmanuel eu vou dizer a n-word\n\n";
+/*     std::cout << "\n\nEmanuel eu vou dizer a n-word\n\n";
     Metaheuristica* meta = new Metaheuristica();
-    std::cout << "\n\nEmanuel eu vou dizer a n-word\n\n";
+    std::cout << "\n\nEmanuel eu vou dizer a n-word\n\n"; */
 
+    Solucao teste = Solucao();
+
+    cout << "------------------------------------------------------------------------" << endl;
+
+    for(auto a = teste.discSol.begin(); a != teste.discSol.end(); a++){
+        cout << "Disciplina: " << a->second->disciplina->nome << endl;
+        
+        cout << "Sala: ";
+        
+        for(auto s = a->second->sala.begin(); s != a->second->sala.end(); s++){
+            cout << (*s)->sala->nome << " ";
+        }
+        cout << endl;
+        
+        cout << "Lab: ";
+        
+        for(auto s = a->second->lab.begin(); s != a->second->lab.end(); s++){
+            (*s)->print();
+        }
+        cout << endl;
+    }
 }

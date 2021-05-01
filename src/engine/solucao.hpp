@@ -32,9 +32,7 @@ class Solucao{
         int calcSextoHorario(Agenda* turma);
         int calcDiasTrabalhados(Agenda* professor);
 
-        Sala* selecionaSala(DiscSol* disciplina, Data* data);
-        Sala* selecionaSala(Data* data, TurmaSol* turma);
-
+        void selecionaSala(DiscSol* disciplina, Data* data);
         void print();
 };
 

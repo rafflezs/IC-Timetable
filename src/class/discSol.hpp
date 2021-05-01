@@ -10,7 +10,8 @@ class DiscSol{
 
     public:
         Turma* turma;
-        Sala* lab;
+        vector <SalaSol*> sala;
+        vector <SalaSol*> lab;
         Disciplina* disciplina;
         std::vector <Professor*> profLista;
         
@@ -22,14 +23,11 @@ class DiscSol{
         */
         DiscSol(Data* data, Disciplina* disciplina);
         
-        Sala* selecionaSala(Disciplina* disciplina);
-        
         /* 
         *  Exibe os recursos alocados na classe 
         *  @param NULL @return NULL
         */
         void print();
-        std::list <SalaSol*> listaSalas;
 };
 
 #endif

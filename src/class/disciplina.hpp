@@ -23,7 +23,8 @@ class Disciplina{
         std::string turno; //Turno relativo à "Manhã", "Tarde" e "Noite"
         int disponibilidade[6][16]; //Matriz de horarios factíveis (diaXhorario)
 
-        std::string tipoSala;
+        std::vector <std::string> sala;
+        std::vector <std::string> lab;
 
         /* 
         *  Função simples, inzviabilizando arquivo.cpp

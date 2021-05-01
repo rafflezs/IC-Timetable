@@ -1,32 +1,98 @@
 ID;Nome;Curso;Periodo ;Disciplinas;SEG;TER;QUA;QUI;SEX;SAB
-AGRO.BC.01;1º Agronomia;Agronomia;Tarde;Grad.EG.07,Grad.BC.12,Grad.MC.01,Grad.DT.01,Grad.QG.01,Grad.CDI.01,Grad.IA.07;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-AGRO.BC.03;3º Agronomia;Agronomia;Manhã;Grad.FS.01,Grad.EE.01,Grad.QA.01,Grad.T.01,Grad.AV.1,Grad.MA.1,Grad.EG.05;7-16;7-16;7-16;7-16;7-16;1-16
-AGRO.BC.05;5º Agronomia;Agronomia;Tarde;Grad.G.01,Grad.FV.01,Grad.MCSA.01,Grad.G.02,Grad.F.32,Grad.A.25,Grad.ZG.02;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-AGRO.BC.07;7º Agronomia;Agronomia;Manhã;Grad.CSFGAM.01,Grad.AS.01,Grad.EA.52,Grad.S.01,Grad.FP.01,Grad.O.45,Grad.B.49,Grad.A.01;7-16;7-16;7-16;7-16;7-16;1-16
-AGRO.BC.09;9º Agronomia;Agronomia;Tarde;Grad.AP.01,Grad.EP.03,Grad.SER.03,Grad.FMPC.01,Grad.PPR.01,Grad.EGP.02,Grad.PPJ.01;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-ADM.BC.01;1º Bach. Administração;Administração;Noite;GRAD.ADM.MFC.01,GRAD.ADM.TGA-I.01,GRAD.ADM.EGP.03,GRAD.ADM.CO.04,GRAD.ADM.LPCC.05;1-12;1-12;1-12;1-12;1-12;0
-ADM.BC.03;3º Bach. Administração;Administração;Noite;GRAD.ADM.DLE.09,GRAD.ADM.MARK-I.14,GRAD.ADM.LOGIST.21,GRAD.ADM.CONT.11,GRAD.ADM.GP-II.10;1-12;1-12;1-12;1-12;1-12;0
-BIO.BC.01;1º Bach. Biologia;Ciências Biológicas (bacharelado);Tarde;Grad.RC.03,Grad.FC.02,Grad.BC.02,Grad.MC.02,Grad.QGA.01,Grad.FF.01,Grad.ICB.01,Grad.FC.03;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-BIO.BC.03;3º Bach. Biologia;Ciências Biológicas (bacharelado);Manhã;Grad.AV.01,Grad.Bioq.01,Grad.BM.02,Grad.Embriol.01,Grad.G.42,Grad.ZI.02;7-16;7-16;7-16;7-16;7-16;1-16
-BIO.BC.05;5º Bach. Biologia;Ciências Biológicas (bacharelado);Tarde;Grad.CA.02,Grad.EIA.01,Grad.Evoluç.01,Grad.MG.01,Grad.Parasitol.01,Grad.Libras.02,Grad.ZV.02,Grad.SV.01;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-BIO.BC.07;7º Bach. Biologia;Ciências Biológicas (bacharelado);Manhã;Grad.APA.01,Grad.FCV.01,Grad.GP.01,Grad.ILFFC.01;7-16;7-16;7-16;7-16;7-16;1-16
-BCC.BC.01;1º Ciência da Computação;Ciência da Computação;Tarde;Grad.FC.01,Grad.FundSist.01,Grad.AC.01,Grad.LM.01,Grad.APC.01;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-BCC.BC.03;3º Ciência da Computação;Ciência da Computação;Manhã;Grad.ED.01,Grad.POO.01,Grad.EB.02,Grad.LEC.01,Grad.AC.02,Grad.PLP.01;7-16;7-16;7-16;7-16;7-16;1-16
-BCC.BC.05;5º Ciência da Computação;Ciência da Computação;Tarde;Grad.PLP.03,Grad.RC.02,Grad.TG.01,Grad.ES.01,Grad.EW.01,Grad.LFA.01;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-BCC.BC.07;7º Ciência da Computação;Ciência da Computação;Manhã;Grad.PS.01,Grad.IA.01,Grad.SD.02,Grad.PLP.05,Grad.IH.01;7-16;7-16;7-16;7-16;7-16;1-16
-ENG.CIV.01;1º Eng. Civil;Engenharia Civil;Tarde;Grad.IEC.01,Grad.QG.03,Grad.DT.02,Grad.QE.01,Grad.CDI.03,Grad.FísicaI.01,Grad.FE.01;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-ENG.CIV.03;3º Eng. Civil;Engenharia Civil;Manhã;Grad.FísicaIII.01,Grad.FE-III.01,Grad.AU.01,Grad.GAA.01,Grad.FT.05,Grad.Topog.02,Grad.SED.01;7-16;7-16;7-16;7-16;7-16;1-16
-ENG.CIV.05;5º Eng. Civil;Engenharia Civil;Tarde;Grad.MS-I.01,Grad.MCC-II.01,Grad.Hidrolog.02,Grad.TE-I.01,Grad.RM-I.01,Grad.Hidrául.I.01;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-ENG.CIV.07;7º Eng. Civil;Engenharia Civil;Manhã;Grad.ECA-I.01,Grad.EstMet.01,Grad.SAAE.01,Grad.IPH.02,Grad.ProjEst.01;7-16;7-16;7-16;7-16;7-16;1-16
-ENG.CIV.09;9º Eng. Civil;Engenharia Civil;Tarde;Grad.EM.01,Grad.Econom.01,Grad.Administraç.01,Grad.EP.01,Grad.HST.01,Grad.PortAero.01,Grad.TC-I.01;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-ENG.ALI.01;1º Eng. de Alimentos;Engenharia de Alimentos;Tarde;Grad.CDI.03,Grad.BC.02,Grad.FMB.01,Grad.GAAL.01,Grad.QGA.01,Grad.IEA.01,Grad.MC.02;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-ENG.ALI.03;3º Eng. de Alimentos;Engenharia de Alimentos;Manhã;Grad.SEDO.02,Grad.FEE.01,Grad.FQ.01,Grad.EE.02,Grad.BB.03,Grad.IOE.01,Grad.AI.01;7-16;7-16;7-16;7-16;7-16;1-16
-ENG.ALI.05;5º Eng. de Alimentos;Engenharia de Alimentos;Tarde;Grad.MA.03,Grad.Termodinam.01,Grad.FT.02,Grad.AA.02,Grad.NB.01,Grad.MS.01;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-ENG.ALI.07;7º Eng. de Alimentos;Engenharia de Alimentos;Manhã;Grad.RIA.01,Grad.TCPD.01,Grad.TCAD.01,Grad.OU.01,Grad.PTUR.01;7-16;7-16;7-16;7-16;7-16;1-16
-ENG.ALI.09;9º Eng. de Alimentos;Engenharia de Alimentos;Tarde;Grad.AEA.01,Grad.TRI.01,Grad.TOGS.01,Grad.CGQ.01,Grad.DNP.01,Grad.PI.01,Grad.EP.01;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-ENG.QUI.01;1º Eng. Química;Engenharia Química;Tarde;Grad.CDI.03,Grad.QG.03,Grad.QE.01,Grad.FísicaI.01,Grad.FE.01,Grad.GAAL.01,Grad.EQB.01;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-BIO.LI.01;1º Lic. Biologia;Ciências Biológicas (licenciatura);Noite;Grade.BC.02,Grad.FF.02,Grad.FC.02,Grad.FFE.01,Grad.MC.02,Grade.QGA.01;1-12;1-12;1-12;1-12;1-12;0
-BIO.LI.03;3º Lic. Biologia;Ciências Biológicas (licenciatura);Noite;Grad.Bioestat.01,Grad.Bioq.03,Grad.Embriol.01,Grad.PE-I.02,Grad.ZI-II.01;1-12;1-12;1-12;1-12;1-12;0
-BIO.LI.05;5º Lic. Biologia;Ciências Biológicas (licenciatura);Noite;Grad.EPC.01,Grad.Genét.02,Grad.MOV.02,Grad.PPIE-I.01,Grad.PE-II.01,Grad.SCE.01;1-12;1-12;1-12;1-12;1-12;0
-BIO.LI.07;7º Lic. Biologia;Ciências Biológicas (licenciatura);Noite;Grad.ECRER.02,Grad.Evoluç.02,Grad.PPIE-II.01,Grad.Libras.02;1-12;1-12;1-12;1-12;1-12;0
-AGNG.TL.01;Agronegócio Especial;Agronegócio;Integral;AGN-201,TCC-212;0;0;0;0;0;0
+AGRO.BC.01;1º Agronomia;Agronomia;Tarde;Disc_13,Disc_14,Disc_15,Disc_16,Disc_17,Disc_18,Disc_19;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+AGRO.BC.03;3º Agronomia;Agronomia;Manhã;Disc_20,Disc_21,Disc_22,Disc_23,Disc_24,Disc_25,Disc_26;7-16;7-16;7-16;7-16;7-16;1-16
+AGRO.BC.05;5º Agronomia;Agronomia;Tarde;Disc_27,Disc_28,Disc_29,Disc_30,Disc_31,Disc_32,Disc_33;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+AGRO.BC.07;7º Agronomia;Agronomia;Manhã;Disc_34,Disc_35,Disc_36,Disc_37,Disc_38,Disc_39,Disc_40,Disc_41;7-16;7-16;7-16;7-16;7-16;1-16
+AGRO.BC.09;9º Agronomia;Agronomia;Tarde;Disc_42,Disc_43,Disc_44,Disc_45,Disc_46,Disc_47,Disc_48;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+ADM.BC.01;1º Bach. Administração;Administração;Noite;Disc_01,Disc_02,Disc_03,Disc_04,Disc_05;1-12;1-12;1-12;1-12;1-12;0
+ADM.BC.03;3º Bach. Administração;Administração;Noite;Disc_06,Disc_07,Disc_08,Disc_09,Disc_10;1-12;1-12;1-12;1-12;1-12;0
+BIO.BC.01;1º Bach. Biologia;Ciências Biológicas (bacharelado);Tarde;Disc_71,Disc_72,Disc_73,Disc_74,Disc_75,Disc_76,Disc_77,Disc_78;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+BIO.BC.03;3º Bach. Biologia;Ciências Biológicas (bacharelado);Manhã;Disc_79,Disc_80,Disc_81,Disc_82,Disc_83,Disc_84;7-16;7-16;7-16;7-16;7-16;1-16
+BIO.BC.05;5º Bach. Biologia;Ciências Biológicas (bacharelado);Tarde;Disc_85,Disc_86,Disc_87,Disc_88,Disc_89,Disc_90,Disc_91,Disc_92;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+BIO.BC.07;7º Bach. Biologia;Ciências Biológicas (bacharelado);Manhã;Disc_93,Disc_94,Disc_95,Disc_96;7-16;7-16;7-16;7-16;7-16;1-16
+BCC.BC.01;1º Ciência da Computação;Ciência da Computação;Tarde;Disc_49,Disc_50,Disc_51,Disc_52,Disc_53;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+BCC.BC.03;3º Ciência da Computação;Ciência da Computação;Manhã;Disc_54,Disc_55,Disc_56,Disc_57,Disc_58,Disc_59;7-16;7-16;7-16;7-16;7-16;1-16
+BCC.BC.05;5º Ciência da Computação;Ciência da Computação;Tarde;Disc_60,Disc_61,Disc_62,Disc_63,Disc_64,Disc_65;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+BCC.BC.07;7º Ciência da Computação;Ciência da Computação;Manhã;Disc_66,Disc_67,Disc_68,Disc_69,Disc_70;7-16;7-16;7-16;7-16;7-16;1-16
+ENG.AMB.01;1º Eng. Ambiental;Engenharia Ambiental;Tarde;Disc_293,Disc_294,Disc_295,Disc_296,Disc_297,Disc_298,Disc_299;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+ENG.AMB.03;3º Eng. Ambiental;Engenharia Ambiental;Manhã;Disc_300,Disc_301,Disc_302,Disc_303,Disc_304,Disc_305,Disc_306;7-16;7-16;7-16;7-16;7-16;1-16
+ENG.AMB.05;5º Eng. Ambiental;Engenharia Ambiental;Tarde;Disc_307,Disc_308,Disc_309,Disc_310,Disc_311,Disc_312;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+ENG.AMB.07;7º Eng. Ambiental;Engenharia Ambiental;Manhã;Disc_313,Disc_314,Disc_315,Disc_316,Disc_317,Disc_318;7-16;7-16;7-16;7-16;7-16;1-16
+ENG.AMB.09;9º Eng. Ambiental;Engenharia Ambiental;Tarde;Disc_319,Disc_320,Disc_321,Disc_322,Disc_323,Disc_324,Disc_325;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+ENG.CIV.01;1º Eng. Civil;Engenharia Civil;Tarde;Disc_125,Disc_126,Disc_127,Disc_128,Disc_129,Disc_130,Disc_131;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+ENG.CIV.03;3º Eng. Civil;Engenharia Civil;Manhã;Disc_132,Disc_133,Disc_134,Disc_135,Disc_136,Disc_137,Disc_138;7-16;7-16;7-16;7-16;7-16;1-16
+ENG.CIV.05;5º Eng. Civil;Engenharia Civil;Tarde;Disc_139,Disc_140,Disc_141,Disc_142,Disc_143,Disc_144;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+ENG.CIV.07;7º Eng. Civil;Engenharia Civil;Manhã;Disc_145,Disc_146,Disc_147,Disc_148,Disc_149,Disc_150,Disc_151;7-16;7-16;7-16;7-16;7-16;1-16
+ENG.CIV.09;9º Eng. Civil;Engenharia Civil;Tarde;Disc_152,Disc_153,Disc_154,Disc_155,Disc_156,Disc_157;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+ENG.ALI.01;1º Eng. de Alimentos;Engenharia de Alimentos;Tarde;Disc_158,Disc_159,Disc_160,Disc_161,Disc_162,Disc_163,Disc_164;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+ENG.ALI.03;3º Eng. de Alimentos;Engenharia de Alimentos;Manhã;Disc_165,Disc_166,Disc_167,Disc_168,Disc_169,Disc_170,Disc_171;7-16;7-16;7-16;7-16;7-16;1-16
+ENG.ALI.05;5º Eng. de Alimentos;Engenharia de Alimentos;Tarde;Disc_172,Disc_173,Disc_174,Disc_175,Disc_176,Disc_177;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+ENG.ALI.07;7º Eng. de Alimentos;Engenharia de Alimentos;Manhã;Disc_178,Disc_179,Disc_180,Disc_181,Disc_182;7-16;7-16;7-16;7-16;7-16;1-16
+ENG.ALI.09;9º Eng. de Alimentos;Engenharia de Alimentos;Tarde;Disc_183,Disc_184,Disc_185,Disc_186,Disc_187,Disc_188,Disc_189;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+ENG.QUI.01;1º Eng. Química;Engenharia Química;Tarde;Disc_118,Disc_119,Disc_120,Disc_121,Disc_122,Disc_123,Disc_124;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+BIO.LI.01;1º Lic. Biologia;Ciências Biológicas (licenciatura);Noite;Disc_97,Disc_98,Disc_99,Disc_100,Disc_101,Disc_102;1-12;1-12;1-12;1-12;1-12;0
+BIO.LI.03;3º Lic. Biologia;Ciências Biológicas (licenciatura);Noite;Disc_103,Disc_104,Disc_105,Disc_106,Disc_107;1-12;1-12;1-12;1-12;1-12;0
+BIO.LI.05;5º Lic. Biologia;Ciências Biológicas (licenciatura);Noite;Disc_108,Disc_109,Disc_110,Disc_111,Disc_112,Disc_113;1-12;1-12;1-12;1-12;1-12;0
+BIO.LI.07;7º Lic. Biologia;Ciências Biológicas (licenciatura);Noite;Disc_114,Disc_115,Disc_116,Disc_117;1-12;1-12;1-12;1-12;1-12;0
+QUIM.LI.01;1º Lic. Química;Química;Noite;Disc_190,Disc_191,Disc_192,Disc_193,Disc_194,Disc_195;1-12;1-12;1-12;1-12;1-12;0
+QUIM.LI.03;3º Lic. Química;Química;Noite;Disc_196,Disc_197,Disc_198,Disc_199,Disc_200,Disc_201;1-12;1-12;1-12;1-12;1-12;0
+QUIM.LI.05;5º Lic. Química;Química;Noite;Disc_202,Disc_203,Disc_204,Disc_205,Disc_206,Disc_207;1-12;1-12;1-12;1-12;1-12;0
+QUIM.LI.07;7º Lic. Química;Química;Noite;Disc_208,Disc_209,Disc_210,Disc_211,Disc_212;1-12;1-12;1-12;1-12;1-12;0
+SA.TL.03;3º Saneamento Ambiental;Saneamento Ambiental;Noite;Disc_213,Disc_214,Disc_215,Disc_216,Disc_217,Disc_218;1-12;1-12;1-12;1-12;1-12;0
+SA.TL.05;5º Saneamento Ambiental;Saneamento Ambiental;Noite;Disc_219,Disc_220,Disc_221,Disc_222,Disc_223;1-12;1-12;1-12;1-12;1-12;0
+ZOO.TL.01;1º Zootecnia;Zootecnia;Tarde;Disc_224,Disc_225,Disc_226,Disc_227,Disc_228,Disc_229;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+ZOO.TL.03;3º Zootecnia;Zootecnia;Manhã;Disc_230,Disc_231,Disc_232,Disc_233,Disc_234,Disc_235;7-16;7-16;7-16;7-16;7-16;1-16
+ZOO.TL.05;5º Zootecnia;Zootecnia;Tarde;Disc_236,Disc_237,Disc_238,Disc_239,Disc_240,Disc_241;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+ZOO.TL.07;7º Zootecnia;Zootecnia;Manhã;Disc_242,Disc_243,Disc_244,Disc_245,Disc_246,Disc_247,Disc_248;7-16;7-16;7-16;7-16;7-16;1-16
+ZOO.TL.09;9º Zootecnia;Zootecnia;Tarde;Disc_244,Disc_249,Disc_250,Disc_251,Disc_252,Disc_253;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+AGRO.TEC.01M;1º Tec. Agropecuária;Técnico em Agropecuária;Manhã;Disc_369,Disc_370,Disc_371,Disc_372,Disc_373;7-16;7-16;7-16;7-16;7-16;1-16
+AGRO.TEC.02M;2º Tec. Agropecuária;Técnico em Agropecuária;Manhã;Disc_374,Disc_375,Disc_376,Disc_377,Disc_378;7-16;7-16;7-16;7-16;7-16;1-16
+AGRO.TEC.03M;3º Tec. Agropecuária;Técnico em Agropecuária;Manhã;Disc_379,Disc_380,Disc_381,Disc_382,Disc_383,Disc_384;7-16;7-16;7-16;7-16;7-16;1-16
+AGRO.TEC.04M;4º Tec. Agropecuária;Técnico em Agropecuária;Manhã;Disc_385,Disc_386,Disc_387,Disc_388,Disc_389;7-16;7-16;7-16;7-16;7-16;1-16
+AGRO.TEC.01T;1º Tec. Agropecuária;Técnico em Agropecuária;Tarde;Disc_390,Disc_391,Disc_392,Disc_393,Disc_394;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+AGRO.TEC.02T;2º Tec. Agropecuária;Técnico em Agropecuária;Tarde;Disc_395,Disc_396,Disc_397,Disc_398,Disc_399;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+AGRO.TEC.03T;3º Tec. Agropecuária;Técnico em Agropecuária;Tarde;Disc_400,Disc_401,Disc_402,Disc_403,Disc_404,Disc_405;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+AGRO.TEC.04T;4º Tec. Agropecuária;Técnico em Agropecuária;Tarde;Disc_406,Disc_407,Disc_408,Disc_409,Disc_410;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+ADM.TEC.01T;1º Tec. Administração;Técnico em Administração;Tarde;Disc_254,Disc_255,Disc_256,Disc_257,Disc_258,Disc_259,Disc_260;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+ADM.TEC.02T;2º Tec. Administração;Técnico em Administração;Tarde;Disc_261,Disc_262,Disc_263,Disc_264,Disc_265,Disc_266,Disc_267;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+ADM.TEC.03T;3º Tec. Administração;Técnico em Administração;Tarde;Disc_268,Disc_269,Disc_270,Disc_271,Disc_272,Disc_273;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+ADM.TEC.01N;1º Tec. Administração;Técnico em Administração;Noite;Disc_274,Disc_275,Disc_276,Disc_277,Disc_278,Disc_279,Disc_280;1-12;1-12;1-12;1-12;1-12;0
+ADM.TEC.02N;2º Tec. Administração;Técnico em Administração;Noite;Disc_281,Disc_282,Disc_283,Disc_284,Disc_285,Disc_286,Disc_287;1-12;1-12;1-12;1-12;1-12;0
+ADM.TEC.03N;3º Tec. Administração;Técnico em Administração;Noite;Disc_288,Disc_289,Disc_290,Disc_291,Disc_292;1-12;1-12;1-12;1-12;1-12;0
+ALI.TEC.01;1º Tec. Alimentos;Técnico em Alimentos;Noite;Disc_411,Disc_412,Disc_413,Disc_414,Disc_415,Disc_416,Disc_417;1-12;1-12;1-12;1-12;1-12;0
+ALI.TEC.02;2º Tec. Alimentos;Técnico em Alimentos;Noite;Disc_418,Disc_419,Disc_420,Disc_421,Disc_422,Disc_423;1-12;1-12;1-12;1-12;1-12;0
+ALI.TEC.03;3º Tec. Alimentos;Técnico em Alimentos;Noite;Disc_424,Disc_425,Disc_426,Disc_427,Disc_428;1-12;1-12;1-12;1-12;1-12;0
+ALI.TEC.04;4º Tec. Alimentos;Técnico em Alimentos;Noite;Disc_429,Disc_430,Disc_431,Disc_432,Disc_433,Disc_434;1-12;1-12;1-12;1-12;1-12;0
+BIO.TEC.01;1º Tec. Biotecnologia;Técnico em Biotecnologia;Noite;Disc_435,Disc_436,Disc_437,Disc_438,Disc_439,Disc_440;1-12;1-12;1-12;1-12;1-12;0
+BIO.TEC.02;2º Tec. Biotecnologia;Técnico em Biotecnologia;Noite;Disc_441,Disc_442,Disc_427,Disc_443,Disc_444,Disc_445;1-12;1-12;1-12;1-12;1-12;0
+BIO.TEC.03;3º Tec. Biotecnologia;Técnico em Biotecnologia;Noite;Disc_446,Disc_447,Disc_448,Disc_449,Disc_450;1-12;1-12;1-12;1-12;1-12;0
+BIO.TEC.04;4º Tec. Biotecnologia;Técnico em Biotecnologia;Noite;Disc_451,Disc_452,Disc_453,Disc_454,Disc_455;1-12;1-12;1-12;1-12;1-12;0
+CONT.TEC.01;1º Tec. Contabilidade;Técnico em Contabilidade;Noite;Disc_456,Disc_457,Disc_458,Disc_459,Disc_460,Disc_461;1-12;1-12;1-12;1-12;1-12;0
+CONT.TEC.02;2º Tec. Contabilidade;Técnico em Contabilidade;Noite;Disc_462,Disc_463,Disc_464,Disc_465,Disc_466;1-12;1-12;1-12;1-12;1-12;0
+CONT.TEC.03;3º Tec. Contabilidade;Técnico em Contabilidade;Noite;Disc_467,Disc_468,Disc_469,Disc_470,Disc_471;1-12;1-12;1-12;1-12;1-12;0
+EDI.TEC.01;1º Tec. Edificações;Técnico em Edificações;Noite;Disc_472,Disc_473,Disc_474,Disc_475,Disc_476,Disc_477;1-12;1-12;1-12;1-12;1-12;0
+EDI.TEC.02;2º Tec. Edificações;Técnico em Edificações;Noite;Disc_478,Disc_479,Disc_480,Disc_481,Disc_482;1-12;1-12;1-12;1-12;1-12;0
+EDI.TEC.03;3º Tec. Edificações;Técnico em Edificações;Noite;Disc_483,Disc_484,Disc_485,Disc_486,Disc_487;1-12;1-12;1-12;1-12;1-12;0
+EDI.TEC.04;4º Tec. Edificações;Técnico em Edificações;Noite;Disc_488,Disc_489,Disc_490,Disc_491,Disc_492,Disc_493;1-12;1-12;1-12;1-12;1-12;0
+INFO.TEC.01;1º Tec. Informática;Técnico em Informática;Noite;Disc_494,Disc_495,Disc_496,Disc_497,Disc_498;1-12;1-12;1-12;1-12;1-12;0
+INFO.TEC.02;2º Tec. Informática;Técnico em Informática;Noite;Disc_499,Disc_500,Disc_501,Disc_502,Disc_503,Disc_504;1-12;1-12;1-12;1-12;1-12;0
+INFO.TEC.03;3º Tec. Informática;Técnico em Informática;Noite;Disc_505,Disc_506,Disc_507,Disc_508,Disc_509,Disc_510;1-12;1-12;1-12;1-12;1-12;0
+INFO.TEC.04;4º Tec. Informática;Técnico em Informática;Noite;Disc_511,Disc_512,Disc_513,Disc_514;1-12;1-12;1-12;1-12;1-12;0
+SEG.TEC.01;1º Tec. Seg. do Trabalho;Técnico em Segurança do Trabalho;Noite;Disc_535,Disc_536,Disc_537,Disc_538,Disc_539,Disc_540;1-12;1-12;1-12;1-12;1-12;0
+SEG.TEC.02;2º Tec. Seg. do Trabalho;Técnico em Segurança do Trabalho;Noite;Disc_541,Disc_542,Disc_543,Disc_544,Disc_545,Disc_546,Disc_547;1-12;1-12;1-12;1-12;1-12;0
+SEG.TEC.03;3º Tec. Seg. do Trabalho;Técnico em Segurança do Trabalho;Noite;Disc_548,Disc_549,Disc_550,Disc_551,Disc_552,Disc_553,Disc_554;1-12;1-12;1-12;1-12;1-12;0
+SEG.TEC.04;4º Tec. Seg. do Trabalho;Técnico em Segurança do Trabalho;Noite;Disc_555,Disc_556,Disc_557,Disc_558,Disc_559,Disc_560,Disc_561;1-12;1-12;1-12;1-12;1-12;0
+QUIM.TEC.01;1º Tec. Química;Técnico em Química;Noite;Disc_515,Disc_516,Disc_517,Disc_518,Disc_519,Disc_520,Disc_521;1-12;1-12;1-12;1-12;1-12;0
+QUIM.TEC.02;2º Tec. Química;Técnico em Química;Noite;Disc_427,Disc_522,Disc_523,Disc_524,Disc_525,Disc_526,Disc_527;1-12;1-12;1-12;1-12;1-12;0
+QUIM.TEC.03;3º Tec. Química;Técnico em Química;Noite;Disc_528,Disc_529,Disc_530,Disc_531,Disc_532,Disc_533,Disc_534;1-12;1-12;1-12;1-12;1-12;0
+PROEJA.ADM.03;3º PROEJA Administração;PROEJA Adminstração;Noite;Disc_326,Disc_327,Disc_328,Disc_329,Disc_330,Disc_331,Disc_332;1-12;1-12;1-12;1-12;1-12;0
+PROEJA.ADM.04;4º PROEJA Administração;PROEJA Adminstração;Noite;Disc_333,Disc_334,Disc_335,Disc_336,Disc_337,Disc_338,Disc_339,Disc_340,Disc_341;1-12;1-12;1-12;1-12;1-12;0
+PROEJA.ADM.05;5º PROEJA Administração;PROEJA Adminstração;Noite;Disc_342,Disc_343,Disc_344,Disc_345,Disc_346,Disc_347,Disc_348;1-12;1-12;1-12;1-12;1-12;0
+PROEJA.ADM.06;6º PROEJA Administração;PROEJA Adminstração;Noite;Disc_349,Disc_350,Disc_351,Disc_352,Disc_353,Disc_354,Disc_355;1-12;1-12;1-12;1-12;1-12;0
+PROEJA.ADM.07;7º PROEJA Administração;PROEJA Adminstração;Noite;Disc_356,Disc_357,Disc_358,Disc_359,Disc_360;1-12;1-12;1-12;1-12;1-12;0
+PROEJA.EDI.07;7º PROEJA Edificações;PROEJA Edificações;Noite;Disc_361,Disc_362,Disc_363,Disc_364,Disc_365,Disc_366,Disc_367;1-12;1-12;1-12;1-12;1-12;0
+PROEJA.EDI.08;8º PROEJA Edificações;PROEJA Edificações;Noite;Disc_368;1-12;1-12;1-12;1-12;1-12;0
+AVUSOL.01;Turmas Especiais I;Turmas Especiais;Integral;-;0;0;0;0;0;0
+AVULSO.02;Turmas Especiais II;Turmas Especiais;Integral;-;0;0;0;0;0;0
+AVULSO.03;Turmas Especiais III;Turmas Especiais;Integral;-;0;0;0;0;0;0
+AGNG.TL.01;Agronegócio Especial;Agronegócio;Integral;Disc_11,Disc_12;0;0;0;0;0;0

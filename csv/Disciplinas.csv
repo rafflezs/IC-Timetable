@@ -1,187 +1,564 @@
-ID;Disciplinas;Professor;Curso;Turma;Turno;Tipo de Sala;Qtd Alunos;CH Presencial;CH EaD;Mínimo;Splits;SEG;TER;QUA;QUI;SEX;SAB
-GRAD.ADM.MFC.01;Matemática Comercial e Financeira;Idalci Cruvinel dos Reis;Administração;ADM.BC.01;Noite;Sala;50;4;0;4;1;1-12;1-12;1-12;1-12;1-12;1-16
-GRAD.ADM.TGA-I.01;Teoria Geral da Administração I;Jean Marc Nacife;Administração;ADM.BC.01;Noite;Sala;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
-GRAD.ADM.EGP.03;Ética Geral e Profissional;José Aurélio Vazquez Rúbio;Administração;ADM.BC.01;Noite;Sala;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
-GRAD.ADM.CO.04;Comportamento Organizacional;Carlos Antônio Cardoso Sobrinho;Administração;ADM.BC.01;Noite;Sala;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
-GRAD.ADM.LPCC.05;Língua Portuguesa e Correspondência Comercial;Wilciene Nunes do Vale;Administração;ADM.BC.01;Noite;Sala;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;1-16
-GRAD.ADM.DLE.09;Direito e Legislação empresarial;Márcia Cristina Puydinger de Fazio;Administração;ADM.BC.03;Noite;Sala;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
-GRAD.ADM.MARK-I.14;Marketing I;Carlos Antônio Cardoso Sobrinho;Administração;ADM.BC.03;Noite;Sala;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;1-16
-GRAD.ADM.LOGIST.21;Logística;José Aurélio Vazquez Rúbio;Administração;ADM.BC.03;Noite;Sala;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
-GRAD.ADM.CONT.11;Contabilidade;Frankcione Borges de Almeida;Administração;ADM.BC.03;Noite;Sala;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
-GRAD.ADM.GP-II.10;Gestão de Pessoas II;Haihani Silva Passos;Administração;ADM.BC.03;Noite;Sala;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
-Grad.EG.07;Ecologia Geral;Hipólito Tadeu Ferreira da Silva;Agronomia;AGRO.BC.01;Tarde;Sala;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.BC.12;Biologia Celular;Maria Andréia Corrêa Mendonça;Agronomia;AGRO.BC.01;Tarde;Sala;50;5;0;5;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.MC.01;Metodologia Científica;Roberto Castillo Pizarro;Agronomia;AGRO.BC.01;Tarde;Sala;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.DT.01;Desenho Técnico;Victor Baldin;Agronomia;AGRO.BC.01;Tarde;Sala;50;6;0;2;3;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.QG.01;Química Geral;Cássia Cristina Fernandes Alves;Agronomia;AGRO.BC.01;Tarde;Sala;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.CDI.01;Cálculo Diferencial e Integral I;Aline Gobbi Dutra Guimarães;Agronomia;AGRO.BC.01;Tarde;Sala;50;5;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.IA.07;Introdução à Agronomia;Edson Luiz Souchie;Agronomia;AGRO.BC.01;Tarde;Sala;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.FS.01;Física do Solo;Eduardo da Costa Severiano;Agronomia;AGRO.BC.03;Manhã;Sala;50;5;0;5;1;7-16;7-16;7-16;7-16;7-16;1-16
-Grad.EE.01;Estatística Experimental;Adriano Jakelaitis;Agronomia;AGRO.BC.03;Manhã;Sala;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
-Grad.QA.01;Química Analítica;Ana Carolina Ribeiro Aguiar;Agronomia;AGRO.BC.03;Manhã;Sala;50;6;0;2;3;7-16;7-16;7-16;7-16;7-16;1-16
-Grad.T.01;Topografia - Planimetria;David Vieira Lima;Agronomia;AGRO.BC.03;Tarde;Sala;50;4;0;4;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.AV.1;Anatomia Vegetal;Sebastião Carvalho Vasconcelos Filho;Agronomia;AGRO.BC.03;Manhã;Sala;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
-Grad.MA.1;Microbiologia Agrícola;Edson Luiz Souchie;Agronomia;AGRO.BC.03;Manhã;Sala;50;6;0;2;3;7-16;7-16;7-16;7-16;7-16;1-16
-Grad.EG.05;Entomologia Geral;Pablo da Costa Gontijo;Agronomia;AGRO.BC.03;Manhã;Sala;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
-Grad.G.01;Geoprocessamento;Lucas Peres Angelini;Agronomia;AGRO.BC.05;Tarde;Lab;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.FV.01;Fisiologia Vegetal;Fernanda dos Santos Farnese,Paulo Eduardo de Menezes Silva;Agronomia;AGRO.BC.05;Tarde;Sala;50;5;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.MCSA.01;Manejo e Conservação do Solo e da Água;Eduardo da Costa Severiano;Agronomia;AGRO.BC.05;Tarde;Sala;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.G.02;Genética;Maria Andréia Corrêa Mendonça;Agronomia;AGRO.BC.05;Tarde;Sala;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.F.32;Fitopatologia I;Ednalva Patrícia de Andrade Silva;Agronomia;AGRO.BC.05;Tarde;Sala;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.A.25;Agrometeorologia;Leonardo Nazário Silva dos Santos;Agronomia;AGRO.BC.05;Tarde;Sala;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.ZG.02;Zootecnia Geral;Francisco Ribeiro de Araújo Neto;Agronomia;AGRO.BC.05;Tarde;Sala;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.CSFGAM.01;Culturas II (Soja, Feijão, Girassol, Algodão , Mandioca);Pablo da Costa Gontijo;Agronomia;AGRO.BC.07;Manhã;Sala;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
-Grad.AS.01;Aves e Suínos;Ana Paula Cardoso Gomide;Agronomia;AGRO.BC.07;Manhã;Sala;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
-Grad.EA.52;Economia Agrícola;Samantha Rezende Mendes;Agronomia;AGRO.BC.07;Manhã;Sala;50;2;0;2;1;7-16;7-16;7-16;7-16;7-16;1-16
-Grad.S.01;Silvicultura;Leandro Carlos;Agronomia;AGRO.BC.07;Manhã;Sala;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
-Grad.FP.01;Forragicultura e Pastagens;Kátia Aparecida de Pinho Costa;Agronomia;AGRO.BC.07;Manhã;Sala;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
-Grad.O.45;Olericultura;José Weselli de Sá Andrade;Agronomia;AGRO.BC.07;Manhã;Sala;50;4;0;4;1;7-16;7-16;7-16;7-16;7-16;1-16
-Grad.B.49;Biotecnologia;Lauro Bucker Neto;Agronomia;AGRO.BC.07;Manhã;Sala;50;2;0;2;1;7-16;7-16;7-16;7-16;7-16;1-16
-Grad.A.01;Agroecologia;Juarez Martins Rodrigues;Agronomia;AGRO.BC.07;Manhã;Sala;50;2;0;2;1;7-16;7-16;7-16;7-16;7-16;1-16
-Grad.AP.01;Avaliação e Perícias;Carlos Ribeiro Rodrigues;Agronomia;AGRO.BC.09;Tarde;Sala;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.EP.03;Ética Profissional;Carlos Ribeiro Rodrigues;Agronomia;AGRO.BC.09;Tarde;Sala;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.SER.03;Sociologia e Extensão Rural;Jesiel Souza Silva;Agronomia;AGRO.BC.09;Tarde;Sala;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.FMPC.01;Fisiologia e Manejo de Pós-Colheita;Paulo Eduardo de Menezes Silva;Agronomia;AGRO.BC.09;Tarde;Sala;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.PPR.01;Proteção de Plantas e Receituário Agronômico;Pablo da Costa Gontijo;Agronomia;AGRO.BC.09;Tarde;Sala;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.EGP.02;Elaboração e Gestão de Projetos;José Milton Alves;Agronomia;AGRO.BC.09;Tarde;Sala;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.PPJ.01;Parques e Jardins;Leandro Carlos;Agronomia;AGRO.BC.09;Tarde;Sala;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.FC.01;Física para Computação;João Areis Ferreira Barbosa Júnior;Ciência da Computação;BCC.BC.01;Tarde;Sala;50;5;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.FundSist.01;Fundamentos de Sistemas;Adriano Soares de Oliveira Bailão;Ciência da Computação;BCC.BC.01;Tarde;Sala;50;5;0;5;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.AC.01;Análise Combinatória;Márcio Antônio Ferreira Belo Filho;Ciência da Computação;BCC.BC.01;Tarde;Sala;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.LM.01;Lógica Matemática;Aline Gobbi Dutra Guimarães;Ciência da Computação;BCC.BC.01;Tarde;Sala;50;5;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.APC.01;Algoritmos e Programação de Computadores;André da Cunha Ribeiro;Ciência da Computação;BCC.BC.01;Tarde;Info;50;5;0;5;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.ED.01;Estruturas de Dados I;Heverton Barros de Macêdo;Ciência da Computação;BCC.BC.03;Manhã;Info;50;5;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
-Grad.POO.01;Programação Orientada a Objetos;Marlus Dias Silva;Ciência da Computação;BCC.BC.03;Manhã;Info;50;5;0;5;1;7-16;7-16;7-16;7-16;7-16;1-16
-Grad.EB.02;Estatística Básica;Idalci Cruvinel dos Reis;Ciência da Computação;BCC.BC.03;Manhã;Sala;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
-Grad.LEC.01;Legislação e Ética na Computação;Fábio Montanha Ramos;Ciência da Computação;BCC.BC.03;Manhã;Sala;50;2;0;2;1;7-16;7-16;7-16;7-16;7-16;1-16
-Grad.AC.02;Arquitetura de Computadores;Rafael Carvalho de Mendonça;Ciência da Computação;BCC.BC.03;Manhã;Info;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
-Grad.PLP.01;Prática de Laboratório de Pesquisa (Ambientação);André da Cunha Ribeiro;Ciência da Computação;BCC.BC.03;Manhã;Info;50;4;0;4;1;7-16;7-16;7-16;7-16;7-16;1-16
-Grad.PLP.03;Prática de Laboratório de Pesquisa (Maturação 1);Douglas Cedrim Oliveira;Ciência da Computação;BCC.BC.05;Tarde;Info;50;4;0;4;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.RC.02;Redes de Computadores II;Rafael Carvalho de Mendonça;Ciência da Computação;BCC.BC.05;Tarde;Info;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.TG.01;Teoria dos Grafos;André da Cunha Ribeiro;Ciência da Computação;BCC.BC.05;Tarde;Info;50;4;0;4;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.ES.01;Engenharia de Software;Adriano Soares de Oliveira Bailão;Ciência da Computação;BCC.BC.05;Tarde;Info;50;5;0;5;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.EW.01;Engenharia Web;Marlus Dias Silva;Ciência da Computação;BCC.BC.05;Tarde;Info;50;4;0;4;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.LFA.01;Linguagens Formais e Autômatos;Heverton Barros de Macêdo;Ciência da Computação;BCC.BC.05;Tarde;Info;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.PS.01;Projeto de Software;Adriano Soares de Oliveira Bailão;Ciência da Computação;BCC.BC.07;Manhã;Sala;50;4;0;4;1;7-16;7-16;7-16;7-16;7-16;1-16
-Grad.IA.01;Inteligência Artificial;Adriano Soares de Oliveira Bailão;Ciência da Computação;BCC.BC.07;Manhã;Sala;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
-Grad.SD.02;Sistemas Distribuídos;Douglas Cedrim Oliveira;Ciência da Computação;BCC.BC.07;Manhã;Info;50;4;0;4;1;7-16;7-16;7-16;7-16;7-16;1-16
-Grad.PLP.05;Prática de Laboratório de Pesquisa (TCC - parte 1);André da Cunha Ribeiro;Ciência da Computação;BCC.BC.07;Manhã;Info;50;4;0;4;1;7-16;7-16;7-16;7-16;7-16;1-16
-Grad.IH.01;Interação Humano - Computador;Heverton Barros de Macêdo;Ciência da Computação;BCC.BC.07;Manhã;Info;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
-Grad.RC.03;Redação Científica;Jesiel Souza Silva;Ciências Biológicas (bacharelado);BIO.BC.01;Tarde;Sala;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.FC.02;Fundamentos de Cálculo;Paulo Henrique Rodrigues Gonçalves;Ciências Biológicas (bacharelado);BIO.BC.01;Tarde;Sala;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.BC.02;Biologia Celular;Valdnéa Casagrandre Dalvi;Ciências Biológicas (bacharelado);BIO.BC.01;Tarde;Sala;50;5;0;1;3;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.MC.02;Metodologia Científica;Roberto Castillo Pizarro;Ciências Biológicas (bacharelado);BIO.BC.01;Tarde;Sala;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.QGA.01;Química Geral e Analítica;Roberta de Almeida Carvalho;Ciências Biológicas (bacharelado);BIO.BC.01;Tarde;Sala;50;5;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.FF.01;Fundamentos de Física;Salmon Landi Júnior;Ciências Biológicas (bacharelado);BIO.BC.01;Tarde;Sala;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.ICB.01;Introdução as Ciências Biológicas;Gisele Cristina de Oliveira Menino;Ciências Biológicas (bacharelado);BIO.BC.01;Tarde;Sala;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.FC.03;Filosofia da Ciência;Rosenilde Nogueira Paniago;Ciências Biológicas (bacharelado);BIO.BC.01;Tarde;Sala;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.AV.01;Anatomia Vegetal;Valdnéa Casagrandre Dalvi;Ciências Biológicas (bacharelado);BIO.BC.03;Manhã;Sala;50;5;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
-Grad.Bioq.01;Bioquímica;Lucas Anjos de Souza;Ciências Biológicas (bacharelado);BIO.BC.03;Manhã;Sala;50;5;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
-Grad.BM.02;Biologia Molecular;Maria Andréia Corrêa Mendonça;Ciências Biológicas (bacharelado);BIO.BC.03;Manhã;Sala;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
-Grad.Embriol.01;Embriologia;Fernando Henrique Antoniolli Farache;Ciências Biológicas (bacharelado);BIO.BC.03;Manhã;Sala;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
-Grad.G.42;Genética II;Maria Andréia Corrêa Mendonça;Ciências Biológicas (bacharelado);BIO.BC.03;Manhã;Sala;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
-Grad.ZI.02;Zoologia dos Invertebrados II;Lia Raquel de Souza Santos;Ciências Biológicas (bacharelado);BIO.BC.03;Manhã;Sala;50;6;0;2;3;7-16;7-16;7-16;7-16;7-16;1-16
-Grad.CA.02;Comportamento Animal;Alessandro Ribeiro de Morais;Ciências Biológicas (bacharelado);BIO.BC.05;Tarde;Sala;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.EIA.01;Estudos de Impacto Ambiental;Leandro Carlos;Ciências Biológicas (bacharelado);BIO.BC.05;Tarde;Sala;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.Evoluç.01;Evolução;Fábio Martins Vilar de Carvalho;Ciências Biológicas (bacharelado);BIO.BC.05;Tarde;Sala;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.MG.01;Microbiologia Geral;Luciana Cristina Vitorino;Ciências Biológicas (bacharelado);BIO.BC.05;Tarde;Sala;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.Parasitol.01;Parasitologia;Fernando Henrique Antoniolli Farache;Ciências Biológicas (bacharelado);BIO.BC.05;Tarde;Sala;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.Libras.02;Libras;Brunna Dias Cardoso;Ciências Biológicas (bacharelado);BIO.BC.05;Tarde;Sala;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.ZV.02;Zoologia de Vertebrados II;Jânio Moreira Cordeiro;Ciências Biológicas (bacharelado);BIO.BC.05;Tarde;Sala;50;4;0;4;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.SV.01;Sistemática Vegetal;Gisele Cristina de Oliveira Menino;Ciências Biológicas (bacharelado);BIO.BC.05;Tarde;Sala;50;4;0;4;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.APA.01;Auditoria e Perícia Ambiental;Wilker Alves Morais;Ciências Biológicas (bacharelado);BIO.BC.07;Tarde;Sala;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.FCV.01;Fisiologia Comparada de Vertebrados;Alessandro Ribeiro de Morais;Ciências Biológicas (bacharelado);BIO.BC.07;Manhã;Sala;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
-Grad.GP.01;Geologia e Paleontologia;Rafael Marques Pereira Leal,Jânio Moreira Cordeiro;Ciências Biológicas (bacharelado);BIO.BC.07;Manhã;Sala;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
-Grad.ILFFC.01;Inventário e Levantamento de Fauna e Flora do Cerrado;Gisele Cristina de Oliveira Menino,Jânio Moreira Cordeiro;Ciências Biológicas (bacharelado);BIO.BC.07;Manhã;Sala;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
-Grade.BC.02;Biologia Celular;Sebastião Carvalho Vasconcelos Filho;Ciências Biológicas (licenciatura);BIO.LI.01;Noite;Sala;50;5;0;2;2;1-12;1-12;1-12;1-12;1-12;0
-Grad.FF.02;Fundamentos da Física;Gustavo Quereza de Freitas;Ciências Biológicas (licenciatura);BIO.LI.01;Noite;Sala;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;0
-Grad.FC.02;Fundamentos de Cálculo;Paulo Henrique Rodrigues Gonçalves;Ciências Biológicas (licenciatura);BIO.LI.01;Noite;Sala;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;0
-Grad.FFE.01;Fundamentos Filosóficos da Educação;Brunna Dias Cardoso;Ciências Biológicas (licenciatura);BIO.LI.01;Noite;Sala;50;3;0;3;1;1-12;1-12;1-12;1-12;1-12;0
-Grad.MC.02;Metodologia Científica;Aline Ditomaso;Ciências Biológicas (licenciatura);BIO.LI.01;Noite;Sala;50;6;0;2;3;1-12;1-12;1-12;1-12;1-12;0
-Grade.QGA.01;Química Geral e Analítica;Suzana Maria Loures de Oliveira Marcionilio;Ciências Biológicas (licenciatura);BIO.LI.01;Noite;Sala;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;0
-Grad.Bioestat.01;Bioestatística;Frederico Antonio Loureiro Soares;Ciências Biológicas (licenciatura);BIO.LI.03;Noite;Sala;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;0
-Grad.Bioq.03;Bioquímica;Fábio Henrique Dyszy;Ciências Biológicas (licenciatura);BIO.LI.03;Noite;Sala;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;0
-Grad.Embriol.01;Embriologia;Fernando Henrique Antoniolli Farache;Ciências Biológicas (licenciatura);BIO.LI.03;Noite;Sala;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;0
-Grad.PE-I.02;Psicologia da Educação I;Luíza Ferreira Rezende de Medeiros;Ciências Biológicas (licenciatura);BIO.LI.03;Noite;Sala;50;3;0;1;1;1-12;1-12;1-12;1-12;1-12;0
-Grad.ZI-II.01;Zoologia dos Invertebrados II;Fábio Martins Vilar de Carvalho;Ciências Biológicas (licenciatura);BIO.LI.03;Noite;Sala;50;6;0;2;3;1-12;1-12;1-12;1-12;1-12;0
-Grad.EPC.01;Ecologia de Populações e Comunidades;Fábio Martins Vilar de Carvalho;Ciências Biológicas (licenciatura);BIO.LI.05;Noite;Sala;50;3;0;1;2;1-12;1-12;1-12;1-12;1-12;0
-Grad.Genét.02;Genética;Pablo Diego Silva Cabral;Ciências Biológicas (licenciatura);BIO.LI.05;Noite;Sala;50;5;0;2;2;1-12;1-12;1-12;1-12;1-12;0
-Grad.MOV.02;Morfologia e Organografia Vegetal;Gisele Cristina de Oliveira Menino;Ciências Biológicas (licenciatura);BIO.LI.05;Noite;Sala;50;4;1;2;2;1-12;1-12;1-12;1-12;1-12;0
-Grad.PPIE-I.01;Pesquisa e Práticas de Intervenção em Educação I;Rosenilde Nogueira Paniago;Ciências Biológicas (licenciatura);BIO.LI.05;Noite;Sala;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;0
-Grad.PE-II.01;Psicologia da Educação II;Rosenilde Nogueira Paniago;Ciências Biológicas (licenciatura);BIO.LI.05;Noite;Sala;50;2;1;2;1;1-12;1-12;1-12;1-12;1-12;0
-Grad.SCE.01;Sociedade, Cultura e Educação;Emival da Cunha Ribeiro;Ciências Biológicas (licenciatura);BIO.LI.05;Noite;Sala;50;3;0;3;1;1-12;1-12;1-12;1-12;1-12;0
-Grad.ECRER.02;Educação, Cultura e Relações Etníco-Raciais;Jesiel Souza Silva;Ciências Biológicas (licenciatura);BIO.LI.07;Noite;Sala;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;1-16
-Grad.Evoluç.02;Evolução;Fábio Martins Vilar de Carvalho;Ciências Biológicas (licenciatura);BIO.LI.07;Noite;Sala;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
-Grad.PPIE-II.01;Pesquisa e Práticas de Intervenção em Educação II;Rosenilde Nogueira Paniago;Ciências Biológicas (licenciatura);BIO.LI.07;Noite;Sala;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
-Grad.Libras.02;Libras;Brunna Dias Cardoso;Ciências Biológicas (licenciatura);BIO.LI.07;Noite;Sala;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;1-16
-Grad.CDI.03;Cálculo Diferencial e Integral I;Matheus de Paula Ferreira;Engenharia Química;ENG.QUI.01;Tarde;Sala;50;5;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
-Grad.QG.03;Química Geral;Wesley Renato Viali;Engenharia Química;ENG.QUI.01;Tarde;Sala;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
-Grad.QE.01;Química Experimental;Rodrigo Braghiroli;Engenharia Química;ENG.QUI.01;Tarde;Sala;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
-Grad.FísicaI.01;Física I;Tiago Clarimundo Ramos;Engenharia Química;ENG.QUI.01;Tarde;Sala;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
-Grad.FE.01;Física Experimental I;Salmon Landi Júnior;Engenharia Química;ENG.QUI.01;Tarde;Sala;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
-Grad.GAAL.01;Geometria Analítica e Álgebra Linear;Abner Santos Baroni Sales;Engenharia Química;ENG.QUI.01;Tarde;Sala;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
-Grad.EQB.01;Introdução à Engenharia Química;Rogério Favareto;Engenharia Química;ENG.QUI.01;Tarde;Sala;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
-Grad.IEC.01;Introdução à Engenharia Civil;Philippe Barbosa da Silva;Engenharia Civil;ENG.CIV.01;Tarde;Sala;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
-Grad.QG.03;Química Geral;Cássia Cristina Fernandes Alves;Engenharia Civil;ENG.CIV.01;Tarde;Sala;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
-Grad.DT.02;Desenho Técnico;Bruna Oliveira Campos;Engenharia Civil;ENG.CIV.01;Tarde;Sala;50;6;0;2;3;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
-Grad.QE.01;Química Experimental;Rodrigo Braghiroli;Engenharia Civil;ENG.CIV.01;Tarde;Sala;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
-Grad.CDI.03;Cálculo Diferencial e Integral I;Matheus de Paula Ferreira;Engenharia Civil;ENG.CIV.01;Tarde;Sala;50;5;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
-Grad.FísicaI.01;Física I;Tiago Clarimundo Ramos;Engenharia Civil;ENG.CIV.01;Tarde;Sala;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
-Grad.FE.01;Física Experimental I;Salmon Landi Júnior;Engenharia Civil;ENG.CIV.01;Tarde;Sala;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
-Grad.FísicaIII.01;Física III;Gustavo Quereza de Freitas;Engenharia Civil;ENG.CIV.03;Manhã;Sala;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;0
-Grad.FE-III.01;Física Experimental III;Gustavo Quereza de Freitas;Engenharia Civil;ENG.CIV.03;Manhã;Sala;50;2;0;2;1;7-16;7-16;7-16;7-16;7-16;0
-Grad.AU.01;Arquitetura e Urbanismo;Bruna Oliveira Campos;Engenharia Civil;ENG.CIV.03;Manhã;Sala;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;0
-Grad.GAA.01;Geometria Analítica e Álgebra Linear;Márcio Antônio Ferreira Belo Filho;Engenharia Civil;ENG.CIV.03;Manhã;Sala;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;0
-Grad.FT.05;Fenômenos dos Transportes;Hugo Leonardo Souza Lara Leão;Engenharia Civil;ENG.CIV.03;Manhã;Sala;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;0
-Grad.Topog.02;Topografia - Altimetria;Wellington Donizete Guimarães;Engenharia Civil;ENG.CIV.03;Manhã;Sala;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;0
-Grad.SED.01;Séries e Equações Diferenciais Ordinárias;Caíke da Rocha Damke;Engenharia Civil;ENG.CIV.03;Manhã;Sala;50;2;0;2;1;7-16;7-16;7-16;7-16;7-16;0
-Grad.MS-I.01;Mecânica dos Solos I;Flávio Hiochio Sato;Engenharia Civil;ENG.CIV.05;Manhã;Sala;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;0
-Grad.MCC-II.01;Materiais de Construção Civil II;Bacus de Oliveira Nahime;Engenharia Civil;ENG.CIV.05;Tarde;Sala;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
-Grad.Hidrolog.02;Hidrologia;Gilberto Colodro;Engenharia Civil;ENG.CIV.05;Tarde;Sala;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
-Grad.TE-I.01;Teoria das Estruturas I;Michell Macedo Alves;Engenharia Civil;ENG.CIV.05;Tarde;Sala;50;5;0;5;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
-Grad.RM-I.01;Resistência dos Materiais I;Flávio Hiochio Sato;Engenharia Civil;ENG.CIV.05;Tarde;Sala;50;5;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
-Grad.Hidrául.I.01;Hidráulica I;Marconi Batista Teixeira,Hugo Leonardo Souza Lara Leão;Engenharia Civil;ENG.CIV.05;Tarde;Sala;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
-Grad.ECA-I.01;Estruturas de Concreto Armado I;Alexsandro dos Santos Felipe;Engenharia Civil;ENG.CIV.07;Manhã;Sala;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
-Grad.EstMet.01;Estruturas Metálicas;Michell Macedo Alves;Engenharia Civil;ENG.CIV.07;Manhã;Sala;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
-Grad.SAAE.01;Sistemas de Abastecimento de Água e Coleta de Esgoto;Édio Damásio da Silva Júnior;Engenharia Civil;ENG.CIV.07;Manhã;Sala;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
-Grad.IPH.02;Instalações Prediais Hidrosanitárias;Bruna Vilela Buiatte Silva;Engenharia Civil;ENG.CIV.07;Manhã;Sala;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
-Grad.ProjEst.01;Projeto de Estradas;Philippe Barbosa da Silva;Engenharia Civil;ENG.CIV.07;Manhã;Sala;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
-Grad.EM.01;Estruturas de Madeira;Alexsandro dos Santos Felipe;Engenharia Civil;ENG.CIV.09;Tarde;Sala;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.Econom.01;Economia;Silvia Ferreira Marques Salustiano;Engenharia Civil;ENG.CIV.09;Tarde;Sala;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.Administraç.01;Administração;Jean Marc Nacife;Engenharia Civil;ENG.CIV.09;Tarde;Sala;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.EP.01;Ética Profissional;Philippe Barbosa da Silva;Engenharia Civil;ENG.CIV.09;Tarde;Sala;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.HST.01;Higiene e Segurança do Trabalho;Bruna Elói do Amaral;Engenharia Civil;ENG.CIV.09;Tarde;Sala;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.PortAero.01;Portos e Aeroportos;Philippe Barbosa da Silva;Engenharia Civil;ENG.CIV.09;Tarde;Sala;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.TC-I.01;Trabalho de Curso I;Wilker Alves Morais;Engenharia Civil;ENG.CIV.09;Tarde;Sala;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.CDI.03;Cálculo Diferencial e Integral I;Paulo Henrique Rodrigues Gonçalves;Engenharia de Alimentos;ENG.ALI.01;Tarde;Sala;50;5;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
-Grad.BC.02;Biologia Celular;Lauro Bucker Neto;Engenharia de Alimentos;ENG.ALI.01;Tarde;Sala;50;5;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
-Grad.FMB.01;Física I;Gustavo Quereza de Freitas;Engenharia de Alimentos;ENG.ALI.01;Tarde;Sala;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
-Grad.GAAL.01;Geometria Analítica e Álgebra Linear;Abner Santos Baroni Sales;Engenharia de Alimentos;ENG.ALI.01;Tarde;Sala;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
-Grad.QGA.01;Química Geral e Analítica;Celso Martins Belisário,Rodrigo Braghiroli;Engenharia de Alimentos;ENG.ALI.01;Tarde;Sala;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
-Grad.IEA.01;Introdução à Engenharia de Alimentos;Melissa Cássia Favaro Boldrin Freire;Engenharia de Alimentos;ENG.ALI.01;Tarde;Sala;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
-Grad.MC.02;Metodologia Científica;Aline Ditomaso;Engenharia de Alimentos;ENG.ALI.01;Tarde;Sala;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
-Grad.SEDO.02;Séries e Equações e Diferenciais Ordinárias;Caíke da Rocha Damke;Engenharia de Alimentos;ENG.ALI.03;Manhã;Sala;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;0
-Grad.FEE.01;Física II;Salmon Landi Júnior;Engenharia de Alimentos;ENG.ALI.03;Manhã;Sala;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;0
-Grad.FQ.01;Físico-Química I;Wesley Renato Viali;Engenharia de Alimentos;ENG.ALI.03;Manhã;Sala;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;0
-Grad.EE.02;Estatística Experimental;Adriano Jakelaitis;Engenharia de Alimentos;ENG.ALI.03;Manhã;Sala;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;0
-Grad.BB.03;Bioquímica Básica;Samylla Tassia Ferreira de Freitas;Engenharia de Alimentos;ENG.ALI.03;Manhã;Sala;50;5;0;2;2;7-16;7-16;7-16;7-16;7-16;0
-Grad.IOE.01;Introdução às Operações para Engenharia;Raphaela Gabrí Bitencourt;Engenharia de Alimentos;ENG.ALI.03;Manhã;Sala;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;0
-Grad.AI.01;Administração Industrial;José Aurélio Vazquez Rúbio;Engenharia de Alimentos;ENG.ALI.03;Manhã;Sala;50;2;0;2;1;7-16;7-16;7-16;7-16;7-16;0
-Grad.MA.03;Microbiologia de Alimentos;Letícia Fleury Viana;Engenharia de Alimentos;ENG.ALI.05;Tarde;Sala;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
-Grad.Termodinam.01;Termodinâmica;Márcio da Silva Vilela;Engenharia de Alimentos;ENG.ALI.05;Tarde;Sala;50;5;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
-Grad.FT.02;Fenômenos de Transporte II;Rogério Favareto;Engenharia de Alimentos;ENG.ALI.05;Tarde;Sala;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
-Grad.AA.02;Análise de Alimentos;Priscila Alonso dos Santos;Engenharia de Alimentos;ENG.ALI.05;Tarde;Sala;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
-Grad.NB.01;Nutrição Básica;Melissa Cássia Favaro Boldrin Freire;Engenharia de Alimentos;ENG.ALI.05;Tarde;Sala;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
-Grad.MS.01;Mecânica dos Sólidos;Márcio da Silva Vilela;Engenharia de Alimentos;ENG.ALI.05;Tarde;Sala;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;0
-Grad.RIA.01;Refrigeração na Indústria de Alimentos;Rogério Favareto;Engenharia de Alimentos;ENG.ALI.07;Manhã;Sala;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
-Grad.TCPD.01;Tecnologia de Carnes, Pescados e Derivados;Melissa Cássia Favaro Boldrin Freire;Engenharia de Alimentos;ENG.ALI.07;Manhã;Sala;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
-Grad.TCAD.01;Tecnologia de Cereais, Amidos e Derivados;Amanda Barbosa de Faria;Engenharia de Alimentos;ENG.ALI.07;Manhã;Sala;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
-Grad.OU.01;Operações Unitárias I;Raphaela Gabrí Bitencourt;Engenharia de Alimentos;ENG.ALI.07;Manhã;Sala;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
-Grad.PTUR.01;Planejamento Territorial Urbano e Rural;Emival da Cunha Ribeiro;Engenharia de Alimentos;ENG.ALI.07;Manhã;Sala;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
-Grad.AEA.01;Acondicionamento e Embalagem de Alimentos;Amanda Barbosa de Faria;Engenharia de Alimentos;ENG.ALI.09;Tarde;Sala;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.TRI.01;Tratamento de Rejeitos Industriais;Lucas Peres Angelini;Engenharia de Alimentos;ENG.ALI.09;Tarde;Sala;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.TOGS.01;Tecnologia de Óleos, Gorduras e Subprodutos;Geovana Rocha Plácido;Engenharia de Alimentos;ENG.ALI.09;Tarde;Sala;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.CGQ.01;Controle e Gestão da Qualidade;Letícia Fleury Viana;Engenharia de Alimentos;ENG.ALI.09;Tarde;Sala;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.DNP.01;Desenvolvimento de Novos Produtos;Melissa Cássia Favaro Boldrin Freire;Engenharia de Alimentos;ENG.ALI.09;Tarde;Sala;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.PI.01;Projetos Industriais;Raphaela Gabrí Bitencourt;Engenharia de Alimentos;ENG.ALI.09;Tarde;Sala;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-Grad.EP.01;Ética Profissional;Geovana Rocha Plácido;Engenharia de Alimentos;ENG.ALI.09;Tarde;Sala;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+ID;Disciplinas;Professor;Curso;Turma;Turno;Sala Teórica;Laboratório;Qtd Alunos;CH Presencial;CH EaD;Mínimo;Splits;SEG;TER;QUA;QUI;SEX;SAB
+Disc_01;Matemática Comercial e Financeira;Idalci Cruvinel dos Reis;Administração;ADM.BC.01;Noite;Sala 09;-;50;4;0;4;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_02;Teoria Geral da Administração I;Jean Marc Nacife;Administração;ADM.BC.01;Noite;Sala 09;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_03;Ética Geral e Profissional;José Aurélio Vazquez Rúbio;Administração;ADM.BC.01;Noite;Sala 09;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_04;Comportamento Organizacional;Carlos Antônio Cardoso Sobrinho;Administração;ADM.BC.01;Noite;Sala 09;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_05;Língua Portuguesa e Correspondência Comercial;Wilciene Nunes do Vale;Administração;ADM.BC.01;Noite;Sala 09;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_06;Direito e Legislação empresarial;Márcia Cristina Puydinger de Fazio;Administração;ADM.BC.03;Noite;Sala 10-B;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_07;Marketing I;Carlos Antônio Cardoso Sobrinho;Administração;ADM.BC.03;Noite;Sala 10-B;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_08;Logística;José Aurélio Vazquez Rúbio;Administração;ADM.BC.03;Noite;Sala 10-B;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_09;Contabilidade;Frankcione Borges de Almeida;Administração;ADM.BC.03;Noite;Sala 10-B;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_10;Gestão de Pessoas II;Haihani Silva Passos;Administração;ADM.BC.03;Noite;Sala 10-B;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_11;Fundamentos do Agronegócio;Samantha Rezende Mendes;Agronegócio;AGNG.TL.01;Noite;-;LABIG;50;3;0;3;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_12;Trabalho de Curso I;Jesiel Souza Silva;Agronegócio;AGNG.TL.01;Noite;-;LABIG;50;3;0;3;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_13;Ecologia Geral;Hipólito Tadeu Ferreira da Silva;Agronomia;AGRO.BC.01;Tarde;Sala 02;-;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_14;Biologia Celular;Maria Andréia Corrêa Mendonça;Agronomia;AGRO.BC.01;Tarde;Sala 02;-;50;5;0;5;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_15;Metodologia Científica;Roberto Castillo Pizarro;Agronomia;AGRO.BC.01;Tarde;Sala 02;-;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_16;Desenho Técnico;Victor Baldin;Agronomia;AGRO.BC.01;Tarde;Sala 02;Lab Info 1;50;6;0;2;3;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_17;Química Geral;Cássia Cristina Fernandes Alves;Agronomia;AGRO.BC.01;Tarde;Sala 02;-;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_18;Cálculo Diferencial e Integral I;Aline Gobbi Dutra Guimarães;Agronomia;AGRO.BC.01;Tarde;Sala 02;-;50;5;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_19;Introdução à Agronomia;Edson Luiz Souchie;Agronomia;AGRO.BC.01;Tarde;Sala 02;-;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_20;Física do Solo;Eduardo da Costa Severiano;Agronomia;AGRO.BC.03;Manhã;Sala 02;-;50;5;0;5;1;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_21;Estatística Experimental;Adriano Jakelaitis;Agronomia;AGRO.BC.03;Manhã;Sala 02;-;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_22;Química Analítica;Ana Carolina Ribeiro Aguiar;Agronomia;AGRO.BC.03;Manhã;Sala 02;-;50;6;0;2;3;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_23;Topografia - Planimetria;David Vieira Lima;Agronomia;AGRO.BC.03;Tarde;Sala 12;-;50;4;0;4;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_24;Anatomia Vegetal;Sebastião Carvalho Vasconcelos Filho;Agronomia;AGRO.BC.03;Manhã;Sala 02;-;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_25;Microbiologia Agrícola;Edson Luiz Souchie;Agronomia;AGRO.BC.03;Manhã;Sala 02;-;50;6;0;2;3;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_26;Entomologia Geral;Pablo da Costa Gontijo;Agronomia;AGRO.BC.03;Manhã;Sala 02;-;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_27;Geoprocessamento;Lucas Peres Angelini;Agronomia;AGRO.BC.05;Tarde;Sala 18;Lab Info 3;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_28;Fisiologia Vegetal;Fernanda dos Santos Farnese,Paulo Eduardo de Menezes Silva;Agronomia;AGRO.BC.05;Tarde;Sala 18;-;50;6;0;3;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_29;Manejo e Conservação do Solo e da Água;Eduardo da Costa Severiano;Agronomia;AGRO.BC.05;Tarde;Sala 18;-;50;5;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_30;Genética;Maria Andréia Corrêa Mendonça;Agronomia;AGRO.BC.05;Tarde;Sala 18;-;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_31;Fitopatologia I;Ednalva Patrícia de Andrade Silva;Agronomia;AGRO.BC.05;Tarde;Sala 18;-;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_32;Agrometeorologia;Leonardo Nazário Silva dos Santos;Agronomia;AGRO.BC.05;Tarde;Sala 18;-;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_33;Zootecnia Geral;Francisco Ribeiro de Araújo Neto;Agronomia;AGRO.BC.05;Tarde;Sala 18;-;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_34;Culturas II (Soja, Feijão, Girassol, Algodão , Mandioca);Pablo da Costa Gontijo;Agronomia;AGRO.BC.07;Manhã;Sala 03;-;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_35;Aves e Suínos;Ana Paula Cardoso Gomide;Agronomia;AGRO.BC.07;Manhã;Sala 03;-;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_36;Economia Agrícola;Samantha Rezende Mendes;Agronomia;AGRO.BC.07;Manhã;Sala 03;-;50;2;0;2;1;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_37;Silvicultura;Leandro Carlos;Agronomia;AGRO.BC.07;Manhã;Sala 03;-;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_38;Forragicultura e Pastagens;Kátia Aparecida de Pinho Costa;Agronomia;AGRO.BC.07;Manhã;Sala 03;-;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_39;Olericultura;José Weselli de Sá Andrade;Agronomia;AGRO.BC.07;Manhã;Sala 03;-;50;4;0;4;1;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_40;Biotecnologia;Lauro Bucker Neto;Agronomia;AGRO.BC.07;Manhã;Sala 03;-;50;2;0;2;1;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_41;Agroecologia;Juarez Martins Rodrigues;Agronomia;AGRO.BC.07;Manhã;Sala 03;-;50;2;0;2;1;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_42;Avaliação e Perícias;Carlos Ribeiro Rodrigues;Agronomia;AGRO.BC.09;Tarde;Sala 22;-;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_43;Ética Profissional;Carlos Ribeiro Rodrigues;Agronomia;AGRO.BC.09;Tarde;Sala 22;-;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_44;Sociologia e Extensão Rural;Jesiel Souza Silva;Agronomia;AGRO.BC.09;Tarde;Sala 22;-;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_45;Fisiologia e Manejo de Pós-Colheita;Paulo Eduardo de Menezes Silva;Agronomia;AGRO.BC.09;Tarde;Sala 22;-;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_46;Proteção de Plantas e Receituário Agronômico;Pablo da Costa Gontijo;Agronomia;AGRO.BC.09;Tarde;Sala 22;-;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_47;Elaboração e Gestão de Projetos;José Milton Alves;Agronomia;AGRO.BC.09;Tarde;Sala 22;-;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_48;Parques e Jardins;Leandro Carlos;Agronomia;AGRO.BC.09;Tarde;Sala 22;-;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_49;Física para Computação;João Areis Ferreira Barbosa Júnior;Ciência da Computação;BCC.BC.01;Tarde;Sala 09;-;50;5;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_50;Fundamentos de Sistemas;Adriano Soares de Oliveira Bailão;Ciência da Computação;BCC.BC.01;Tarde;Sala 09;-;50;5;0;5;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_51;Análise Combinatória;Márcio Antônio Ferreira Belo Filho;Ciência da Computação;BCC.BC.01;Tarde;Sala 09;-;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_52;Lógica Matemática;Aline Gobbi Dutra Guimarães;Ciência da Computação;BCC.BC.01;Tarde;Sala 09;-;50;5;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_53;Algoritmos e Programação de Computadores;André da Cunha Ribeiro;Ciência da Computação;BCC.BC.01;Tarde;Sala 09;Lab Info 2,Lab Info 3;50;5;0;5;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_54;Estruturas de Dados I;Heverton Barros de Macêdo;Ciência da Computação;BCC.BC.03;Manhã;Sala 10-A;Lab Info 4;50;5;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_55;Programação Orientada a Objetos;Marlus Dias Silva;Ciência da Computação;BCC.BC.03;Manhã;Sala 10-A;Lab Info 6;50;5;0;5;1;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_56;Estatística Básica;Idalci Cruvinel dos Reis;Ciência da Computação;BCC.BC.03;Manhã;Sala 10-A;-;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_57;Legislação e Ética na Computação;Fábio Montanha Ramos;Ciência da Computação;BCC.BC.03;Manhã;Sala 10-A;-;50;2;0;2;1;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_58;Arquitetura de Computadores;Rafael Carvalho de Mendonça;Ciência da Computação;BCC.BC.03;Manhã;Sala 10-A;Lab Info 3;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_59;Prática de Laboratório de Pesquisa (Ambientação);André da Cunha Ribeiro;Ciência da Computação;BCC.BC.03;Manhã;Sala 10-A;Lab Info 4;50;4;0;4;1;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_60;Prática de Laboratório de Pesquisa (Maturação 1);Douglas Cedrim Oliveira;Ciência da Computação;BCC.BC.05;Tarde;Sala 10-A;Lab Info 4;50;4;0;4;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_61;Redes de Computadores II;Rafael Carvalho de Mendonça;Ciência da Computação;BCC.BC.05;Tarde;Sala 10-A;Lab Info 2;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_62;Teoria dos Grafos;André da Cunha Ribeiro;Ciência da Computação;BCC.BC.05;Tarde;Sala 10-A;Lab Info 4;50;4;0;4;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_63;Engenharia de Software;Adriano Soares de Oliveira Bailão;Ciência da Computação;BCC.BC.05;Tarde;Sala 10-A;-;50;5;0;5;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_64;Engenharia Web;Marlus Dias Silva;Ciência da Computação;BCC.BC.05;Tarde;Sala 10-A;Lab Info 6;50;4;0;4;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_65;Linguagens Formais e Autômatos;Heverton Barros de Macêdo;Ciência da Computação;BCC.BC.05;Tarde;Sala 10-A;Lab Info 4;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_66;Projeto de Software;Adriano Soares de Oliveira Bailão;Ciência da Computação;BCC.BC.07;Manhã;Sala 09;-;50;4;0;4;1;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_67;Inteligência Artificial;Adriano Soares de Oliveira Bailão;Ciência da Computação;BCC.BC.07;Manhã;Sala 09;-;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_68;Sistemas Distribuídos;Douglas Cedrim Oliveira;Ciência da Computação;BCC.BC.07;Manhã;Sala 09;Lab Info 1;50;4;0;4;1;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_69;Prática de Laboratório de Pesquisa (TCC - parte 1);André da Cunha Ribeiro;Ciência da Computação;BCC.BC.07;Manhã;Sala 09;Lab Info 4;50;4;0;4;1;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_70;Interação Humano - Computador;Heverton Barros de Macêdo;Ciência da Computação;BCC.BC.07;Manhã;Sala 09;Lab Info 4;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_71;Redação Científica;Jesiel Souza Silva;Ciências Biológicas (bacharelado);BIO.BC.01;Tarde;Sala 29;-;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_72;Fundamentos de Cálculo;Paulo Henrique Rodrigues Gonçalves;Ciências Biológicas (bacharelado);BIO.BC.01;Tarde;Sala 29;-;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_73;Biologia Celular;Valdnéa Casagrandre Dalvi;Ciências Biológicas (bacharelado);BIO.BC.01;Tarde;Sala 29;-;50;5;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_74;Metodologia Científica;Roberto Castillo Pizarro;Ciências Biológicas (bacharelado);BIO.BC.01;Tarde;Sala 29;-;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_75;Química Geral e Analítica;Roberta de Almeida Carvalho;Ciências Biológicas (bacharelado);BIO.BC.01;Tarde;Sala 29;-;50;5;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_76;Fundamentos de Física;Salmon Landi Júnior;Ciências Biológicas (bacharelado);BIO.BC.01;Tarde;Sala 29;-;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_77;Introdução as Ciências Biológicas;Gisele Cristina de Oliveira Menino;Ciências Biológicas (bacharelado);BIO.BC.01;Tarde;Sala 29;-;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_78;Filosofia da Ciência;Rosenilde Nogueira Paniago;Ciências Biológicas (bacharelado);BIO.BC.01;Tarde;Sala 29;-;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_79;Anatomia Vegetal;Valdnéa Casagrandre Dalvi;Ciências Biológicas (bacharelado);BIO.BC.03;Manhã;Sala 25;-;50;5;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_80;Bioquímica;Lucas Anjos de Souza;Ciências Biológicas (bacharelado);BIO.BC.03;Manhã;Sala 25;-;50;5;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_81;Biologia Molecular;Maria Andréia Corrêa Mendonça;Ciências Biológicas (bacharelado);BIO.BC.03;Manhã;Sala 25;-;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_82;Embriologia;Fernando Henrique Antoniolli Farache;Ciências Biológicas (bacharelado);BIO.BC.03;Manhã;Sala 25;-;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_83;Genética II;Maria Andréia Corrêa Mendonça;Ciências Biológicas (bacharelado);BIO.BC.03;Manhã;Sala 25;-;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_84;Zoologia dos Invertebrados II;Lia Raquel de Souza Santos;Ciências Biológicas (bacharelado);BIO.BC.03;Manhã;Sala 25;-;50;6;0;2;3;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_85;Comportamento Animal;Alessandro Ribeiro de Morais;Ciências Biológicas (bacharelado);BIO.BC.05;Tarde;Sala 25;-;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_86;Estudos de Impacto Ambiental;Leandro Carlos;Ciências Biológicas (bacharelado);BIO.BC.05;Tarde;Sala 25;-;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_87;Evolução;Fábio Martins Vilar de Carvalho;Ciências Biológicas (bacharelado);BIO.BC.05;Tarde;Sala 25;-;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_88;Microbiologia Geral;Luciana Cristina Vitorino;Ciências Biológicas (bacharelado);BIO.BC.05;Tarde;Sala 25;-;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_89;Parasitologia;Fernando Henrique Antoniolli Farache;Ciências Biológicas (bacharelado);BIO.BC.05;Tarde;Sala 25;-;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_90;Libras;Brunna Dias Cardoso;Ciências Biológicas (bacharelado);BIO.BC.05;Tarde;Sala 25;-;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_91;Zoologia de Vertebrados II;Jânio Moreira Cordeiro;Ciências Biológicas (bacharelado);BIO.BC.05;Tarde;Sala 25;-;50;4;0;4;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_92;Sistemática Vegetal;Gisele Cristina de Oliveira Menino;Ciências Biológicas (bacharelado);BIO.BC.05;Tarde;Sala 25;-;50;4;0;4;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_93;Auditoria e Perícia Ambiental;Wilker Alves Morais;Ciências Biológicas (bacharelado);BIO.BC.07;Tarde;Sala 24;-;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_94;Fisiologia Comparada de Vertebrados;Alessandro Ribeiro de Morais;Ciências Biológicas (bacharelado);BIO.BC.07;Manhã;Sala 26;-;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_95;Geologia e Paleontologia;Rafael Marques Pereira Leal,Jânio Moreira Cordeiro;Ciências Biológicas (bacharelado);BIO.BC.07;Manhã;Sala 26;-;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_96;Inventário e Levantamento de Fauna e Flora do Cerrado;Gisele Cristina de Oliveira Menino,Jânio Moreira Cordeiro;Ciências Biológicas (bacharelado);BIO.BC.07;Manhã;Sala 26;-;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_97;Biologia Celular;Sebastião Carvalho Vasconcelos Filho;Ciências Biológicas (licenciatura);BIO.LI.01;Noite;Sala 06;-;50;5;0;2;2;1-12;1-12;1-12;1-12;1-12;0
+Disc_98;Fundamentos da Física;Gustavo Quereza de Freitas;Ciências Biológicas (licenciatura);BIO.LI.01;Noite;Sala 06;-;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;0
+Disc_99;Fundamentos de Cálculo;Paulo Henrique Rodrigues Gonçalves;Ciências Biológicas (licenciatura);BIO.LI.01;Noite;Sala 06;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;0
+Disc_100;Fundamentos Filosóficos da Educação;Brunna Dias Cardoso;Ciências Biológicas (licenciatura);BIO.LI.01;Noite;Sala 06;-;50;3;0;3;1;1-12;1-12;1-12;1-12;1-12;0
+Disc_101;Metodologia Científica;Aline Ditomaso;Ciências Biológicas (licenciatura);BIO.LI.01;Noite;Sala 06;-;50;3;0;1;3;1-12;1-12;1-12;1-12;1-12;0
+Disc_102;Química Geral e Analítica;Suzana Maria Loures de Oliveira Marcionilio;Ciências Biológicas (licenciatura);BIO.LI.01;Noite;Sala 06;-;50;5;0;2;2;1-12;1-12;1-12;1-12;1-12;0
+Disc_103;Bioestatística;Frederico Antonio Loureiro Soares;Ciências Biológicas (licenciatura);BIO.LI.03;Noite;Sala 10-A;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;0
+Disc_104;Bioquímica;Fábio Henrique Dyszy;Ciências Biológicas (licenciatura);BIO.LI.03;Noite;Sala 10-A;-;50;6;0;2;3;1-12;1-12;1-12;1-12;1-12;0
+Disc_105;Embriologia;Fernando Henrique Antoniolli Farache;Ciências Biológicas (licenciatura);BIO.LI.03;Noite;Sala 10-A;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;0
+Disc_106;Psicologia da Educação I;Luíza Ferreira Rezende de Medeiros;Ciências Biológicas (licenciatura);BIO.LI.03;Noite;Sala 10-A;-;50;3;0;3;1;1-12;1-12;1-12;1-12;1-12;0
+Disc_107;Zoologia dos Invertebrados II;Fábio Martins Vilar de Carvalho;Ciências Biológicas (licenciatura);BIO.LI.03;Noite;Sala 10-A;-;50;6;0;2;3;1-12;1-12;1-12;1-12;1-12;0
+Disc_108;Ecologia de Populações e Comunidades;Fábio Martins Vilar de Carvalho;Ciências Biológicas (licenciatura);BIO.LI.05;Noite;Sala 23;-;50;2;1;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_109;Genética;Pablo Diego Silva Cabral;Ciências Biológicas (licenciatura);BIO.LI.05;Noite;Sala 23;-;50;5;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_110;Morfologia e Organografia Vegetal;Gisele Cristina de Oliveira Menino;Ciências Biológicas (licenciatura);BIO.LI.05;Noite;Sala 23;-;50;4;1;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_111;Pesquisa e Práticas de Intervenção em Educação I;Rosenilde Nogueira Paniago;Ciências Biológicas (licenciatura);BIO.LI.05;Noite;Sala 23;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_112;Psicologia da Educação II;Rosenilde Nogueira Paniago;Ciências Biológicas (licenciatura);BIO.LI.05;Noite;Sala 23;-;50;2;1;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_113;Sociedade, Cultura e Educação;Emival da Cunha Ribeiro;Ciências Biológicas (licenciatura);BIO.LI.05;Noite;Sala 23;-;50;3;0;3;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_114;Educação, Cultura e Relações Etníco-Raciais;Jesiel Souza Silva;Ciências Biológicas (licenciatura);BIO.LI.07;Noite;Sala 24;-;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_115;Evolução;Fábio Martins Vilar de Carvalho;Ciências Biológicas (licenciatura);BIO.LI.07;Noite;Sala 24;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_116;Pesquisa e Práticas de Intervenção em Educação II;Rosenilde Nogueira Paniago;Ciências Biológicas (licenciatura);BIO.LI.07;Noite;Sala 24;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_117;Libras;Brunna Dias Cardoso;Ciências Biológicas (licenciatura);BIO.LI.07;Noite;Sala 24;-;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_118;Cálculo Diferencial e Integral I;Matheus de Paula Ferreira;Engenharia Química;ENG.QUI.01;Tarde;Sala 36;-;50;5;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_119;Química Geral;Wesley Renato Viali;Engenharia Química;ENG.QUI.01;Tarde;Sala 36;-;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_120;Química Experimental;Rodrigo Braghiroli;Engenharia Química;ENG.QUI.01;Tarde;Sala 36;-;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_121;Física I;Tiago Clarimundo Ramos;Engenharia Química;ENG.QUI.01;Tarde;Sala 36;-;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_122;Física Experimental I;Salmon Landi Júnior;Engenharia Química;ENG.QUI.01;Tarde;Sala 36;-;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_123;Geometria Analítica e Álgebra Linear;Abner Santos Baroni Sales;Engenharia Química;ENG.QUI.01;Tarde;Sala 36;-;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_124;Introdução à Engenharia Química;Rogério Favareto;Engenharia Química;ENG.QUI.01;Tarde;Sala 36;-;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_125;Introdução à Engenharia Civil;Philippe Barbosa da Silva;Engenharia Civil;ENG.CIV.01;Tarde;Sala 33;-;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_126;Química Geral;Cássia Cristina Fernandes Alves;Engenharia Civil;ENG.CIV.01;Tarde;Sala 33;-;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_127;Desenho Técnico;Bruna Oliveira Campos;Engenharia Civil;ENG.CIV.01;Tarde;Sala 33;Lab Info 1;50;6;0;2;3;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_128;Química Experimental;Rodrigo Braghiroli;Engenharia Civil;ENG.CIV.01;Tarde;Sala 33;-;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_129;Cálculo Diferencial e Integral I;Matheus de Paula Ferreira;Engenharia Civil;ENG.CIV.01;Tarde;Sala 33;-;50;5;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_130;Física I;Tiago Clarimundo Ramos;Engenharia Civil;ENG.CIV.01;Tarde;Sala 08-B;-;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_131;Física Experimental I;Salmon Landi Júnior;Engenharia Civil;ENG.CIV.01;Tarde;Sala 33;-;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_132;Física III;Gustavo Quereza de Freitas;Engenharia Civil;ENG.CIV.03;Manhã;Sala 34;-;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_133;Física Experimental III;Gustavo Quereza de Freitas;Engenharia Civil;ENG.CIV.03;Manhã;Sala 38;-;50;2;0;2;1;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_134;Arquitetura e Urbanismo;Bruna Oliveira Campos;Engenharia Civil;ENG.CIV.03;Manhã;Sala 38;-;50;6;0;2;3;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_135;Geometria Analítica e Álgebra Linear;Márcio Antônio Ferreira Belo Filho;Engenharia Civil;ENG.CIV.03;Manhã;Sala 38;-;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_136;Fenômenos dos Transportes;Hugo Leonardo Souza Lara Leão;Engenharia Civil;ENG.CIV.03;Manhã;Sala 34;-;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_137;Topografia - Altimetria;Wellington Donizete Guimarães;Engenharia Civil;ENG.CIV.03;Manhã;Sala 12;-;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_138;Séries e Equações Diferenciais Ordinárias;Caíke da Rocha Damke;Engenharia Civil;ENG.CIV.03;Manhã;Sala 38;-;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_139;Mecânica dos Solos I;Flávio Hiochio Sato;Engenharia Civil;ENG.CIV.05;Tarde;Sala 46;-;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_140;Materiais de Construção Civil II;Bacus de Oliveira Nahime;Engenharia Civil;ENG.CIV.05;Tarde;Sala 46;-;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_141;Hidrologia;Gilberto Colodro;Engenharia Civil;ENG.CIV.05;Tarde;Sala 46;-;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_142;Teoria das Estruturas I;Michell Macedo Alves;Engenharia Civil;ENG.CIV.05;Tarde;Sala 46;-;50;5;0;5;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_143;Resistência dos Materiais I;Flávio Hiochio Sato;Engenharia Civil;ENG.CIV.05;Tarde;Sala 46;-;50;5;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_144;Hidráulica I;Marconi Batista Teixeira,Hugo Leonardo Souza Lara Leão;Engenharia Civil;ENG.CIV.05;Tarde;Sala 46;-;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_145;Sistemas de Abastecimento de Água;Bruna Elói do Amaral;Engenharia Civil;ENG.CIV.07;Manhã;Sala 08-A;-;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_146;Estradas;Philippe Barbosa da Silva;Engenharia Civil;ENG.CIV.07;Manhã;Sala 43;-;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_147;Sistemas de Esgotamento Sanitário;Édio Damásio da Silva Júnior;Engenharia Civil;ENG.CIV.07;Manhã;Sala 22;-;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_148;Estruturas de Madeira;Alexsandro dos Santos Felipe;Engenharia Civil;ENG.CIV.07;Manhã;Sala 43;-;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_149;Estruturas de Concreto Armado I;Alexsandro dos Santos Felipe;Engenharia Civil;ENG.CIV.07;Manhã;Sala 43;-;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_150;Estruturas Metálicas;Michell Macedo Alves;Engenharia Civil;ENG.CIV.07;Manhã;Sala 43;-;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_151;Instalações Prediais Hidrosanitárias;Bruna Vilela Buiatte Silva;Engenharia Civil;ENG.CIV.07;Manhã;Sala 43;-;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_152;Economia;Silvia Ferreira Marques Salustiano;Engenharia Civil;ENG.CIV.09;Tarde;Sala 43;-;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_153;Administração;Jean Marc Nacife;Engenharia Civil;ENG.CIV.09;Tarde;Sala 43;-;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_154;Ética Profissional;Philippe Barbosa da Silva;Engenharia Civil;ENG.CIV.09;Tarde;Sala 43;-;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_155;Higiene e Segurança do Trabalho;Bruna Elói do Amaral;Engenharia Civil;ENG.CIV.09;Tarde;Sala 43;-;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_156;Portos e Aeroportos;Philippe Barbosa da Silva;Engenharia Civil;ENG.CIV.09;Tarde;Sala 43;-;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_157;Trabalho de Curso I;Wilker Alves Morais;Engenharia Civil;ENG.CIV.09;Tarde;Sala 43;-;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_158;Cálculo Diferencial e Integral I;Paulo Henrique Rodrigues Gonçalves;Engenharia de Alimentos;ENG.ALI.01;Tarde;Sala 39;-;50;5;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_159;Biologia Celular;Lauro Bucker Neto;Engenharia de Alimentos;ENG.ALI.01;Tarde;Sala 39;-;50;5;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_160;Física I;Gustavo Quereza de Freitas;Engenharia de Alimentos;ENG.ALI.01;Tarde;Sala 39;-;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_161;Geometria Analítica e Álgebra Linear;Abner Santos Baroni Sales;Engenharia de Alimentos;ENG.ALI.01;Tarde;Sala 39;-;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_162;Química Geral e Analítica;Celso Martins Belisário,Rodrigo Braghiroli;Engenharia de Alimentos;ENG.ALI.01;Tarde;Sala 39;-;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_163;Introdução à Engenharia de Alimentos;Melissa Cássia Favaro Boldrin Freire;Engenharia de Alimentos;ENG.ALI.01;Tarde;Sala 39;-;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_164;Metodologia Científica;Aline Ditomaso;Engenharia de Alimentos;ENG.ALI.01;Tarde;Sala 39;-;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_165;Séries e Equações e Diferenciais Ordinárias;Caíke da Rocha Damke;Engenharia de Alimentos;ENG.ALI.03;Manhã;Sala 39;-;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_166;Física III;Salmon Landi Júnior;Engenharia de Alimentos;ENG.ALI.03;Manhã;Sala 39;-;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_167;Físico-Química I;Wesley Renato Viali;Engenharia de Alimentos;ENG.ALI.03;Manhã;Sala 39;-;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_168;Estatística Experimental;Adriano Jakelaitis;Engenharia de Alimentos;ENG.ALI.03;Manhã;Sala 39;-;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_169;Bioquímica Básica;Samylla Tassia Ferreira de Freitas;Engenharia de Alimentos;ENG.ALI.03;Manhã;Sala 39;-;50;5;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_170;Introdução às Operações para Engenharia;Raphaela Gabrí Bitencourt;Engenharia de Alimentos;ENG.ALI.03;Manhã;Sala 39;-;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_171;Administração Industrial;José Aurélio Vazquez Rúbio;Engenharia de Alimentos;ENG.ALI.03;Manhã;Sala 39;-;50;2;0;2;1;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_172;Microbiologia de Alimentos;Letícia Fleury Viana;Engenharia de Alimentos;ENG.ALI.05;Tarde;Sala 37;-;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_173;Termodinâmica;Márcio da Silva Vilela;Engenharia de Alimentos;ENG.ALI.05;Tarde;Sala 37;-;50;5;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_174;Fenômenos de Transporte II;Rogério Favareto;Engenharia de Alimentos;ENG.ALI.05;Tarde;Sala 37;-;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_175;Análise de Alimentos;Priscila Alonso dos Santos;Engenharia de Alimentos;ENG.ALI.05;Tarde;Sala 37;-;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_176;Nutrição Básica;Melissa Cássia Favaro Boldrin Freire;Engenharia de Alimentos;ENG.ALI.05;Tarde;Sala 37;-;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_177;Mecânica dos Sólidos;Márcio da Silva Vilela;Engenharia de Alimentos;ENG.ALI.05;Tarde;Sala 37;-;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_178;Refrigeração na Indústria de Alimentos;Rogério Favareto;Engenharia de Alimentos;ENG.ALI.07;Manhã;Sala 37;-;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_179;Tecnologia de Carnes, Pescados e Derivados;Melissa Cássia Favaro Boldrin Freire;Engenharia de Alimentos;ENG.ALI.07;Manhã;Sala 37;-;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_180;Tecnologia de Cereais, Amidos e Derivados;Amanda Barbosa de Faria;Engenharia de Alimentos;ENG.ALI.07;Manhã;Sala 37;-;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_181;Operações Unitárias I;Raphaela Gabrí Bitencourt;Engenharia de Alimentos;ENG.ALI.07;Manhã;Sala 37;-;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_182;Planejamento Territorial Urbano e Rural;Emival da Cunha Ribeiro;Engenharia de Alimentos;ENG.ALI.07;Manhã;Sala 37;-;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_183;Acondicionamento e Embalagem de Alimentos;Amanda Barbosa de Faria;Engenharia de Alimentos;ENG.ALI.09;Tarde;Sala 38;-;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_184;Tratamento de Rejeitos Industriais;Lucas Peres Angelini;Engenharia de Alimentos;ENG.ALI.09;Tarde;Sala 38;-;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_185;Tecnologia de Óleos, Gorduras e Subprodutos;Geovana Rocha Plácido;Engenharia de Alimentos;ENG.ALI.09;Tarde;Sala 38;-;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_186;Controle e Gestão da Qualidade;Letícia Fleury Viana;Engenharia de Alimentos;ENG.ALI.09;Tarde;Sala 38;-;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_187;Desenvolvimento de Novos Produtos;Melissa Cássia Favaro Boldrin Freire;Engenharia de Alimentos;ENG.ALI.09;Tarde;Sala 38;-;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_188;Projetos Industriais;Raphaela Gabrí Bitencourt;Engenharia de Alimentos;ENG.ALI.09;Tarde;Sala 38;Lab Info 2;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_189;Ética Profissional;Geovana Rocha Plácido;Engenharia de Alimentos;ENG.ALI.09;Tarde;Sala 38;-;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_190;Química Geral I;Celso Martins Belisário;Química;QUIM.LI.01;Noite;Sala 30;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;0
+Disc_191;Química Geral Experimental;Ana Carolina Ribeiro Aguiar;Química;QUIM.LI.01;Noite;Sala 30;-;50;8;0;2;4;1-12;1-12;1-12;1-12;1-12;0
+Disc_192;Fundamentos de Cálculo;Paulo Henrique Rodrigues Gonçalves;Química;QUIM.LI.01;Noite;Sala 30;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;0
+Disc_193;Metodologia Científica;Aline Ditomaso;Química;QUIM.LI.01;Noite;Sala 30;-;50;2;1;2;1;1-12;1-12;1-12;1-12;1-12;0
+Disc_194;Fundamentos Filosóficos da Educação;Brunna Dias Cardoso;Química;QUIM.LI.01;Noite;Sala 30;-;50;3;0;3;1;1-12;1-12;1-12;1-12;1-12;0
+Disc_195;História da Química;Celso Martins Belisário;Química;QUIM.LI.01;Noite;Sala 30;-;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;0
+Disc_196;Físico-Química II;Wesley Renato Viali;Química;QUIM.LI.03;Noite;Sala 27;-;50;3;0;3;1;1-12;1-12;1-12;1-12;1-12;0
+Disc_197;Físico-Química II Experimental;Carlos Frederico de Souza Castro;Química;QUIM.LI.03;Noite;Sala 27;-;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;0
+Disc_198;Química Analítica Qualitativa;Polyana Fernandes Pereira;Química;QUIM.LI.03;Noite;Sala 27;-;50;7;0;3;2;1-12;1-12;1-12;1-12;1-12;0
+Disc_199;Física Geral e Experimental I;Tiago Clarimundo Ramos;Química;QUIM.LI.03;Noite;Sala 27;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;0
+Disc_200;Psicologia da Educação I;Luíza Ferreira Rezende de Medeiros;Química;QUIM.LI.03;Noite;Sala 27;-;50;3;0;3;1;1-12;1-12;1-12;1-12;1-12;0
+Disc_201;Práticas Acadêmicas de Físico-Química;Carlos Frederico de Souza Castro;Química;QUIM.LI.03;Noite;Sala 27;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;0
+Disc_202;Físico-Química III;Wesley Renato Viali;Química;QUIM.LI.05;Noite;Sala 28;-;50;3;0;3;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_203;Química Inorgânica I;Eloiza da Silva Nunes;Química;QUIM.LI.05;Noite;Sala 28;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_204;Libras;Brunna Dias Cardoso;Química;QUIM.LI.05;Noite;Sala 28;-;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_205;Psicologia da Educação II;Rosenilde Nogueira Paniago;Química;QUIM.LI.05;Noite;Sala 28;-;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_206;Pesquisa e Práticas de Intervenção em Educação I;Rosenilde Nogueira Paniago;Química;QUIM.LI.05;Noite;Sala 28;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_207;Práticas Acadêmicas de Química Analítica Quantitativa;Polyana Fernandes Pereira;Química;QUIM.LI.05;Noite;Sala 28;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_208;Físico-Química II;Wesley Renato Viali;Química;QUIM.LI.07;Noite;Sala 27;-;50;3;0;3;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_209;Físico-Química II Experimental;Carlos Frederico de Souza Castro;Química;QUIM.LI.07;Noite;Sala 29;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_210;Bioquímica;Tiago Carnevalle Romão;Química;QUIM.LI.07;Noite;Sala 29;-;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_211;Química Analítica Instrumental;Eloiza da Silva Nunes;Química;QUIM.LI.07;Noite;Sala 29;-;50;3;0;1;3;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_212;Química Orgânica Experimental;Roberta de Almeida Carvalho,Eloiza da Silva Nunes;Química;QUIM.LI.07;Noite;Sala 29;-;50;4;0;4;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_213;Topografia Altimetria;Wellington Donizete Guimarães;Saneamento Ambiental;SA.TL.03;Noite;Sala 12;-;50;3;0;3;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_214;Microbiologia Ambiental;Edson Luiz Souchie;Saneamento Ambiental;SA.TL.03;Noite;Sala 43;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_215;Poluição da Água;Lucas Peres Angelini;Saneamento Ambiental;SA.TL.03;Noite;Sala 43;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_216;Poluição do Solo e Atmosférica;Lucas Peres Angelini;Saneamento Ambiental;SA.TL.03;Noite;Sala 43;-;50;2;0;1;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_217;Física I;Salmon Landi Júnior;Saneamento Ambiental;SA.TL.03;Noite;Sala 43;-;50;3;0;3;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_218;Hidráulica;Marconi Batista Teixeira;Saneamento Ambiental;SA.TL.03;Noite;Sala 43;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_219;Sistemas de Informações Geográficas;Wellington Donizete Guimarães;Saneamento Ambiental;SA.TL.05;Noite;Sala 44;Lab Info 1;50;4;0;4;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_220;Tratamento de Águas Residuárias I;Andriane de Melo Rodrigues;Saneamento Ambiental;SA.TL.05;Noite;Sala 44;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_221;Sistemas de Abastecimento de Água e Esgotamento Sanitário;Édio Damásio da Silva Júnior;Saneamento Ambiental;SA.TL.05;Noite;Sala 44;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_222;Tratamento Convencional de Água de Abastecimento;Andriane de Melo Rodrigues;Saneamento Ambiental;SA.TL.05;Noite;Sala 44;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_223;Estudo de Impacto Ambiental;Juarez Martins Rodrigues;Saneamento Ambiental;SA.TL.05;Noite;Sala 44;-;50;3;0;3;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_224;Biologia Celular;Samylla Tassia Ferreira de Freitas;Zootecnia;ZOO.TL.01;Tarde;Sala 28;-;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_225;Fundamentos de Cálculo;Aline Gobbi Dutra Guimarães;Zootecnia;ZOO.TL.01;Tarde;Sala 28;-;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_226;Introdução à Zootecnia;Elis Aparecido Bento;Zootecnia;ZOO.TL.01;Tarde;Sala 28;-;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_227;Anatomia Animal;Jéssika Mara Martins Ribeiro;Zootecnia;ZOO.TL.01;Tarde;Sala 28;-;50;6;0;2;3;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_228;Desenho Técnico;Victor Baldin;Zootecnia;ZOO.TL.01;Tarde;Sala 28;Lab Info 1;50;6;0;2;3;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_229;Química Geral e Analítica;Roberta de Almeida Carvalho;Zootecnia;ZOO.TL.01;Tarde;Sala 28;-;50;5;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_230;Bioquímica;Cibele Silva Minafra;Zootecnia;ZOO.TL.03;Manhã;Sala 10;-;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_231;Mecanização Agrícola Aplicada;João Cleber Modernel da Silveira;Zootecnia;ZOO.TL.03;Manhã;Sala 10;-;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_232;Parasitologia;Francisco Ribeiro de Araújo Neto;Zootecnia;ZOO.TL.03;Manhã;Sala 10;-;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_233;Estatística Básica;Frederico Antonio Loureiro Soares;Zootecnia;ZOO.TL.03;Manhã;Sala 10;-;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_234;Histologia e Embriologia Animal;Tiago Carnevalle Romão;Zootecnia;ZOO.TL.03;Manhã;Sala 10;-;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_235;Manejo e Conservação do Solo e Água;Eduardo da Costa Severiano;Zootecnia;ZOO.TL.03;Manhã;Sala 10;-;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_236;Melhoramento Genético Animal;Francisco Ribeiro de Araújo Neto;Zootecnia;ZOO.TL.05;Tarde;Sala 31;-;50;5;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_237;Bioclimatologia;Ana Paula Cardoso Gomide;Zootecnia;ZOO.TL.05;Tarde;Sala 31;-;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_238;Alimentos e Alimentação;Cibele Silva Minafra;Zootecnia;ZOO.TL.05;Tarde;Sala 31;-;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_239;Forragicultura;Kátia Aparecida de Pinho Costa;Zootecnia;ZOO.TL.05;Tarde;Sala 31;-;50;4;0;4;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_240;Higiene e Profilaxia Animal;Karen Martins Leão;Zootecnia;ZOO.TL.05;Tarde;Sala 31;-;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_241;Bromatologia;Kátia Cylene Guimarães;Zootecnia;ZOO.TL.05;Tarde;Sala 31;-;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_242;Formulação de Ração para Ruminantes;Cibele Silva Minafra;Zootecnia;ZOO.TL.07;Manhã;Sala 24;-;50;2;0;2;1;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_243;Formulação de Ração para Não Ruminantes;Cibele Silva Minafra;Zootecnia;ZOO.TL.07;Manhã;Sala 24;-;50;2;0;2;1;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_244;Gestão de Negócios;Carlos Antônio Cardoso Sobrinho;Zootecnia;ZOO.TL.07,ZOO.TL.09;Tarde;Sala 32;-;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_245;Aquicultura;Adriano Carvalho Costa;Zootecnia;ZOO.TL.07;Manhã;Sala 24;-;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_246;Equideocultura;Elis Aparecido Bento;Zootecnia;ZOO.TL.07;Manhã;Sala 24;-;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_247;Animais de Companhia;Fabiana Ramos dos Santos;Zootecnia;ZOO.TL.07;Manhã;Sala 24;-;50;2;0;2;1;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_248;Tecnologia de Produtos de Origem Animal;Marco Antônio Pereira da Silva;Zootecnia;ZOO.TL.07;Manhã;Sala 24;-;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_249;Julgamento e Preparo de Animais para Exposição;Francisco Ribeiro de Araújo Neto;Zootecnia;ZOO.TL.09;Tarde;Sala 32;-;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_250;Avicultura;Fabiana Ramos dos Santos;Zootecnia;ZOO.TL.09;Tarde;Sala 32;-;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_251;Bovinocultura de Leite;Tiago Pereira Guimarães;Zootecnia;ZOO.TL.09;Tarde;Sala 32;-;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_252;Ética Profissional;Elis Aparecido Bento;Zootecnia;ZOO.TL.09;Tarde;Sala 32;-;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_253;Caprinocultura e Ovinocultura;Elis Aparecido Bento;Zootecnia;ZOO.TL.09;Tarde;Sala 32;-;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_254;Redação de Textos Oficiais;Calixto Júnior de Souza;Técnico em Administração;ADM.TEC.01T;Tarde;Sala 10-B;-;50;2;1;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_255;Gestão Empresarial;Luciene de Oliveira Guerra;Técnico em Administração;ADM.TEC.01T;Tarde;Sala 10-B;-;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_256;Ética;Milton Bernardes Ferreira;Técnico em Administração;ADM.TEC.01T;Tarde;Sala 10-B;-;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_257;Cenários Econômicos e Mercado;Samantha Rezende Mendes;Técnico em Administração;ADM.TEC.01T;Tarde;Sala 10-B;-;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_258;Direito;Márcia Cristina Puydinger de Fazio;Técnico em Administração;ADM.TEC.01T;Tarde;Sala 10-B;-;50;2;1;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_259;Matemática Financeira;Renato Cruvinel de Oliveira;Técnico em Administração;ADM.TEC.01T;Tarde;Sala 10-B;-;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_260;Sociologia Aplicada à Administração;Roberto Castillo Pizarro;Técnico em Administração;ADM.TEC.01T;Tarde;Sala 10-B;-;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_261;Contabilidade Básica;Frankcione Borges de Almeida;Técnico em Administração;ADM.TEC.02T;Tarde;Sala 05;-;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_262;Estatística Básica;Idalci Cruvinel dos Reis;Técnico em Administração;ADM.TEC.02T;Tarde;Sala 05;-;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_263;Gestão da Qualidade;José Aurélio Vazquez Rúbio;Técnico em Administração;ADM.TEC.02T;Tarde;Sala 05;-;50;2;1;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_264;Marketing;Milton Bernardes Ferreira;Técnico em Administração;ADM.TEC.02T;Tarde;Sala 05;-;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_265;Cooperativismo e Associativismo;Samantha Rezende Mendes;Técnico em Administração;ADM.TEC.02T;Tarde;Sala 05;-;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_266;Organização, Sistema e Métodos;Silvia Ferreira Marques Salustiano;Técnico em Administração;ADM.TEC.02T;Tarde;Sala 05;-;50;2;1;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_267;Administração de Recursos Materiais, Patrimoniais e Logística;Cássia da Silva Castro Arantes;Técnico em Administração;ADM.TEC.02T;Tarde;Sala 05;-;50;3;1;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_268;Comércio Eletrônico e Automação Comercial;José Aurélio Vazquez Rúbio;Técnico em Administração;ADM.TEC.03T;Tarde;Sala 06;-;50;2;1;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_269;Planejamento Estratégico;Kennedy de Araújo Barbosa;Técnico em Administração;ADM.TEC.03T;Tarde;Sala 06;-;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_270;Gestão de Pessoas;Lídia Nunes Ávila Carvalhaes;Técnico em Administração;ADM.TEC.03T;Tarde;Sala 06;-;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_271;Empreendedorismo;Lídia Nunes Ávila Carvalhaes;Técnico em Administração;ADM.TEC.03T;Tarde;Sala 06;-;50;3;1;1;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_272;Administração Financeira;Jean Marc Nacife;Técnico em Administração;ADM.TEC.03T;Tarde;Sala 06;-;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_273;Análise de Custos e Formação de Preços;Cássia da Silva Castro Arantes;Técnico em Administração;ADM.TEC.03T;Tarde;Sala 06;-;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_274;Redação de Textos Oficiais;Calixto Júnior de Souza;Técnico em Administração;ADM.TEC.01N;Noite;Sala 10;-;50;2;1;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_275;Gestão Empresarial;Luciene de Oliveira Guerra;Técnico em Administração;ADM.TEC.01N;Noite;Sala 10;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_276;Ética;Milton Bernardes Ferreira;Técnico em Administração;ADM.TEC.01N;Noite;Sala 10;-;50;3;0;1;3;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_277;Cenários Econômicos e Mercado;Samantha Rezende Mendes;Técnico em Administração;ADM.TEC.01N;Noite;Sala 10;-;50;3;0;3;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_278;Direito;Márcia Cristina Puydinger de Fazio;Técnico em Administração;ADM.TEC.01N;Noite;Sala 10;-;50;2;1;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_279;Matemática Financeira;Renato Cruvinel de Oliveira;Técnico em Administração;ADM.TEC.01N;Noite;Sala 10;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_280;Sociologia Aplicada à Administração;Roberto Castillo Pizarro;Técnico em Administração;ADM.TEC.01N;Noite;Sala 10;-;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_281;Contabilidade Básica;Frankcione Borges de Almeida;Técnico em Administração;ADM.TEC.02N;Noite;Sala 15;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_282;Estatística Básica;Danilo Pereira Barbosa;Técnico em Administração;ADM.TEC.02N;Noite;Sala 15;-;50;3;0;1;3;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_283;Gestão da Qualidade;Kennedy de Araújo Barbosa;Técnico em Administração;ADM.TEC.02N;Noite;Sala 15;-;50;2;1;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_284;Marketing;Milton Bernardes Ferreira;Técnico em Administração;ADM.TEC.02N;Noite;Sala 15;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_285;Cooperativismo e Associativismo;Samantha Rezende Mendes;Técnico em Administração;ADM.TEC.02N;Noite;Sala 15;-;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_286;Organização, Sistema e Métodos;Silvia Ferreira Marques Salustiano;Técnico em Administração;ADM.TEC.02N;Noite;Sala 15;-;50;2;1;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_287;Administração de Recursos Materiais, Patrimoniais e Logística;Cássia da Silva Castro Arantes;Técnico em Administração;ADM.TEC.02N;Noite;Sala 15;-;50;2;2;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_288;Comércio Eletrônico e Automação Comercial;José Aurélio Vazquez Rúbio;Técnico em Administração;ADM.TEC.03N;Noite;Sala 16;-;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_289;Planejamento Estratégico;Kennedy de Araújo Barbosa;Técnico em Administração;ADM.TEC.03N;Noite;Sala 16;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_290;Empreendedorismo;Lídia Nunes Ávila Carvalhaes;Técnico em Administração;ADM.TEC.03N;Noite;Sala 16;-;50;4;0;4;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_291;Administração Financeira;Jean Marc Nacife;Técnico em Administração;ADM.TEC.03N;Noite;Sala 16;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_292;Análise de Custos e Formação de Preços;Cássia da Silva Castro Arantes;Técnico em Administração;ADM.TEC.03N;Noite;Sala 16;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_293;Física - Mecânica Básica;Tiago Clarimundo Ramos;Engenharia Ambiental;ENG.AMB.01;Tarde;Sala 30;-;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_294;Introdução à Engenharia Ambiental;Andriane de Melo Rodrigues;Engenharia Ambiental;ENG.AMB.01;Tarde;Sala 30;-;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_295;Metodologia Científica;Aline Ditomaso;Engenharia Ambiental;ENG.AMB.01;Tarde;Sala 30;-;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_296;Química Geral;Cássia Cristina Fernandes Alves;Engenharia Ambiental;ENG.AMB.01;Tarde;Sala 30;-;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_297;Geometria Analítica e Álgebra Linear;Márcio Antônio Ferreira Belo Filho;Engenharia Ambiental;ENG.AMB.01;Tarde;Sala 30;-;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_298;Cálculo Diferencial e Integral I;Caíke da Rocha Damke;Engenharia Ambiental;ENG.AMB.01;Tarde;Sala 30;-;50;5;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_299;Estatística Básica;Idalci Cruvinel dos Reis;Engenharia Ambiental;ENG.AMB.01;Tarde;Sala 30;-;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_300;Fundamentos de Ciência do Solo;Rafael Marques Pereira Leal;Engenharia Ambiental;ENG.AMB.03;Manhã;Sala 27;-;50;2;0;2;1;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_301;Bioquímica;Fernanda dos Santos Farnese;Engenharia Ambiental;ENG.AMB.03;Manhã;Sala 27;-;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_302;Cálculo Numérico;Caíke da Rocha Damke;Engenharia Ambiental;ENG.AMB.03;Manhã;Sala 27;-;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_303;Poluição Atmosférica;Lucas Peres Angelini;Engenharia Ambiental;ENG.AMB.03;Manhã;Sala 27;-;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_304;Ecologia;Hipólito Tadeu Ferreira da Silva;Engenharia Ambiental;ENG.AMB.03;Manhã;Sala 27;-;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_305;Climatologia;Gilberto Colodro;Engenharia Ambiental;ENG.AMB.03;Manhã;Sala 27;-;50;4;0;4;1;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_306;Termodinâmica;Márcio da Silva Vilela;Engenharia Ambiental;ENG.AMB.03;Manhã;Sala 27;-;50;5;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_307;Saúde Pública;Fábio Martins Vilar de Carvalho;Engenharia Ambiental;ENG.AMB.05;Tarde;Sala 26;-;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_308;Métodos Computacionais I;Leonel Diógenes Carvalhaes Alvarenga;Engenharia Ambiental;ENG.AMB.05;Tarde;Sala 26;Lab Info 3;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_309;Sistemas de Gestão Ambiental e Série ISO 14000;Hipólito Tadeu Ferreira da Silva;Engenharia Ambiental;ENG.AMB.05;Tarde;Sala 26;-;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_310;Fenômenos de Transporte I;Hugo Leonardo Souza Lara Leão;Engenharia Ambiental;ENG.AMB.05;Tarde;Sala 26;-;50;5;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_311;Indicadores de Impacto Ambiental;Wilker Alves Morais;Engenharia Ambiental;ENG.AMB.05;Tarde;Sala 26;-;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_312;Topografia - Altimetria;David Vieira Lima;Engenharia Ambiental;ENG.AMB.05;Tarde;Sala 12;-;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_313;Sistemas de Informações Geográficas;Wellington Donizete Guimarães;Engenharia Ambiental;ENG.AMB.07;Manhã;Sala 22;Lab Info 3;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_314;Gestão de Unidades de Conservação e Ecoturismo;Juarez Martins Rodrigues;Engenharia Ambiental;ENG.AMB.07;Manhã;Sala 22;-;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_315;Sistemas de Abastecimento de Água;Bruna Elói do Amaral;Engenharia Ambiental;ENG.AMB.07;Manhã;Sala 08-A;-;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_316;Gestão de Resíduos Sólidos;Andriane de Melo Rodrigues;Engenharia Ambiental;ENG.AMB.07;Manhã;Sala 22;-;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_317;Geotecnia Ambiental;Flávio Hiochio Sato;Engenharia Ambiental;ENG.AMB.07;Manhã;Sala 22;-;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_318;Sistemas de Esgotamento Sanitário;Édio Damásio da Silva Júnior;Engenharia Ambiental;ENG.AMB.07;Manhã;Sala 22;-;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_319;Auditoria e Perícia Ambiental;Wilker Alves Morais;Engenharia Ambiental;ENG.AMB.09;Tarde;Sala 24;-;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_320;Administração;Jean Marc Nacife;Engenharia Ambiental;ENG.AMB.09;Tarde;Sala 24;-;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_321;Ética Profissional;Hipólito Tadeu Ferreira da Silva;Engenharia Ambiental;ENG.AMB.09;Tarde;Sala 24;-;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_322;Trabalho de Curso I;Andriane de Melo Rodrigues;Engenharia Ambiental;ENG.AMB.09;Tarde;Sala 24;-;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_323;Gestão de Recursos Hídricos;Édio Damásio da Silva Júnior;Engenharia Ambiental;ENG.AMB.09;Tarde;Sala 24;-;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_324;Energias Renováveis;João Areis Ferreira Barbosa Júnior;Engenharia Ambiental;ENG.AMB.09;Tarde;Sala 24;-;50;2;0;2;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_325;Recuperação de Áreas Degradadas;Leandro Carlos;Engenharia Ambiental;ENG.AMB.09;Tarde;Sala 24;-;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_326;Cenários Econômicos e Mercado;Samantha Rezende Mendes;PROEJA Adminstração;PROEJA.ADM.03;Noite;Sala 10;-;50;3;0;3;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_327;Português II;Wilciene Nunes do Vale;PROEJA Adminstração;PROEJA.ADM.03;Noite;Sala 07;-;50;2;1;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_328;Matemática III ;Abner Santos Baroni Sales;PROEJA Adminstração;PROEJA.ADM.03;Noite;Sala 07;-;50;3;0;3;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_329;Biologia III ;Samylla Tassia Ferreira de Freitas;PROEJA Adminstração;PROEJA.ADM.03;Noite;Sala 07;-;50;3;0;3;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_330;História III;Brunna Dias Cardoso;PROEJA Adminstração;PROEJA.ADM.03;Noite;Sala 07;-;50;2;1;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_331;Geografia III ;Emival da Cunha Ribeiro;PROEJA Adminstração;PROEJA.ADM.03;Noite;Sala 07;-;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_332;Física I ;Gustavo Quereza de Freitas;PROEJA Adminstração;PROEJA.ADM.03;Noite;Sala 07;-;50;2;1;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_333;Biologia IV;Samylla Tassia Ferreira de Freitas;PROEJA Adminstração;PROEJA.ADM.04;Noite;Sala 07-A;-;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_334;Matemática IV;Danilo Pereira Barbosa;PROEJA Adminstração;PROEJA.ADM.04;Noite;Sala 07-A;-;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_335;Português III;Wilciene Nunes do Vale;PROEJA Adminstração;PROEJA.ADM.04;Noite;Sala 07-A;-;50;2;1;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_336;História IV;Brunna Dias Cardoso;PROEJA Adminstração;PROEJA.ADM.04;Noite;Sala 07-A;-;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_337;Geografia IV;Emival da Cunha Ribeiro;PROEJA Adminstração;PROEJA.ADM.04;Noite;Sala 07-A;-;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_338;Física II;Gustavo Quereza de Freitas;PROEJA Adminstração;PROEJA.ADM.04;Noite;Sala 07-A;-;50;2;1;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_339;Gestão da Qualidade;Kennedy de Araújo Barbosa;PROEJA Adminstração;PROEJA.ADM.04;Noite;Sala 15;-;50;2;1;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_340;Sociologia;Roberto Castillo Pizarro;PROEJA Adminstração;PROEJA.ADM.04;Noite;Sala 07-A;-;50;2;1;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_341;Administração de Recursos Humanos;Cássia da Silva Castro Arantes;PROEJA Adminstração;PROEJA.ADM.04;Noite;Sala 07-A;-;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_342;Matemática Financeira;Abner Santos Baroni Sales;PROEJA Adminstração;PROEJA.ADM.05;Noite;Sala 08;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_343;Planejamento Estratégico;Kennedy de Araújo Barbosa;PROEJA Adminstração;PROEJA.ADM.05;Noite;Sala 08;-;50;2;2;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_344;Química I ;Luismar de Paula Souza;PROEJA Adminstração;PROEJA.ADM.05;Noite;Sala 08;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_345;Física III;Tiago Clarimundo Ramos;PROEJA Adminstração;PROEJA.ADM.05;Noite;Sala 08;-;50;3;0;3;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_346;Cooperativismo e Associativismo;Samantha Rezende Mendes;PROEJA Adminstração;PROEJA.ADM.05;Noite;Sala 15;-;50;2;1;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_347;Comércio Eletrônico e Automação Comercial;José Aurélio Vazquez Rúbio;PROEJA Adminstração;PROEJA.ADM.05;Noite;Sala 16;-;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_348;Inglês I ;Lídia Nunes Ávila Carvalhaes;PROEJA Adminstração;PROEJA.ADM.05;Noite;Sala 08;-;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_349;Inglês II ;Lídia Nunes Ávila Carvalhaes;PROEJA Adminstração;PROEJA.ADM.06;Noite;Sala 08-A;-;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_350;Ética e Relações no Trabalho;Brunna Dias Cardoso;PROEJA Adminstração;PROEJA.ADM.06;Noite;Sala 08-B;-;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_351;Química II ;Luismar de Paula Souza;PROEJA Adminstração;PROEJA.ADM.06;Noite;Sala 08-B;-;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_352;Marketing;Milton Bernardes Ferreira;PROEJA Adminstração;PROEJA.ADM.06;Noite;Sala 15;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_353;Empreendorismo ;Luciene de Oliveira Guerra;PROEJA Adminstração;PROEJA.ADM.06;Noite;Sala 08-B;-;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_354;Contabilidade Básica;Frankcione Borges de Almeida;PROEJA Adminstração;PROEJA.ADM.06;Noite;Sala 08-A;-;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_355;Estatística Básica;Abner Santos Baroni Sales;PROEJA Adminstração;PROEJA.ADM.06;Noite;Sala 08-A;-;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_356;Português IV;Wilciene Nunes do Vale;PROEJA Adminstração;PROEJA.ADM.07;Noite;Sala 08-B;-;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_357;Química III;Luismar de Paula Souza;PROEJA Adminstração;PROEJA.ADM.07;Noite;Sala 08-B;-;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_358;Administração de Recursos Materiais, Patrimoniais e Logística;Cássia da Silva Castro Arantes;PROEJA Adminstração;PROEJA.ADM.07;Noite;Sala 15;-;50;2;2;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_359;Análise de Custos e Formação de Preços;Silvia Ferreira Marques Salustiano;PROEJA Adminstração;PROEJA.ADM.07;Noite;Sala 16;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_360;Direito ;Márcia Cristina Puydinger de Fazio;PROEJA Adminstração;PROEJA.ADM.07;Noite;Sala 10;-;50;2;1;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_361;Mecânica dos Solos e Fundações;Bruna Vilela Buiatte Silva;PROEJA Edificações;PROEJA.EDI.07;Noite;Sala 11;-;50;5;0;1;2;1-12;1-12;1-12;1-12;1-12;0
+Disc_362;Biologia III;Samylla Tassia Ferreira de Freitas;PROEJA Edificações;PROEJA.EDI.07;Noite;Sala 07;-;50;3;0;3;1;1-12;1-12;1-12;1-12;1-12;0
+Disc_363;Técnicas Construtivas II;Bruna Vilela Buiatte Silva;PROEJA Edificações;PROEJA.EDI.07;Noite;Sala 19;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;0
+Disc_364;História III;Brunna Dias Cardoso;PROEJA Edificações;PROEJA.EDI.07;Noite;Sala 07;-;50;2;1;2;1;1-12;1-12;1-12;1-12;1-12;0
+Disc_365;Sistemas Estruturais II;Michell Macedo Alves;PROEJA Edificações;PROEJA.EDI.07;Noite;Sala 25;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;0
+Disc_366;Inglês I ;Lídia Nunes Ávila Carvalhaes;PROEJA Edificações;PROEJA.EDI.07;Noite;Sala 08;-;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;0
+Disc_367;Gerenciamento e Orçamento;Cássia da Silva Castro Arantes;PROEJA Edificações;PROEJA.EDI.07;Noite;Sala 18;-;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;0
+Disc_368;Projeto Final;Aline Ditomaso;PROEJA Edificações;PROEJA.EDI.08;Noite;Sala 17;-;50;4;6;4;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_369;Agricultura Geral;Adriano Perin;Técnico em Agropecuária;AGRO.TEC.01M;Manhã;Sala 01;-;50;5;0;5;1;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_370;Matemática Aplicada;Matheus de Paula Ferreira;Técnico em Agropecuária;AGRO.TEC.01M;Manhã;Sala 01;-;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_371;Zootecnia Geral;Jéssika Mara Martins Ribeiro;Técnico em Agropecuária;AGRO.TEC.01M;Manhã;Sala 01;-;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_372;Mecanização Agrícola;João Cleber Modernel da Silveira;Técnico em Agropecuária;AGRO.TEC.01M;Manhã;Sala 01;-;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_373;Administração Rural;Carlos Antônio Cardoso Sobrinho;Técnico em Agropecuária;AGRO.TEC.01M;Manhã;Sala 01;-;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_374;Ovinos e Caprinos;Elis Aparecido Bento;Técnico em Agropecuária;AGRO.TEC.02M;Manhã;Sala 05;-;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_375;Avicultura;Fabiana Ramos dos Santos;Técnico em Agropecuária;AGRO.TEC.02M;Manhã;Sala 05;-;50;4;0;4;1;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_376;Irrigação e Drenagem;Marconi Batista Teixeira;Técnico em Agropecuária;AGRO.TEC.02M;Manhã;Sala 05;-;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_377;Olericultura;José Weselli de Sá Andrade;Técnico em Agropecuária;AGRO.TEC.02M;Manhã;Sala 05;-;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_378;Desenho Tec. Construções Rurais;João Cleber Modernel da Silveira;Técnico em Agropecuária;AGRO.TEC.02M;Manhã;Sala 05;-;50;4;0;4;1;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_379;Suinocultura;Tiago Pereira Guimarães;Técnico em Agropecuária;AGRO.TEC.03M;Manhã;Sala 06;-;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_380;Culturas Anuais I;Adriano Perin;Técnico em Agropecuária;AGRO.TEC.03M;Manhã;Sala 06;-;50;4;0;4;1;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_381;Forragicultura;Tiago Pereira Guimarães;Técnico em Agropecuária;AGRO.TEC.03M;Manhã;Sala 06;-;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_382;Proteção de Plantas;Rafael Marques Pereira Leal;Técnico em Agropecuária;AGRO.TEC.03M;Manhã;Sala 06;-;50;3;0;3;1;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_383;Armazenagem de Grãos;Osvaldo Resende;Técnico em Agropecuária;AGRO.TEC.03M;Manhã;Sala 06;-;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_384;Topografia;David Vieira Lima;Técnico em Agropecuária;AGRO.TEC.03M;Manhã;Sala 06;-;50;4;0;4;1;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_385;Culturas Anuais II;Ednalva Patrícia de Andrade Silva;Técnico em Agropecuária;AGRO.TEC.04M;Manhã;Sala 07;-;50;4;0;4;1;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_386;Fruticultura;Jacson Zuchi;Técnico em Agropecuária;AGRO.TEC.04M;Manhã;Sala 07;-;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_387;Bovinocultura;Karen Martins Leão;Técnico em Agropecuária;AGRO.TEC.04M;Manhã;Sala 07;-;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_388;Projetos Agropecuários;Gilberto Colodro;Técnico em Agropecuária;AGRO.TEC.04M;Manhã;Sala 07;-;50;4;0;4;1;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_389;Agroindústria;Juliana Aparecida Celia;Técnico em Agropecuária;AGRO.TEC.04M;Manhã;Sala 07;-;50;4;0;2;2;7-16;7-16;7-16;7-16;7-16;1-16
+Disc_390;Agricultura Geral;Adriano Perin;Técnico em Agropecuária;AGRO.TEC.01T;Tarde;Sala 01;-;50;5;0;5;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_391;Matemática Aplicada;Abner Santos Baroni Sales;Técnico em Agropecuária;AGRO.TEC.01T;Tarde;Sala 01;-;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_392;Zootecnia Geral;Jéssika Mara Martins Ribeiro;Técnico em Agropecuária;AGRO.TEC.01T;Tarde;Sala 01;-;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_393;Mecanização Agrícola;João Cleber Modernel da Silveira;Técnico em Agropecuária;AGRO.TEC.01T;Tarde;Sala 01;-;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_394;Administração Rural;Milton Bernardes Ferreira;Técnico em Agropecuária;AGRO.TEC.01T;Tarde;Sala 01;-;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_395;Ovinos e Caprinos;Elis Aparecido Bento;Técnico em Agropecuária;AGRO.TEC.02T;Tarde;Sala 03;-;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_396;Avicultura;Fabiana Ramos dos Santos;Técnico em Agropecuária;AGRO.TEC.02T;Tarde;Sala 03;-;50;4;0;4;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_397;Irrigação e Drenagem;Leonardo Nazário Silva dos Santos;Técnico em Agropecuária;AGRO.TEC.02T;Tarde;Sala 03;-;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_398;Olericultura;José Weselli de Sá Andrade;Técnico em Agropecuária;AGRO.TEC.02T;Tarde;Sala 03;-;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_399;Desenho Tec. Construções Rurais;João Cleber Modernel da Silveira;Técnico em Agropecuária;AGRO.TEC.02T;Tarde;Sala 03;-;50;4;0;4;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_400;Suinocultura;Tiago Pereira Guimarães;Técnico em Agropecuária;AGRO.TEC.03T;Tarde;Sala 10;-;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_401;Culturas Anuais I;Ednalva Patrícia de Andrade Silva;Técnico em Agropecuária;AGRO.TEC.03T;Tarde;Sala 10;-;50;4;0;4;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_402;Forragicultura;Kátia Aparecida de Pinho Costa;Técnico em Agropecuária;AGRO.TEC.03T;Tarde;Sala 10;-;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_403;Proteção de Plantas;Renata Pereira Marques;Técnico em Agropecuária;AGRO.TEC.03T;Tarde;Sala 10;-;50;3;0;3;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_404;Armazenagem de Grãos;Jacson Zuchi;Técnico em Agropecuária;AGRO.TEC.03T;Tarde;Sala 10;-;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_405;Topografia;David Vieira Lima;Técnico em Agropecuária;AGRO.TEC.03T;Tarde;Sala 10;-;50;4;0;4;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_406;Culturas Anuais II;Ednalva Patrícia de Andrade Silva;Técnico em Agropecuária;AGRO.TEC.04T;Tarde;Sala 04;-;50;4;0;4;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_407;Fruticultura;Fernando Higino L. Silva;Técnico em Agropecuária;AGRO.TEC.04T;Tarde;Sala 04;-;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_408;Bovinocultura;Karen Martins Leão;Técnico em Agropecuária;AGRO.TEC.04T;Tarde;Sala 04;-;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_409;Projetos Agropecuários;Gilberto Colodro;Técnico em Agropecuária;AGRO.TEC.04T;Tarde;Sala 04;-;50;4;0;4;1;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_410;Agroindústria;Juliana Aparecida Celia;Técnico em Agropecuária;AGRO.TEC.04T;Tarde;Sala 04;-;50;4;0;2;2;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
+Disc_411;Química Aplicada;Roberta de Almeida Carvalho;Técnico em Alimentos;ALI.TEC.01;Noite;Sala 39;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_412;Segurança e Biossegurança;Juliana Aparecida Celia;Técnico em Alimentos;ALI.TEC.01;Noite;Sala 39;-;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_413;Tecnologia de Ovos e Mel;Priscila Alonso dos Santos;Técnico em Alimentos;ALI.TEC.01;Noite;Sala 39;-;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_414;Matemática Aplicada;Matheus de Paula Ferreira;Técnico em Alimentos;ALI.TEC.01;Noite;Sala 39;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_415;Princípios de Química e Bioquímica;Amanda Barbosa de Faria;Técnico em Alimentos;ALI.TEC.01;Noite;Sala 39;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_416;Ética e Relações no Trabalho;Geovana Rocha Plácido;Técnico em Alimentos;ALI.TEC.01;Noite;Sala 39;-;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_417;Português Técnico;Calixto Júnior de Souza;Técnico em Alimentos;ALI.TEC.01;Noite;Sala 39;-;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_418;Análise de Alimentos;Priscila Alonso dos Santos;Técnico em Alimentos;ALI.TEC.02;Noite;Sala 38;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_419;Empreendedorismo;Luciene de Oliveira Guerra;Técnico em Alimentos;ALI.TEC.02;Noite;Sala 38;-;50;2;1;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_420;Estatística Básica;Danilo Pereira Barbosa;Técnico em Alimentos;ALI.TEC.02;Noite;Sala 38;-;50;3;0;3;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_421;Tecnologia de Bebidas;Amanda Barbosa de Faria;Técnico em Alimentos;ALI.TEC.02;Noite;Sala 38;-;50;2;1;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_422;Tecnologia de Óleos e Gorduras;Leandro Pereira Cappato;Técnico em Alimentos;ALI.TEC.02;Noite;Sala 38;-;50;3;0;3;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_423;Microbiologia de Alimentos;Letícia Fleury Viana;Técnico em Alimentos;ALI.TEC.02;Noite;Sala 38;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_424;Tecnologia de Leites e Derivados;Leandro Pereira Cappato;Técnico em Alimentos;ALI.TEC.03;Noite;Sala 36;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_425;Tecnologia de Frutas e Hortaliças;Juliana Aparecida Celia;Técnico em Alimentos;ALI.TEC.03;Noite;Sala 36;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_426;Tecnologia de Carnes e Pescado;Amanda Barbosa de Faria;Técnico em Alimentos;ALI.TEC.03;Noite;Sala 36;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_427;Operações Unitárias;Raphaela Gabrí Bitencourt;Técnico em Alimentos;ALI.TEC.03;Noite;Sala 08-A;-;50;4;0;4;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_428;Análise Sensorial;Juliana Aparecida Celia;Técnico em Alimentos;ALI.TEC.03;Noite;Sala 36;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_429;Métodos de Conservação de Alimentos;Priscila Alonso dos Santos;Técnico em Alimentos;ALI.TEC.04;Noite;Sala 37;-;50;3;0;3;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_430;Embalagens e Aditivos;Juliana Aparecida Celia;Técnico em Alimentos;ALI.TEC.04;Noite;Sala 37;-;50;2;1;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_431;Higiene e Legislação de Alimentos;Leandro Pereira Cappato;Técnico em Alimentos;ALI.TEC.04;Noite;Sala 37;-;50;3;0;3;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_432;Controle de Qualidade;Letícia Fleury Viana;Técnico em Alimentos;ALI.TEC.04;Noite;Sala 37;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_433;Tecnologia de Cereais e Panificação;Amanda Barbosa de Faria;Técnico em Alimentos;ALI.TEC.04;Noite;Sala 37;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_434;Tratamento de Resíduos e Efluentes da Indústria de Alimentos;Juliana Aparecida Celia;Técnico em Alimentos;ALI.TEC.04;Noite;Sala 37;-;50;3;0;1;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_435;Biologia Celular;Lauro Bucker Neto;Técnico em Biotecnologia;BIO.TEC.01;Noite;Sala 05;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_436;Biossegurança;Amanda Barbosa de Faria;Técnico em Biotecnologia;BIO.TEC.01;Noite;Sala 05;-;50;3;0;3;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_437;Química Geral e Analítica;Roberta de Almeida Carvalho;Técnico em Biotecnologia;BIO.TEC.01;Noite;Sala 05;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_438;Introdução a Biotecnologia;Samylla Tassia Ferreira de Freitas;Técnico em Biotecnologia;BIO.TEC.01;Noite;Sala 05;-;50;2;0;1;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_439;Instrumentação, Controle e Assepsia de Bioprocessos;Suzana Maria Loures de Oliveira Marcionilio;Técnico em Biotecnologia;BIO.TEC.01;Noite;Sala 05;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_440;Estatística Básica;Danilo Pereira Barbosa;Técnico em Biotecnologia;BIO.TEC.01;Noite;Sala 05;-;50;3;0;3;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_441;Bioquímica aplicada;Samylla Tassia Ferreira de Freitas;Técnico em Biotecnologia;BIO.TEC.02;Noite;Sala 22;-;50;3;0;1;3;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_442;Parasitologia;Fernando Henrique Antoniolli Farache;Técnico em Biotecnologia;BIO.TEC.02;Noite;Sala 22;-;50;3;0;1;3;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_427;Operações Unitárias;Raphaela Gabrí Bitencourt;Técnico em Biotecnologia;BIO.TEC.02;Noite;Sala 08-A;-;50;4;0;4;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_443;Genética;Pablo Diego Silva Cabral;Técnico em Biotecnologia;BIO.TEC.02;Noite;Sala 22;-;50;3;0;1;3;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_444;Imunologia;Lauro Bucker Neto;Técnico em Biotecnologia;BIO.TEC.02;Noite;Sala 22;-;50;3;0;3;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_445;Microbiologia Geral;Luciana Cristina Vitorino;Técnico em Biotecnologia;BIO.TEC.02;Noite;Sala 22;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_446;Microbiologia Aplicada;Lauro Bucker Neto;Técnico em Biotecnologia;BIO.TEC.03;Noite;Sala 31;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_447;Bioética;Tiago Carnevalle Romão;Técnico em Biotecnologia;BIO.TEC.03;Noite;Sala 31;-;50;3;0;3;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_448;Histologia e Fisiologia Animal;Tiago Carnevalle Romão;Técnico em Biotecnologia;BIO.TEC.03;Noite;Sala 31;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_449;Tecnologia Genética e Imunológica;Lauro Bucker Neto;Técnico em Biotecnologia;BIO.TEC.03;Noite;Sala 31;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_450;Fisiologia Vegetal;Juliana de Fátima Sales;Técnico em Biotecnologia;BIO.TEC.03;Noite;Sala 31;-;50;3;0;1;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_451;Tecnologia Enzimática e de Processos Fermentativos Industriais;Juliana Aparecida Celia;Técnico em Biotecnologia;BIO.TEC.04;Noite;Sala 26;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_452;Tecnologia de Cultivo de Células e Tecidos Vegetais;Fabiano Guimarães Silva;Técnico em Biotecnologia;BIO.TEC.04;Noite;Sala 26;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_453;Biocombustíveis: Fundamentos e Tecnologia de Produção;Carlos Frederico de Souza Castro;Técnico em Biotecnologia;BIO.TEC.04;Noite;Sala 26;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_454;Processos Biotecnológicos aplicados a Indústria de Alimentos e Bebidas;Letícia Fleury Viana,Leandro Pereira Cappato;Técnico em Biotecnologia;BIO.TEC.04;Noite;Sala 26;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_455;Biotecnologia Ambiental;Aurélio Rúbio Neto;Técnico em Biotecnologia;BIO.TEC.04;Noite;Sala 26;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_456;Matemática Financeira;Abner Santos Baroni Sales;Técnico em Contabilidade;CONT.TEC.01;Noite;Sala 02;-;50;4;0;4;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_457;Redação de Textos Oficiais;Calixto Júnior de Souza;Técnico em Contabilidade;CONT.TEC.01;Noite;Sala 02;-;50;2;1;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_458;Contabilidade Geral;Rafael Crisóstomo Alves;Técnico em Contabilidade;CONT.TEC.01;Noite;Sala 02;-;50;5;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_459;Direito;Márcia Cristina Puydinger de Fazio;Técnico em Contabilidade;CONT.TEC.01;Noite;Sala 02;-;50;3;0;3;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_460;Ética Profissional;Rafael Crisóstomo Alves;Técnico em Contabilidade;CONT.TEC.01;Noite;Sala 02;-;50;2;0;1;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_461;Processo de Constituição de Empresas;Raquel Maria Prado;Técnico em Contabilidade;CONT.TEC.01;Noite;Sala 02;-;50;3;0;1;3;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_462;Contabilidade Comercial;Rafael Crisóstomo Alves;Técnico em Contabilidade;CONT.TEC.02;Noite;Sala 03;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_463;Contabilidade Fiscal;Raquel Maria Prado;Técnico em Contabilidade;CONT.TEC.02;Noite;Sala 03;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_464;Prática Contábil I;Raquel Maria Prado;Técnico em Contabilidade;CONT.TEC.02;Noite;Sala 03;-;50;5;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_465;Administração Financeira;Jean Marc Nacife;Técnico em Contabilidade;CONT.TEC.02;Noite;Sala 03;-;50;3;0;1;3;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_466;Contabilidade de Custos;Raquel Maria Prado;Técnico em Contabilidade;CONT.TEC.02;Noite;Sala 03;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_467;Contabilidade da Pessoa Física;Raquel Maria Prado;Técnico em Contabilidade;CONT.TEC.03;Noite;Sala 04;-;50;3;1;1;3;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_468;Contabilidade Rural;Rúbia Cristina Arantes Marques;Técnico em Contabilidade;CONT.TEC.03;Noite;Sala 04;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_469;Contabilidade Não Governamental;Rafael Crisóstomo Alves;Técnico em Contabilidade;CONT.TEC.03;Noite;Sala 04;-;50;0;2;0;0;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_470;Prática Contábil II;Rafael Crisóstomo Alves;Técnico em Contabilidade;CONT.TEC.03;Noite;Sala 04;-;50;5;0;1;4;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_471;Plano de Negócios e Empreendedorismo;Silvia Ferreira Marques Salustiano;Técnico em Contabilidade;CONT.TEC.03;Noite;Sala 04;-;50;4;0;4;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_472;Topografia - Planimetria;Wellington Donizete Guimarães;Técnico em Edificações;EDI.TEC.01;Noite;Sala 12;-;50;3;0;3;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_473;Meio Ambiente e Sustentabilidade Urbana;Juarez Martins Rodrigues;Técnico em Edificações;EDI.TEC.01;Noite;Sala 01;-;50;3;0;1;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_474;Materiais de Construção I;Alexsandro dos Santos Felipe;Técnico em Edificações;EDI.TEC.01;Noite;Sala 01;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_475;Matemática Aplicada;Matheus de Paula Ferreira;Técnico em Edificações;EDI.TEC.01;Noite;Sala 01;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_476;Desenho Técnico;Hugo Leonardo Souza Lara Leão;Técnico em Edificações;EDI.TEC.01;Noite;Sala 01;Lab Info 1;50;4;0;4;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_477;Introdução à metodologia, pesquisa e inovação;Aline Ditomaso;Técnico em Edificações;EDI.TEC.01;Noite;Sala 01;-;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_478;Projeto Arquitetônico I;Bruna Oliveira Campos;Técnico em Edificações;EDI.TEC.02;Noite;Sala 11;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_479;Sistemas Estruturais I;Michell Macedo Alves;Técnico em Edificações;EDI.TEC.02;Noite;Sala 11;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_480;Materiais de Construção II;Alexsandro dos Santos Felipe;Técnico em Edificações;EDI.TEC.02;Noite;Sala 11;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_481;Mecânica dos Solos;Bruna Vilela Buiatte Silva;Técnico em Edificações;EDI.TEC.02;Noite;Sala 11;-;50;4;1;4;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_482;Topografia - Altimetria;Wellington Donizete Guimarães;Técnico em Edificações;EDI.TEC.02;Noite;Sala 12;-;50;3;0;3;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_483;Sistemas Estruturais II;Michell Macedo Alves;Técnico em Edificações;EDI.TEC.03;Noite;Sala 25;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_484;Projeto Arquitetônico II;Bruna Oliveira Campos;Técnico em Edificações;EDI.TEC.03;Noite;Sala 25;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_485;Projeto Hidrossanitário;Bruna Vilela Buiatte Silva;Técnico em Edificações;EDI.TEC.03;Noite;Sala 25;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_486;Técnicas Construtivas I;Victor Baldin;Técnico em Edificações;EDI.TEC.03;Noite;Sala 25;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_487;Fundações;Flávio Hiochio Sato;Técnico em Edificações;EDI.TEC.03;Noite;Sala 25;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_488;Técnicas Construtivas II;Bruna Vilela Buiatte Silva;Técnico em Edificações;EDI.TEC.04;Noite;Sala 19;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_489;Instalações Elétricas;Márcio da Silva Vilela;Técnico em Edificações;EDI.TEC.04;Noite;Sala 19;-;50;3;0;3;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_490;Gerenciamento e Orçamento;Mateus Souza Santos;Técnico em Edificações;EDI.TEC.04;Noite;Sala 19;-;50;3;0;1;3;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_491;Empreendedorismo;Luciene de Oliveira Guerra;Técnico em Edificações;EDI.TEC.04;Noite;Sala 38;-;50;2;1;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_492;Segurança e organização do Trabalho;Mateus Souza Santos;Técnico em Edificações;EDI.TEC.04;Noite;Sala 19;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_493;Projeto Final;Victor Baldin;Técnico em Edificações;EDI.TEC.04;Noite;Sala 19;-;50;3;0;1;3;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_494;Fundamentos de Informática;Rafael Carvalho de Mendonça;Técnico em Informática;INFO.TEC.01;Noite;Sala 08-D;-;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_495;Lógica de Programação;Fábio Montanha Ramos;Técnico em Informática;INFO.TEC.01;Noite;-;Lab Info 3;50;6;0;2;3;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_496;Operação de Computadores;Leonel Diógenes Carvalhaes Alvarenga;Técnico em Informática;INFO.TEC.01;Noite;-;Lab Info 3;50;4;0;4;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_497;Matemática para Informática;Abner Santos Baroni Sales;Técnico em Informática;INFO.TEC.01;Noite;Sala 04;-;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_498;Desenvolvimento de Interfaces Web I;Luis Guilherme Cordeiro Santos Silva;Técnico em Informática;INFO.TEC.01;Noite;-;Lab Info 3;50;6;0;2;3;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_499;Desenvolvimento de Interfaces Web II;Luis Guilherme Cordeiro Santos Silva;Técnico em Informática;INFO.TEC.02;Noite;-;Lab Info 4;50;4;0;4;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_500;Linguagem de Programação I;Heverton Barros de Macêdo;Técnico em Informática;INFO.TEC.02;Noite;-;Lab Info 4;50;4;0;4;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_501;Metodologia de Projeto de Sistemas;Douglas Cedrim Oliveira;Técnico em Informática;INFO.TEC.02;Noite;-;Lab Info 6;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_502;Manutenção de Computadores;Leonel Diógenes Carvalhaes Alvarenga;Técnico em Informática;INFO.TEC.02;Noite;-;Lab Hardware;50;4;0;4;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_503;Bancos de Dados;Luis Guilherme Cordeiro Santos Silva;Técnico em Informática;INFO.TEC.02;Noite;-;Lab Info 4;50;4;0;4;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_504;Português para Informática;Calixto Júnior de Souza;Técnico em Informática;INFO.TEC.02;Noite;Sala 08-D;-;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_505;Redes de Computadores I;Leonel Diógenes Carvalhaes Alvarenga;Técnico em Informática;INFO.TEC.03;Noite;-;Lab Info 2;50;4;0;4;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_506;Desenvolvimento de Projeto Final I;Douglas Cedrim Oliveira;Técnico em Informática;INFO.TEC.03;Noite;-;Lab Info 6;50;4;0;4;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_507;Inglês Técnico para Informática;Lídia Nunes Ávila Carvalhaes;Técnico em Informática;INFO.TEC.03;Noite;Sala 08-D;-;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_508;Ética e Legislação;Luis Guilherme Cordeiro Santos Silva;Técnico em Informática;INFO.TEC.03;Noite;-;Lab Info 5;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_509;Contabilidade Básica;Raquel Maria Prado;Técnico em Informática;INFO.TEC.03;Noite;-;Lab Info 2;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_510;Linguagem de Programação II;Luis Guilherme Cordeiro Santos Silva;Técnico em Informática;INFO.TEC.03;Noite;-;Lab Info 5;50;4;0;4;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_511;Desenvolvimento de Projeto Final II;Fábio Montanha Ramos;Técnico em Informática;INFO.TEC.04;Noite;-;Lab Info 2;50;8;0;2;4;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_512;Desenvolvimento para Dispositivos Móveis;Marlus Dias Silva;Técnico em Informática;INFO.TEC.04;Noite;-;Lab Info 6;50;4;0;4;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_513;Empreendedorismo;Luciene de Oliveira Guerra;Técnico em Informática;INFO.TEC.04;Noite;-;Lab Info 6;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_514;Redes de Computadores II;Rafael Carvalho de Mendonça;Técnico em Informática;INFO.TEC.04;Noite;-;Lab Info 6;50;4;0;4;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_515;Química Geral;Luismar de Paula Souza;Técnico em Química;QUIM.TEC.01;Noite;Sala 08;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_516;Técnicas de Laboratório e Otimização de Experimentos;Celso Martins Belisário;Técnico em Química;QUIM.TEC.01;Noite;Sala 33;-;50;3;0;3;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_517;Matemática Aplicada;Matheus de Paula Ferreira;Técnico em Química;QUIM.TEC.01;Noite;Sala 33;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_518;Higiene e Segurança no Trabalho;Mateus Souza Santos;Técnico em Química;QUIM.TEC.01;Noite;Sala 33;-;50;1;3;1;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_519;Evolução do Conceito de Química;Rodrigo Braghiroli;Técnico em Química;QUIM.TEC.01;Noite;Sala 33;-;50;1;3;1;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_520;Microbiologia Industrial;Samylla Tassia Ferreira de Freitas;Técnico em Química;QUIM.TEC.01;Noite;Sala 33;-;50;3;1;3;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_521;Estatística Básica;Danilo Pereira Barbosa;Técnico em Química;QUIM.TEC.01;Noite;Sala 33;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_427;Operações Unitárias;Raphaela Gabrí Bitencourt;Técnico em Química;QUIM.TEC.02;Noite;Sala 08-A;-;50;4;0;4;1;1-12;1-12;1-12;1-12;1-12;0
+Disc_522;Química e Desenvolvimento Tecnológico;Suzana Maria Loures de Oliveira Marcionilio;Técnico em Química;QUIM.TEC.02;Noite;Sala 34;-;50;2;2;2;1;1-12;1-12;1-12;1-12;1-12;0
+Disc_523;Química Inorgânica;Luismar de Paula Souza;Técnico em Química;QUIM.TEC.02;Noite;Sala 34;-;50;4;0;4;1;1-12;1-12;1-12;1-12;1-12;0
+Disc_524;Química Orgânica;Rodrigo Braghiroli;Técnico em Química;QUIM.TEC.02;Noite;Sala 34;-;50;4;0;4;1;1-12;1-12;1-12;1-12;1-12;0
+Disc_525;Controle de Qualidade;Letícia Fleury Viana;Técnico em Química;QUIM.TEC.02;Noite;Sala 37;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;0
+Disc_526;Química Analítica Quantitativa;Luismar de Paula Souza;Técnico em Química;QUIM.TEC.02;Noite;Sala 34;-;50;4;0;4;1;1-12;1-12;1-12;1-12;1-12;0
+Disc_527;Inglês Instrumental;Lídia Nunes Ávila Carvalhaes;Técnico em Química;QUIM.TEC.02;Noite;Sala 34;-;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;0
+Disc_528;Físico-Química;Wesley Renato Viali;Técnico em Química;QUIM.TEC.03;Noite;Sala 35;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;0
+Disc_529;Analise Instrumental;Eloiza da Silva Nunes;Técnico em Química;QUIM.TEC.03;Noite;Sala 35;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;0
+Disc_530;Química Analítica Qualitativa;Polyana Fernandes Pereira;Técnico em Química;QUIM.TEC.03;Noite;Sala 35;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;0
+Disc_531;Processos Químicos Industriais;Roberta de Almeida Carvalho;Técnico em Química;QUIM.TEC.03;Noite;Sala 35;-;50;4;1;2;2;1-12;1-12;1-12;1-12;1-12;0
+Disc_532;Impactos e Riscos Ambientais;Gilberto Colodro;Técnico em Química;QUIM.TEC.03;Noite;Sala 35;-;50;3;1;3;1;1-12;1-12;1-12;1-12;1-12;0
+Disc_533;Empreendedorismo;Luciene de Oliveira Guerra;Técnico em Química;QUIM.TEC.03;Noite;Sala 35;-;50;3;0;1;3;1-12;1-12;1-12;1-12;1-12;0
+Disc_534;Ética e Relações no Trabalho;Brunna Dias Cardoso;Técnico em Química;QUIM.TEC.03;Noite;Sala 35;-;50;1;2;1;1;1-12;1-12;1-12;1-12;1-12;0
+Disc_535;Segurança do Trabalho I;Mateus Souza Santos;Técnico em Segurança do Trabalho;SEG.TEC.01;Noite;Sala 13;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_536;Direito do Trabalho I;Márcia Cristina Puydinger de Fazio;Técnico em Segurança do Trabalho;SEG.TEC.01;Noite;Sala 13;-;50;2;2;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_537;Saúde do Trabalho I;Samylla Tassia Ferreira de Freitas;Técnico em Segurança do Trabalho;SEG.TEC.01;Noite;Sala 13;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_538;Matemática;Paulo Henrique Rodrigues Gonçalves;Técnico em Segurança do Trabalho;SEG.TEC.01;Noite;Sala 13;-;50;3;0;3;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_539;Gestão Organizacional;Milton Bernardes Ferreira;Técnico em Segurança do Trabalho;SEG.TEC.01;Noite;Sala 13;-;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_540;Redação Técnica e Apresentações Orais;Calixto Júnior de Souza;Técnico em Segurança do Trabalho;SEG.TEC.01;Noite;Sala 10-A;-;50;2;1;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_541;Segurança do Trabalho II;Wilker Alves Morais;Técnico em Segurança do Trabalho;SEG.TEC.02;Noite;Sala 32;-;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_542;Direito do Trabalho II;Márcia Cristina Puydinger de Fazio;Técnico em Segurança do Trabalho;SEG.TEC.02;Noite;Sala 32;-;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_543;Saúde do Trabalho II;Samylla Tassia Ferreira de Freitas;Técnico em Segurança do Trabalho;SEG.TEC.02;Noite;Sala 32;-;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_544;Toxicologia Industrial;Bruna Elói do Amaral;Técnico em Segurança do Trabalho;SEG.TEC.02;Noite;Sala 32;-;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_545;Higiene Ocupacional I;Bruna Elói do Amaral;Técnico em Segurança do Trabalho;SEG.TEC.02;Noite;Sala 32;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_546;Análise de Projetos em Segurança do Trabalho;Victor Baldin;Técnico em Segurança do Trabalho;SEG.TEC.02;Noite;Sala 32;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_547;Empreendedorismo;Silvia Ferreira Marques Salustiano;Técnico em Segurança do Trabalho;SEG.TEC.02;Noite;Sala 03;-;50;4;0;4;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_548;Higiene Ocupacional II;Mateus Souza Santos;Técnico em Segurança do Trabalho;SEG.TEC.03;Noite;Sala 45;-;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_549;Gestão e Legislação Ambiental I;Juarez Martins Rodrigues;Técnico em Segurança do Trabalho;SEG.TEC.03;Noite;Sala 45;-;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_550;Relações Humanas e Psicologia do Trabalho;Luíza Ferreira Rezende de Medeiros;Técnico em Segurança do Trabalho;SEG.TEC.03;Noite;Sala 45;-;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_551;Processos Industriais;Mateus Souza Santos;Técnico em Segurança do Trabalho;SEG.TEC.03;Noite;Sala 45;-;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_552;Prevenção e Controle de Risco;Wilker Alves Morais;Técnico em Segurança do Trabalho;SEG.TEC.03;Noite;Sala 45;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_553;Prevenção e Combate a Incêndios;Bruna Elói do Amaral;Técnico em Segurança do Trabalho;SEG.TEC.03;Noite;Sala 45;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_554;Segurança na Construção Civil;Bruna Elói do Amaral;Técnico em Segurança do Trabalho;SEG.TEC.03;Noite;Sala 45;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_555;Ergonomia;Luíza Ferreira Rezende de Medeiros;Técnico em Segurança do Trabalho;SEG.TEC.04;Noite;Sala 46;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_556;Segurança do Trabalho Rural;Mateus Souza Santos,Rafael Marques Pereira Leal;Técnico em Segurança do Trabalho;SEG.TEC.04;Noite;Sala 46;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_557;Biossegurança e Bioética;Amanda Barbosa de Faria;Técnico em Segurança do Trabalho;SEG.TEC.04;Noite;Sala 46;-;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_558;Gestão e Legislação Ambiental II;Hipólito Tadeu Ferreira da Silva;Técnico em Segurança do Trabalho;SEG.TEC.04;Noite;Sala 46;-;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_559;Ética do Trabalho;Brunna Dias Cardoso;Técnico em Segurança do Trabalho;SEG.TEC.04;Noite;Sala 08-A;-;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_560;Gestão da Qualidade;Kennedy de Araújo Barbosa;Técnico em Segurança do Trabalho;SEG.TEC.04;Noite;Sala 46;-;50;2;0;2;1;1-12;1-12;1-12;1-12;1-12;1-16
+Disc_561;Projeto de Curso;Wilker Alves Morais;Técnico em Segurança do Trabalho;SEG.TEC.04;Noite;Sala 46;-;50;4;0;2;2;1-12;1-12;1-12;1-12;1-12;1-16
