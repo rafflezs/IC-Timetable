@@ -5,6 +5,7 @@ Solucao::Solucao(){
     this->data = new Data();
 
     data->lerDados();
+
     for(int index = 1; index < data->professores.size(); index++){
         ProfSol* prof = new ProfSol(data->professores[index]);
         this->horarioProf.insert( pair <Professor*, ProfSol*>(data->professores[index], prof) );         
@@ -22,29 +23,26 @@ Solucao::Solucao(){
 
     for(int index = 1; index < data->disciplinas.size(); index++){
         DiscSol* disc = new DiscSol(data, data->disciplinas[index]);
-        selecionaSala(disc, data);
         discSol.insert( pair<Disciplina*, DiscSol*> (data->disciplinas[index], disc) );
+        selecionaSala(disc, data);
     }
 }
 
-/* Sala* Solucao::selecionaSala(DiscSol* disciplina, Data* data){
-
-} */
-
 void Solucao::selecionaSala(DiscSol* disciplina, Data* data){
-    
-    for(auto sala = data->salas.begin(); sala != data->salas.end(); sala++){
+
+    for(auto temp = data->salas.begin(); temp != data->salas.end(); temp++){
         //cout << (*sala)->nome << endl;
         for(auto discSala = disciplina->disciplina->sala.begin(); discSala != disciplina->disciplina->sala.end(); discSala++){
             //cout << (*discSala) << endl;
-            if( (*discSala) == (*sala)->nome ){
-                disciplina->sala.push_back( horarioSala.find( (*sala))->second );
+            if( (*discSala) == (*temp)->nome ){
+                disciplina->sala.push_back( horarioSala.find( (*temp))->second );
             }
         }
+
         for(auto discLab = disciplina->disciplina->lab.begin(); discLab != disciplina->disciplina->lab.end(); discLab++){
             //cout << "Que porra que ta printando 50? " <<  (*discLab) << endl;
-            if( (*discLab) == (*sala)->nome ){
-                disciplina->sala.push_back( horarioSala.find( (*sala))->second );
+            if( (*discLab) == (*temp)->nome ){
+                disciplina->lab.push_back( horarioSala.find( (*temp))->second );
             }
         }
     }
