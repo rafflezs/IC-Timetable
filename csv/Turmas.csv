@@ -4,8 +4,8 @@ AGRO.BC.03;3º Agronomia;Agronomia;Manhã;Disc_20,Disc_21,Disc_22,Disc_23,Disc_2
 AGRO.BC.05;5º Agronomia;Agronomia;Tarde;Disc_27,Disc_28,Disc_29,Disc_30,Disc_31,Disc_32,Disc_33;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
 AGRO.BC.07;7º Agronomia;Agronomia;Manhã;Disc_34,Disc_35,Disc_36,Disc_37,Disc_38,Disc_39,Disc_40,Disc_41;7-16;7-16;7-16;7-16;7-16;1-16
 AGRO.BC.09;9º Agronomia;Agronomia;Tarde;Disc_42,Disc_43,Disc_44,Disc_45,Disc_46,Disc_47,Disc_48;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
-ADM.BC.01;1º Bach. Administração;Administração;Noite;Disc_01,Disc_02,Disc_03,Disc_04,Disc_05;1-12;1-12;1-12;1-12;1-12;0
-ADM.BC.03;3º Bach. Administração;Administração;Noite;Disc_06,Disc_07,Disc_08,Disc_09,Disc_10;1-12;1-12;1-12;1-12;1-12;0
+ADM.BC.01;1º Bach. Administração;Administração;Noite;Disc_1,Disc_2,Disc_3,Disc_4,Disc_5;1-12;1-12;1-12;1-12;1-12;0
+ADM.BC.03;3º Bach. Administração;Administração;Noite;Disc_6,Disc_7,Disc_8,Disc_9,Disc_10;1-12;1-12;1-12;1-12;1-12;0
 BIO.BC.01;1º Bach. Biologia;Ciências Biológicas (bacharelado);Tarde;Disc_71,Disc_72,Disc_73,Disc_74,Disc_75,Disc_76,Disc_77,Disc_78;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
 BIO.BC.03;3º Bach. Biologia;Ciências Biológicas (bacharelado);Manhã;Disc_79,Disc_80,Disc_81,Disc_82,Disc_83,Disc_84;7-16;7-16;7-16;7-16;7-16;1-16
 BIO.BC.05;5º Bach. Biologia;Ciências Biológicas (bacharelado);Tarde;Disc_85,Disc_86,Disc_87,Disc_88,Disc_89,Disc_90,Disc_91,Disc_92;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-6,13-16;1-16
@@ -64,27 +64,27 @@ ALI.TEC.02;2º Tec. Alimentos;Técnico em Alimentos;Noite;Disc_418,Disc_419,Disc
 ALI.TEC.03;3º Tec. Alimentos;Técnico em Alimentos;Noite;Disc_424,Disc_425,Disc_426,Disc_427,Disc_428;1-12;1-12;1-12;1-12;1-12;0
 ALI.TEC.04;4º Tec. Alimentos;Técnico em Alimentos;Noite;Disc_429,Disc_430,Disc_431,Disc_432,Disc_433,Disc_434;1-12;1-12;1-12;1-12;1-12;0
 BIO.TEC.01;1º Tec. Biotecnologia;Técnico em Biotecnologia;Noite;Disc_435,Disc_436,Disc_437,Disc_438,Disc_439,Disc_440;1-12;1-12;1-12;1-12;1-12;0
-BIO.TEC.02;2º Tec. Biotecnologia;Técnico em Biotecnologia;Noite;Disc_441,Disc_442,Disc_427,Disc_443,Disc_444,Disc_445;1-12;1-12;1-12;1-12;1-12;0
-BIO.TEC.03;3º Tec. Biotecnologia;Técnico em Biotecnologia;Noite;Disc_446,Disc_447,Disc_448,Disc_449,Disc_450;1-12;1-12;1-12;1-12;1-12;0
-BIO.TEC.04;4º Tec. Biotecnologia;Técnico em Biotecnologia;Noite;Disc_451,Disc_452,Disc_453,Disc_454,Disc_455;1-12;1-12;1-12;1-12;1-12;0
-CONT.TEC.01;1º Tec. Contabilidade;Técnico em Contabilidade;Noite;Disc_456,Disc_457,Disc_458,Disc_459,Disc_460,Disc_461;1-12;1-12;1-12;1-12;1-12;0
-CONT.TEC.02;2º Tec. Contabilidade;Técnico em Contabilidade;Noite;Disc_462,Disc_463,Disc_464,Disc_465,Disc_466;1-12;1-12;1-12;1-12;1-12;0
-CONT.TEC.03;3º Tec. Contabilidade;Técnico em Contabilidade;Noite;Disc_467,Disc_468,Disc_469,Disc_470,Disc_471;1-12;1-12;1-12;1-12;1-12;0
-EDI.TEC.01;1º Tec. Edificações;Técnico em Edificações;Noite;Disc_472,Disc_473,Disc_474,Disc_475,Disc_476,Disc_477;1-12;1-12;1-12;1-12;1-12;0
-EDI.TEC.02;2º Tec. Edificações;Técnico em Edificações;Noite;Disc_478,Disc_479,Disc_480,Disc_481,Disc_482;1-12;1-12;1-12;1-12;1-12;0
-EDI.TEC.03;3º Tec. Edificações;Técnico em Edificações;Noite;Disc_483,Disc_484,Disc_485,Disc_486,Disc_487;1-12;1-12;1-12;1-12;1-12;0
-EDI.TEC.04;4º Tec. Edificações;Técnico em Edificações;Noite;Disc_488,Disc_489,Disc_490,Disc_491,Disc_492,Disc_493;1-12;1-12;1-12;1-12;1-12;0
-INFO.TEC.01;1º Tec. Informática;Técnico em Informática;Noite;Disc_494,Disc_495,Disc_496,Disc_497,Disc_498;1-12;1-12;1-12;1-12;1-12;0
-INFO.TEC.02;2º Tec. Informática;Técnico em Informática;Noite;Disc_499,Disc_500,Disc_501,Disc_502,Disc_503,Disc_504;1-12;1-12;1-12;1-12;1-12;0
-INFO.TEC.03;3º Tec. Informática;Técnico em Informática;Noite;Disc_505,Disc_506,Disc_507,Disc_508,Disc_509,Disc_510;1-12;1-12;1-12;1-12;1-12;0
-INFO.TEC.04;4º Tec. Informática;Técnico em Informática;Noite;Disc_511,Disc_512,Disc_513,Disc_514;1-12;1-12;1-12;1-12;1-12;0
-SEG.TEC.01;1º Tec. Seg. do Trabalho;Técnico em Segurança do Trabalho;Noite;Disc_535,Disc_536,Disc_537,Disc_538,Disc_539,Disc_540;1-12;1-12;1-12;1-12;1-12;0
-SEG.TEC.02;2º Tec. Seg. do Trabalho;Técnico em Segurança do Trabalho;Noite;Disc_541,Disc_542,Disc_543,Disc_544,Disc_545,Disc_546,Disc_547;1-12;1-12;1-12;1-12;1-12;0
-SEG.TEC.03;3º Tec. Seg. do Trabalho;Técnico em Segurança do Trabalho;Noite;Disc_548,Disc_549,Disc_550,Disc_551,Disc_552,Disc_553,Disc_554;1-12;1-12;1-12;1-12;1-12;0
-SEG.TEC.04;4º Tec. Seg. do Trabalho;Técnico em Segurança do Trabalho;Noite;Disc_555,Disc_556,Disc_557,Disc_558,Disc_559,Disc_560,Disc_561;1-12;1-12;1-12;1-12;1-12;0
-QUIM.TEC.01;1º Tec. Química;Técnico em Química;Noite;Disc_515,Disc_516,Disc_517,Disc_518,Disc_519,Disc_520,Disc_521;1-12;1-12;1-12;1-12;1-12;0
-QUIM.TEC.02;2º Tec. Química;Técnico em Química;Noite;Disc_427,Disc_522,Disc_523,Disc_524,Disc_525,Disc_526,Disc_527;1-12;1-12;1-12;1-12;1-12;0
-QUIM.TEC.03;3º Tec. Química;Técnico em Química;Noite;Disc_528,Disc_529,Disc_530,Disc_531,Disc_532,Disc_533,Disc_534;1-12;1-12;1-12;1-12;1-12;0
+BIO.TEC.02;2º Tec. Biotecnologia;Técnico em Biotecnologia;Noite;Disc_441,Disc_442,Disc_443,Disc_444,Disc_445,Disc_446;1-12;1-12;1-12;1-12;1-12;0
+BIO.TEC.03;3º Tec. Biotecnologia;Técnico em Biotecnologia;Noite;Disc_447,Disc_448,Disc_449,Disc_450,Disc_451;1-12;1-12;1-12;1-12;1-12;0
+BIO.TEC.04;4º Tec. Biotecnologia;Técnico em Biotecnologia;Noite;Disc_452,Disc_453,Disc_454,Disc_455,Disc_456;1-12;1-12;1-12;1-12;1-12;0
+CONT.TEC.01;1º Tec. Contabilidade;Técnico em Contabilidade;Noite;Disc_457,Disc_458,Disc_459,Disc_460,Disc_461,Disc_462;1-12;1-12;1-12;1-12;1-12;0
+CONT.TEC.02;2º Tec. Contabilidade;Técnico em Contabilidade;Noite;Disc_463,Disc_464,Disc_465,Disc_466,Disc_467;1-12;1-12;1-12;1-12;1-12;0
+CONT.TEC.03;3º Tec. Contabilidade;Técnico em Contabilidade;Noite;Disc_468,Disc_469,Disc_470,Disc_471,Disc_472;1-12;1-12;1-12;1-12;1-12;0
+EDI.TEC.01;1º Tec. Edificações;Técnico em Edificações;Noite;Disc_473,Disc_474,Disc_475,Disc_476,Disc_477,Disc_478;1-12;1-12;1-12;1-12;1-12;0
+EDI.TEC.02;2º Tec. Edificações;Técnico em Edificações;Noite;Disc_479,Disc_480,Disc_481,Disc_482,Disc_483;1-12;1-12;1-12;1-12;1-12;0
+EDI.TEC.03;3º Tec. Edificações;Técnico em Edificações;Noite;Disc_484,Disc_485,Disc_486,Disc_487,Disc_488;1-12;1-12;1-12;1-12;1-12;0
+EDI.TEC.04;4º Tec. Edificações;Técnico em Edificações;Noite;Disc_489,Disc_490,Disc_491,Disc_492,Disc_493,Disc_494;1-12;1-12;1-12;1-12;1-12;0
+INFO.TEC.01;1º Tec. Informática;Técnico em Informática;Noite;Disc_495,Disc_496,Disc_497,Disc_498,Disc_499;1-12;1-12;1-12;1-12;1-12;0
+INFO.TEC.02;2º Tec. Informática;Técnico em Informática;Noite;Disc_500,Disc_501,Disc_502,Disc_503,Disc_504,Disc_505;1-12;1-12;1-12;1-12;1-12;0
+INFO.TEC.03;3º Tec. Informática;Técnico em Informática;Noite;Disc_506,Disc_507,Disc_508,Disc_509,Disc_510,Disc_511;1-12;1-12;1-12;1-12;1-12;0
+INFO.TEC.04;4º Tec. Informática;Técnico em Informática;Noite;Disc_512,Disc_513,Disc_514,Disc_515;1-12;1-12;1-12;1-12;1-12;0
+SEG.TEC.01;1º Tec. Seg. do Trabalho;Técnico em Segurança do Trabalho;Noite;Disc_537,Disc_538,Disc_539,Disc_540,Disc_541,Disc_542;1-12;1-12;1-12;1-12;1-12;0
+SEG.TEC.02;2º Tec. Seg. do Trabalho;Técnico em Segurança do Trabalho;Noite;Disc_543,Disc_544,Disc_545,Disc_546,Disc_547,Disc_548,Disc_549;1-12;1-12;1-12;1-12;1-12;0
+SEG.TEC.03;3º Tec. Seg. do Trabalho;Técnico em Segurança do Trabalho;Noite;Disc_550,Disc_551,Disc_552,Disc_553,Disc_554,Disc_555,Disc_556;1-12;1-12;1-12;1-12;1-12;0
+SEG.TEC.04;4º Tec. Seg. do Trabalho;Técnico em Segurança do Trabalho;Noite;Disc_557,Disc_558,Disc_559,Disc_560,Disc_561,Disc_562,Disc_563;1-12;1-12;1-12;1-12;1-12;0
+QUIM.TEC.01;1º Tec. Química;Técnico em Química;Noite;Disc_516,Disc_517,Disc_518,Disc_519,Disc_520,Disc_521,Disc_522;1-12;1-12;1-12;1-12;1-12;0
+QUIM.TEC.02;2º Tec. Química;Técnico em Química;Noite;Disc_523,Disc_524,Disc_525,Disc_526,Disc_527,Disc_528,Disc_529;1-12;1-12;1-12;1-12;1-12;0
+QUIM.TEC.03;3º Tec. Química;Técnico em Química;Noite;Disc_530,Disc_531,Disc_532,Disc_533,Disc_534,Disc_535,Disc_536;1-12;1-12;1-12;1-12;1-12;0
 PROEJA.ADM.03;3º PROEJA Administração;PROEJA Adminstração;Noite;Disc_326,Disc_327,Disc_328,Disc_329,Disc_330,Disc_331,Disc_332;1-12;1-12;1-12;1-12;1-12;0
 PROEJA.ADM.04;4º PROEJA Administração;PROEJA Adminstração;Noite;Disc_333,Disc_334,Disc_335,Disc_336,Disc_337,Disc_338,Disc_339,Disc_340,Disc_341;1-12;1-12;1-12;1-12;1-12;0
 PROEJA.ADM.05;5º PROEJA Administração;PROEJA Adminstração;Noite;Disc_342,Disc_343,Disc_344,Disc_345,Disc_346,Disc_347,Disc_348;1-12;1-12;1-12;1-12;1-12;0

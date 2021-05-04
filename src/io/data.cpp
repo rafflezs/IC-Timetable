@@ -154,21 +154,10 @@ vector <Disciplina*> Data::lerDisc(map<string, int> *mapDisc){
         disc->id = colData[0];
         disc->nome = colData[1];
 
-        cout << disc->nome << endl;
-
         disc->turno = colData[5];
 
         disc->sala = separadorString(colData[6], ',');
-        cout << "(Sala) Linha do csv: " << colData[6] << endl;
-        for(auto cu = disc->sala.begin(); cu != disc->sala.end(); cu++){
-            cout << (*cu) << " | ";
-        } cout << endl;
-        cout << endl;
         disc->lab = separadorString(colData[7], ',');
-        cout << "(Lab) Linha do csv: " << colData[7] << endl;
-        for(auto cu = disc->lab.begin(); cu != disc->lab.end(); cu++){
-            cout << (*cu) << " | ";
-        } cout << endl << endl << endl;
 
         disc->capacidadeTurma = stoi(colData[8]);
         disc->chPresencial = stoi(colData[9]);

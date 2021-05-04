@@ -1,5 +1,5 @@
 ID;Professores;Disciplinas;SEG;TER;QUA;QUI;SEX;SAB
-1;Abner Santos Baroni Sales;Disc_123,Disc_161,Disc_328,Disc_342,Disc_355,Disc_391,Disc_456,Disc_497;0;0;0;0;0;0
+1;Abner Santos Baroni Sales;Disc_123,Disc_161,Disc_328,Disc_342,Disc_355,Disc_391,Disc_457,Disc_498;0;0;0;0;0;0
 2;Adriano Carvalho Costa;Disc_245;0;0;0;0;0;0
 3;Adriano Jakelaitis;Disc_21,Disc_168;0;0;0;0;0;0
 4;Adriano Perin;Disc_369,Disc_380,Disc_390;0;0;0;0;0;0
@@ -7,142 +7,142 @@ ID;Professores;Disciplinas;SEG;TER;QUA;QUI;SEX;SAB
 6;Alaerson Maia Geraldine;-;0;0;0;0;0;0
 7;Alan Carlos Costa;-;0;0;0;0;0;0
 8;Alessandro Ribeiro de Morais;Disc_85,Disc_94;0;0;0;0;0;0
-9;Alexsandro dos Santos Felipe;Disc_148,Disc_149,Disc_474,Disc_480;0;0;0;0;0;0
-10;Aline Ditomaso;Disc_101,Disc_164,Disc_193,Disc_295,Disc_368,Disc_477;0;0;0;0;0;0
+9;Alexsandro dos Santos Felipe;Disc_148,Disc_149,Disc_475,Disc_481;0;0;0;0;0;0
+10;Aline Ditomaso;Disc_101,Disc_164,Disc_193,Disc_295,Disc_368,Disc_478;0;0;0;0;0;0
 11;Aline Gobbi Dutra Guimarães;Disc_18,Disc_52,Disc_225;0;0;0;0;0;0
-12;Amanda Barbosa de Faria;Disc_180,Disc_183,Disc_415,Disc_421,Disc_426,Disc_433,Disc_436,Disc_557;0;0;0;0;0;0
+12;Amanda Barbosa de Faria;Disc_180,Disc_183,Disc_415,Disc_421,Disc_426,Disc_433,Disc_436,Disc_559;0;0;0;0;0;0
 13;Ana Carolina Ribeiro Aguiar;Disc_22,Disc_191;0;0;0;0;0;0
 14;Ana Paula Cardoso Gomide;Disc_35,Disc_237;0;0;0;0;0;0
 15;André da Cunha Ribeiro;Disc_53,Disc_59,Disc_62,Disc_69;0;0;0;0;0;0
 16;Andriane de Melo Rodrigues;Disc_220,Disc_222,Disc_294,Disc_316,Disc_322;0;0;0;0;0;0
-17;Aurélio Rúbio Neto;Disc_455;0;0;0;0;0;0
+17;Aurélio Rúbio Neto;Disc_456;0;0;0;0;0;0
 18;Bacus de Oliveira Nahime;Disc_140;0;0;0;0;0;0
-19;Bruna Elói do Amaral;Disc_145,Disc_155,Disc_315,Disc_544,Disc_545,Disc_553,Disc_554;0;0;0;0;0;0
-20;Bruna Oliveira Campos;Disc_127,Disc_134,Disc_478,Disc_484;0;0;0;0;0;0
-21;Bruna Vilela Buiatte Silva;Disc_151,Disc_361,Disc_363,Disc_481,Disc_485,Disc_488;0;0;0;0;0;0
-22;Brunna Dias Cardoso;Disc_90,Disc_100,Disc_117,Disc_194,Disc_204,Disc_330,Disc_336,Disc_350,Disc_364,Disc_534,Disc_559;0;0;0;0;0;0
+19;Bruna Elói do Amaral;Disc_145,Disc_155,Disc_315,Disc_546,Disc_547,Disc_555,Disc_556;0;0;0;0;0;0
+20;Bruna Oliveira Campos;Disc_127,Disc_134,Disc_479,Disc_485;0;0;0;0;0;0
+21;Bruna Vilela Buiatte Silva;Disc_151,Disc_361,Disc_363,Disc_482,Disc_486,Disc_489;0;0;0;0;0;0
+22;Brunna Dias Cardoso;Disc_90,Disc_100,Disc_117,Disc_194,Disc_204,Disc_330,Disc_336,Disc_350,Disc_364,Disc_536,Disc_561;0;0;0;0;0;0
 23;Caíke da Rocha Damke;Disc_138,Disc_165,Disc_298,Disc_302;0;0;0;0;0;0
-24;Calixto Júnior de Souza;Disc_254,Disc_274,Disc_417,Disc_457,Disc_504,Disc_540;0;0;0;0;0;0
-25;Carlos Antônio Cardoso Sobrinho;Disc_04,Disc_07,Disc_244,Disc_373;0;0;0;0;0;0
-26;Carlos Frederico de Souza Castro;Disc_197,Disc_201,Disc_209,Disc_453;0;0;0;0;0;0
+24;Calixto Júnior de Souza;Disc_254,Disc_274,Disc_417,Disc_458,Disc_505,Disc_542;0;0;0;0;0;0
+25;Carlos Antônio Cardoso Sobrinho;Disc_4,Disc_7,Disc_244,Disc_373;0;0;0;0;0;0
+26;Carlos Frederico de Souza Castro;Disc_197,Disc_201,Disc_209,Disc_454;0;0;0;0;0;0
 27;Carlos Ribeiro Rodrigues;Disc_42,Disc_43;0;0;0;0;0;0
 28;Cássia Cristina Fernandes Alves;Disc_17,Disc_126,Disc_296;0;0;0;0;0;0
 29;Cássia da Silva Castro Arantes;Disc_267,Disc_273,Disc_287,Disc_292,Disc_341,Disc_358,Disc_367;0;0;0;0;0;0
-30;Celso Martins Belisário;Disc_162,Disc_190,Disc_195,Disc_516;0;0;0;0;0;0
+30;Celso Martins Belisário;Disc_162,Disc_190,Disc_195,Disc_517;0;0;0;0;0;0
 31;Cibele Silva Minafra;Disc_230,Disc_238,Disc_242,Disc_243;0;0;0;0;0;0
-32;Danilo Pereira Barbosa;Disc_282,Disc_334,Disc_420,Disc_440,Disc_521;0;0;0;0;0;0
+32;Danilo Pereira Barbosa;Disc_282,Disc_334,Disc_420,Disc_440,Disc_522;0;0;0;0;0;0
 33;Darliane de Castro Santos;-;0;0;0;0;0;0
 34;David Vieira Lima;Disc_23,Disc_312,Disc_384,Disc_405;0;0;0;0;0;0
-35;Douglas Cedrim Oliveira;Disc_60,Disc_68,Disc_501,Disc_506;0;0;0;0;0;0
+35;Douglas Cedrim Oliveira;Disc_60,Disc_68,Disc_502,Disc_507;0;0;0;0;0;0
 36;Édio Damásio da Silva Júnior;Disc_147,Disc_221,Disc_318,Disc_323;0;0;0;0;0;0
 37;Ednalva Patrícia de Andrade Silva;Disc_31,Disc_385,Disc_401,Disc_406;0;0;0;0;0;0
 38;Edson Luiz Souchie;Disc_19,Disc_25,Disc_214;0;0;0;0;0;0
 39;Eduardo da Costa Severiano;Disc_20,Disc_29,Disc_235;0;0;0;0;0;0
 40;Elis Aparecido Bento;Disc_226,Disc_246,Disc_252,Disc_253,Disc_374,Disc_395;0;0;0;0;0;0
-41;Eloiza da Silva Nunes;Disc_203,Disc_211,Disc_212,Disc_529;0;0;0;0;0;0
+41;Eloiza da Silva Nunes;Disc_203,Disc_211,Disc_212,Disc_531;0;0;0;0;0;0
 42;Emival da Cunha Ribeiro;Disc_113,Disc_182,Disc_331,Disc_337;0;0;0;0;0;0
 43;Fabiana Ramos dos Santos;Disc_247,Disc_250,Disc_375,Disc_396;0;0;0;0;0;0
-44;Fabiano Guimarães Silva;Disc_452;0;0;0;0;0;0
+44;Fabiano Guimarães Silva;Disc_453;0;0;0;0;0;0
 45;Fábio Henrique Dyszy;Disc_104;0;0;0;0;0;0
 46;Fábio Martins Vilar de Carvalho;Disc_87,Disc_107,Disc_108,Disc_115,Disc_307;0;0;0;0;0;0
-47;Fábio Montanha Ramos;Disc_57,Disc_495,Disc_511;0;0;0;0;0;0
+47;Fábio Montanha Ramos;Disc_57,Disc_496,Disc_512;0;0;0;0;0;0
 48;Fernanda dos Santos Farnese;Disc_28,Disc_301;0;0;0;0;0;0
 49;Fernando Higino L. Silva;Disc_407;0;0;0;0;0;0
 50;Fernando Henrique Antoniolli Farache;Disc_82,Disc_89,Disc_105,Disc_442;0;0;0;0;0;0
-51;Flávio Hiochio Sato;Disc_139,Disc_143,Disc_317,Disc_487;0;0;0;0;0;0
+51;Flávio Hiochio Sato;Disc_139,Disc_143,Disc_317,Disc_488;0;0;0;0;0;0
 52;Francisco Ribeiro de Araújo Neto;Disc_33,Disc_232,Disc_236,Disc_249;0;0;0;0;0;0
-53;Frankcione Borges de Almeida;Disc_09,Disc_261,Disc_281,Disc_354;0;0;0;0;0;0
+53;Frankcione Borges de Almeida;Disc_9,Disc_261,Disc_281,Disc_354;0;0;0;0;0;0
 54;Frederico Antonio Loureiro Soares;Disc_103,Disc_233;0;0;0;0;0;0
 55;Geovana Rocha Plácido;Disc_185,Disc_189,Disc_416;0;0;0;0;0;0
-56;Gilberto Colodro;Disc_141,Disc_305,Disc_388,Disc_409,Disc_532;0;0;0;0;0;0
+56;Gilberto Colodro;Disc_141,Disc_305,Disc_388,Disc_409,Disc_534;0;0;0;0;0;0
 57;Gisele Cristina de Oliveira Menino;Disc_77,Disc_92,Disc_96,Disc_110;0;0;0;0;0;0
 58;Gustavo Castoldi;-;0;0;0;0;0;0
 59;Gustavo Quereza de Freitas;Disc_98,Disc_132,Disc_133,Disc_160,Disc_332,Disc_338;0;0;0;0;0;0
 60;Haihani Silva Passos;Disc_10;0;0;0;0;0;0
-61;Heverton Barros de Macêdo;Disc_54,Disc_65,Disc_70,Disc_500;0;0;0;0;0;0
-62;Hipólito Tadeu Ferreira da Silva;Disc_13,Disc_304,Disc_309,Disc_321,Disc_558;0;0;0;0;0;0
-63;Hugo Leonardo Souza Lara Leão;Disc_136,Disc_144,Disc_310,Disc_476;0;0;0;0;0;0
-64;Idalci Cruvinel dos Reis;Disc_01,Disc_56,Disc_262,Disc_299;0;0;0;0;0;0
+61;Heverton Barros de Macêdo;Disc_54,Disc_65,Disc_70,Disc_501;0;0;0;0;0;0
+62;Hipólito Tadeu Ferreira da Silva;Disc_13,Disc_304,Disc_309,Disc_321,Disc_560;0;0;0;0;0;0
+63;Hugo Leonardo Souza Lara Leão;Disc_136,Disc_144,Disc_310,Disc_477;0;0;0;0;0;0
+64;Idalci Cruvinel dos Reis;Disc_1,Disc_56,Disc_262,Disc_299;0;0;0;0;0;0
 65;Jacson Zuchi;Disc_386,Disc_404;0;0;0;0;0;0
 66;Jânio Moreira Cordeiro;Disc_91,Disc_95,Disc_96;0;0;0;0;0;0
 67;Jesiel Souza Silva;Disc_12,Disc_44,Disc_71,Disc_114;0;0;0;0;0;0
 68;Jéssika Mara Martins Ribeiro;Disc_227,Disc_371,Disc_392;0;0;0;0;0;0
 69;João Areis Ferreira Barbosa Júnior;Disc_49,Disc_324;0;0;0;0;0;0
-70;Jean Marc Nacife;Disc_02,Disc_153,Disc_272,Disc_291,Disc_320,Disc_465;0;0;0;0;0;0
+70;Jean Marc Nacife;Disc_2,Disc_153,Disc_272,Disc_291,Disc_320,Disc_466;0;0;0;0;0;0
 71;João Cleber Modernel da Silveira;Disc_231,Disc_372,Disc_378,Disc_393,Disc_399;0;0;0;0;0;0
-72;José Aurélio Vazquez Rúbio;Disc_03,Disc_08,Disc_171,Disc_263,Disc_268,Disc_288,Disc_347;0;0;0;0;0;0
+72;José Aurélio Vazquez Rúbio;Disc_3,Disc_8,Disc_171,Disc_263,Disc_268,Disc_288,Disc_347;0;0;0;0;0;0
 73;José Milton Alves;Disc_47;0;0;0;0;0;0
 74;José Weselli de Sá Andrade;Disc_39,Disc_377,Disc_398;0;0;0;0;0;0
-75;Juarez Martins Rodrigues;Disc_41,Disc_223,Disc_314,Disc_473,Disc_549;0;0;0;0;0;0
-76;Juliana Aparecida Celia;Disc_389,Disc_410,Disc_412,Disc_425,Disc_428,Disc_430,Disc_434,Disc_451;0;0;0;0;0;0
-77;Juliana de Fátima Sales;Disc_450;0;0;0;0;0;0
+75;Juarez Martins Rodrigues;Disc_41,Disc_223,Disc_314,Disc_474,Disc_551;0;0;0;0;0;0
+76;Juliana Aparecida Celia;Disc_389,Disc_410,Disc_412,Disc_425,Disc_428,Disc_430,Disc_434,Disc_452;0;0;0;0;0;0
+77;Juliana de Fátima Sales;Disc_451;0;0;0;0;0;0
 78;Karen Martins Leão;Disc_240,Disc_387,Disc_408;0;0;0;0;0;0
 79;Kátia Aparecida de Pinho Costa;Disc_38,Disc_239,Disc_402;0;0;0;0;0;0
 80;Kátia Cylene Guimarães;Disc_241;0;0;0;0;0;0
-81;Kennedy de Araújo Barbosa;Disc_269,Disc_283,Disc_289,Disc_339,Disc_343,Disc_560;0;0;0;0;0;0
-82;Lauro Bucker Neto;Disc_40,Disc_159,Disc_435,Disc_444,Disc_446,Disc_449;0;0;0;0;0;0
-83;Leandro Pereira Cappato;Disc_422,Disc_424,Disc_431,Disc_454;0;0;0;0;0;0
+81;Kennedy de Araújo Barbosa;Disc_269,Disc_283,Disc_289,Disc_339,Disc_343,Disc_562;0;0;0;0;0;0
+82;Lauro Bucker Neto;Disc_40,Disc_159,Disc_435,Disc_445,Disc_447,Disc_450;0;0;0;0;0;0
+83;Leandro Pereira Cappato;Disc_422,Disc_424,Disc_431,Disc_455;0;0;0;0;0;0
 84;Leonardo de Castro Santos;-;0;0;0;0;0;0
 85;Leandro Carlos;Disc_37,Disc_48,Disc_86,Disc_325;0;0;0;0;0;0
 86;Leonardo Nazário Silva dos Santos;Disc_32,Disc_397;0;0;0;0;0;0
-87;Leonel Diógenes Carvalhaes Alvarenga;Disc_308,Disc_496,Disc_502,Disc_505;0;0;0;0;0;0
-88;Letícia Fleury Viana;Disc_172,Disc_186,Disc_423,Disc_432,Disc_454,Disc_525;0;0;0;0;0;0
+87;Leonel Diógenes Carvalhaes Alvarenga;Disc_308,Disc_497,Disc_503,Disc_506;0;0;0;0;0;0
+88;Letícia Fleury Viana;Disc_172,Disc_186,Disc_423,Disc_432,Disc_455,Disc_527;0;0;0;0;0;0
 89;Lia Raquel de Souza Santos;Disc_84;0;0;0;0;0;0
-90;Lídia Nunes Ávila Carvalhaes;Disc_270,Disc_271,Disc_290,Disc_348,Disc_349,Disc_366,Disc_507,Disc_527;0;0;0;0;0;0
+90;Lídia Nunes Ávila Carvalhaes;Disc_270,Disc_271,Disc_290,Disc_348,Disc_349,Disc_366,Disc_508,Disc_529;0;0;0;0;0;0
 91;Lucas Anjos de Souza;Disc_80;0;0;0;0;0;0
 92;Lucas Peres Angelini;Disc_27,Disc_184,Disc_215,Disc_216,Disc_303;0;0;0;0;0;0
-93;Luciana Cristina Vitorino;Disc_88,Disc_445;0;0;0;0;0;0
-94;Luismar de Paula Souza;Disc_344,Disc_351,Disc_357,Disc_515,Disc_523,Disc_526;0;0;0;0;0;0
-95;Luciene de Oliveira Guerra;Disc_255,Disc_275,Disc_353,Disc_419,Disc_491,Disc_513,Disc_533;0;0;0;0;0;0
-96;Luis Guilherme Cordeiro Santos Silva;Disc_498,Disc_499,Disc_503,Disc_508,Disc_510;0;0;0;0;0;0
-97;Luíza Ferreira Rezende de Medeiros;Disc_106,Disc_200,Disc_550,Disc_555;0;0;0;0;0;0
-98;Márcia Cristina Puydinger de Fazio;Disc_06,Disc_258,Disc_278,Disc_360,Disc_459,Disc_536,Disc_542;0;0;0;0;0;0
-99;Márcio da Silva Vilela;Disc_173,Disc_177,Disc_306,Disc_489;0;0;0;0;0;0
+93;Luciana Cristina Vitorino;Disc_88,Disc_446;0;0;0;0;0;0
+94;Luismar de Paula Souza;Disc_344,Disc_351,Disc_357,Disc_516,Disc_525,Disc_528;0;0;0;0;0;0
+95;Luciene de Oliveira Guerra;Disc_255,Disc_275,Disc_353,Disc_419,Disc_492,Disc_514,Disc_535;0;0;0;0;0;0
+96;Luis Guilherme Cordeiro Santos Silva;Disc_499,Disc_500,Disc_504,Disc_509,Disc_511;0;0;0;0;0;0
+97;Luíza Ferreira Rezende de Medeiros;Disc_106,Disc_200,Disc_552,Disc_557;0;0;0;0;0;0
+98;Márcia Cristina Puydinger de Fazio;Disc_6,Disc_258,Disc_278,Disc_360,Disc_460,Disc_538,Disc_544;0;0;0;0;0;0
+99;Márcio da Silva Vilela;Disc_173,Disc_177,Disc_306,Disc_490;0;0;0;0;0;0
 100;Márcio Antônio Ferreira Belo Filho;Disc_51,Disc_135,Disc_297;0;0;0;0;0;0
 101;Marco Antônio Pereira da Silva;Disc_248;0;0;0;0;0;0
 102;Maria Andréia Corrêa Mendonça;Disc_14,Disc_30,Disc_81,Disc_83;0;0;0;0;0;0
 103;Marconi Batista Teixeira;Disc_144,Disc_218,Disc_376;0;0;0;0;0;0
-104;Marlus Dias Silva;Disc_55,Disc_64,Disc_512;0;0;0;0;0;0
-105;Mateus Souza Santos;Disc_490,Disc_492,Disc_518,Disc_535,Disc_548,Disc_551,Disc_556;0;0;0;0;0;0
-106;Matheus de Paula Ferreira;Disc_118,Disc_129,Disc_370,Disc_414,Disc_475,Disc_517;0;0;0;0;0;0
+104;Marlus Dias Silva;Disc_55,Disc_64,Disc_513;0;0;0;0;0;0
+105;Mateus Souza Santos;Disc_491,Disc_493,Disc_519,Disc_537,Disc_550,Disc_553,Disc_558;0;0;0;0;0;0
+106;Matheus de Paula Ferreira;Disc_118,Disc_129,Disc_370,Disc_414,Disc_476,Disc_518;0;0;0;0;0;0
 107;Melissa Cássia Favaro Boldrin Freire;Disc_163,Disc_176,Disc_179,Disc_187;0;0;0;0;0;0
-108;Michell Macedo Alves;Disc_142,Disc_150,Disc_365,Disc_479,Disc_483;0;0;0;0;0;0
-109;Milton Bernardes Ferreira;Disc_256,Disc_264,Disc_276,Disc_284,Disc_352,Disc_394,Disc_539;0;0;0;0;0;0
+108;Michell Macedo Alves;Disc_142,Disc_150,Disc_365,Disc_480,Disc_484;0;0;0;0;0;0
+109;Milton Bernardes Ferreira;Disc_256,Disc_264,Disc_276,Disc_284,Disc_352,Disc_394,Disc_541;0;0;0;0;0;0
 110;Osvaldo Resende;Disc_383;0;0;0;0;0;0
 111;Pablo da Costa Gontijo;Disc_26,Disc_34,Disc_46;0;0;0;0;0;0
-112;Pablo Diego Silva Cabral;Disc_109,Disc_443;0;0;0;0;0;0
+112;Pablo Diego Silva Cabral;Disc_109,Disc_444;0;0;0;0;0;0
 113;Paula Fabiane dos Santos;-;0;0;0;0;0;0
 114;Paulo Eduardo de Menezes Silva;Disc_28,Disc_45;0;0;0;0;0;0
-115;Paulo Henrique Rodrigues Gonçalves;Disc_72,Disc_99,Disc_158,Disc_192,Disc_538;0;0;0;0;0;0
+115;Paulo Henrique Rodrigues Gonçalves;Disc_72,Disc_99,Disc_158,Disc_192,Disc_540;0;0;0;0;0;0
 116;Philippe Barbosa da Silva;Disc_125,Disc_146,Disc_154,Disc_156;0;0;0;0;0;0
-117;Polyana Fernandes Pereira;Disc_198,Disc_207,Disc_530;0;0;0;0;0;0
+117;Polyana Fernandes Pereira;Disc_198,Disc_207,Disc_532;0;0;0;0;0;0
 118;Priscila Alonso dos Santos;Disc_175,Disc_413,Disc_418,Disc_429;0;0;0;0;0;0
-119;Rafael Carvalho de Mendonça;Disc_58,Disc_61,Disc_494,Disc_514;0;0;0;0;0;0
-120;Rafael Crisóstomo Alves;Disc_458,Disc_460,Disc_462,Disc_469,Disc_470;0;0;0;0;0;0
-121;Rafael Marques Pereira Leal;Disc_95,Disc_300,Disc_382,Disc_556;0;0;0;0;0;0
-122;Raphaela Gabrí Bitencourt;Disc_170,Disc_181,Disc_188,Disc_427,Disc_427,Disc_427;0;0;0;0;0;0
-123;Raquel Maria Prado;Disc_461,Disc_463,Disc_464,Disc_466,Disc_467,Disc_509;0;0;0;0;0;0
+119;Rafael Carvalho de Mendonça;Disc_58,Disc_61,Disc_495,Disc_515;0;0;0;0;0;0
+120;Rafael Crisóstomo Alves;Disc_459,Disc_461,Disc_463,Disc_470,Disc_471;0;0;0;0;0;0
+121;Rafael Marques Pereira Leal;Disc_95,Disc_300,Disc_382,Disc_558;0;0;0;0;0;0
+122;Raphaela Gabrí Bitencourt;Disc_170,Disc_181,Disc_188,Disc_427,Disc_443,Disc_523;0;0;0;0;0;0
+123;Raquel Maria Prado;Disc_462,Disc_464,Disc_465,Disc_467,Disc_468,Disc_510;0;0;0;0;0;0
 124;Renata Pereira Marques;Disc_403;0;0;0;0;0;0
 125;Renato Cruvinel de Oliveira;Disc_259,Disc_279;0;0;0;0;0;0
-126;Roberta de Almeida Carvalho;Disc_75,Disc_212,Disc_229,Disc_411,Disc_437,Disc_531;0;0;0;0;0;0
+126;Roberta de Almeida Carvalho;Disc_75,Disc_212,Disc_229,Disc_411,Disc_437,Disc_533;0;0;0;0;0;0
 127;Roberto Castillo Pizarro;Disc_15,Disc_74,Disc_260,Disc_280,Disc_340;0;0;0;0;0;0
-128;Rodrigo Braghiroli;Disc_120,Disc_128,Disc_162,Disc_519,Disc_524;0;0;0;0;0;0
+128;Rodrigo Braghiroli;Disc_120,Disc_128,Disc_162,Disc_520,Disc_526;0;0;0;0;0;0
 129;Rogério Favareto;Disc_124,Disc_174,Disc_178;0;0;0;0;0;0
 130;Rosenilde Nogueira Paniago;Disc_78,Disc_111,Disc_112,Disc_116,Disc_205,Disc_206;0;0;0;0;0;0
-131;Rúbia Cristina Arantes Marques;Disc_468;0;0;0;0;0;0
+131;Rúbia Cristina Arantes Marques;Disc_469;0;0;0;0;0;0
 132;Salmon Landi Júnior;Disc_76,Disc_122,Disc_131,Disc_166,Disc_217;0;0;0;0;0;0
 133;Samantha Rezende Mendes;Disc_11,Disc_36,Disc_257,Disc_265,Disc_277,Disc_285,Disc_326,Disc_346;0;0;0;0;0;0
-134;Samylla Tassia Ferreira de Freitas;Disc_169,Disc_224,Disc_329,Disc_333,Disc_362,Disc_438,Disc_441,Disc_520,Disc_537,Disc_543;0;0;0;0;0;0
+134;Samylla Tassia Ferreira de Freitas;Disc_169,Disc_224,Disc_329,Disc_333,Disc_362,Disc_438,Disc_441,Disc_521,Disc_539,Disc_545;0;0;0;0;0;0
 135;Sebastião Carvalho Vasconcelos Filho;Disc_24,Disc_97;0;0;0;0;0;0
-136;Silvia Ferreira Marques Salustiano;Disc_152,Disc_266,Disc_286,Disc_359,Disc_471,Disc_547;0;0;0;0;0;0
-137;Suzana Maria Loures de Oliveira Marcionilio;Disc_102,Disc_439,Disc_522;0;0;0;0;0;0
+136;Silvia Ferreira Marques Salustiano;Disc_152,Disc_266,Disc_286,Disc_359,Disc_472,Disc_549;0;0;0;0;0;0
+137;Suzana Maria Loures de Oliveira Marcionilio;Disc_102,Disc_439,Disc_524;0;0;0;0;0;0
 138;Tavvs Micael Alves;-;0;0;0;0;0;0
-139;Tiago Carnevalle Romão;Disc_210,Disc_234,Disc_447,Disc_448;0;0;0;0;0;0
+139;Tiago Carnevalle Romão;Disc_210,Disc_234,Disc_448,Disc_449;0;0;0;0;0;0
 140;Tiago Clarimundo Ramos;Disc_121,Disc_130,Disc_199,Disc_293,Disc_345;0;0;0;0;0;0
 141;Tiago Pereira Guimarães;Disc_251,Disc_379,Disc_381,Disc_400;0;0;0;0;0;0
 142;Valdnéa Casagrandre Dalvi;Disc_73,Disc_79;0;0;0;0;0;0
-143;Victor Baldin;Disc_16,Disc_228,Disc_486,Disc_493,Disc_546;0;0;0;0;0;0
-144;Wellington Donizete Guimarães;Disc_137,Disc_213,Disc_219,Disc_313,Disc_472,Disc_482;0;0;0;0;0;0
-145;Wesley Renato Viali;Disc_119,Disc_167,Disc_196,Disc_202,Disc_208,Disc_528;0;0;0;0;0;0
-146;Wilciene Nunes do Vale;Disc_05,Disc_327,Disc_335,Disc_356;0;0;0;0;0;0
-147;Wilker Alves Morais;Disc_93,Disc_157,Disc_311,Disc_319,Disc_541,Disc_552,Disc_561;0;0;0;0;0;0
+143;Victor Baldin;Disc_16,Disc_228,Disc_487,Disc_494,Disc_548;0;0;0;0;0;0
+144;Wellington Donizete Guimarães;Disc_137,Disc_213,Disc_219,Disc_313,Disc_473,Disc_483;0;0;0;0;0;0
+145;Wesley Renato Viali;Disc_119,Disc_167,Disc_196,Disc_202,Disc_208,Disc_530;0;0;0;0;0;0
+146;Wilciene Nunes do Vale;Disc_5,Disc_327,Disc_335,Disc_356;0;0;0;0;0;0
+147;Wilker Alves Morais;Disc_93,Disc_157,Disc_311,Disc_319,Disc_543,Disc_554,Disc_563;0;0;0;0;0;0
