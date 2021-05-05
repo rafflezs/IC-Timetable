@@ -34,6 +34,8 @@ class Agenda{
 
         bool checarConsecutivo(int dia, int horarioInicial, int tamSplit, int discIndex);
 
+        std::list <int> alocaEad(Disciplina* disc, int tamanhoSplit);
+
         /* 
         *  Checa a disponibilidade (consecutividade) em determinado intervalo
         *  @param int*, int*, int* @return bool

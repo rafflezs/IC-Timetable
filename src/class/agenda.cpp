@@ -99,6 +99,33 @@ bool Agenda::checarConsecutivo(int dia, int horarioInicial, int tamSplit, int di
 
 }
 
+std::list <int> Agenda::alocaEad(Disciplina* disc, int tamanhoSplit){
+
+    std::list <int> listaHorarios;
+
+    int slotBlock = 7;
+
+    for(int slot = slotBlock, cont = 0; slotBlock < 16; slot++, cont++){
+        
+        if(cont > 8){
+            slot = 0;
+        }
+
+        int flag = 0;
+        for(int i = slot; i < 16; i++){
+            if(this->agenda[5][i] > 0){
+                flag = 1;
+                break;
+            }
+        }
+        if(flag == 0){
+            listaHorarios.push_back(slot);
+        }
+    }
+    return listaHorarios;
+
+}
+
 //Checa a disponibilidade de um horario para a alocação de um recurso
 /* bool Agenda::checarDisponibilidade( int dia, int inicio, int fim, int discIndex, std::set <int> *listaHorarios ){
 
@@ -123,8 +150,6 @@ bool Agenda::checarConsecutivo(int dia, int horarioInicial, int tamSplit, int di
 
 //Exibe a matriz agenda do recurso, juntamente do nome (função generica)
 void Agenda::printAgenda(){
-
-    std::cout << this->nome << std::endl;
 
     for(int dia = 0; dia < 6; dia++){
         for(int horario = 0; horario < 16; horario++){
