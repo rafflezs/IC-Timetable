@@ -35,7 +35,7 @@ void Metaheuristica::inserirInicio( Solucao* sol, std::set <Disciplina*> listaDi
         int minimoDiario = disc->first->minimoDiario;
         int tamanhoSplit[splits];
 
-        std::cout << "Disciplina " << disc->first->nome << endl << "Agenda turma pré-disc \n";
+        std::cout << "Disciplina "<< disc->first->id << " " << disc->first->nome << endl << "Agenda turma pré-disc \n";
         turma->second->print();
 
         //Gera vetor com o tamanho de cada split (mesma tecnica do Legacy)
