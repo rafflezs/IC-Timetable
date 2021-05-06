@@ -46,11 +46,6 @@ Agenda::Agenda(Professor* recursoProfessor){
 //Devolve uma lista de horarios consecutivos
 //Possivelmente o problema esta aqui nessa função ou na debaixo
 std::list <int> Agenda::checarConsecutivo( Disciplina* disc, int dia, int tamanhoSplit, int discIndex ){
-    
-    /*
-     * Comentar com o Belo sobre a mudança de disciplinas com turno "Integral" e disciplinas ministradas em contra-turnos
-     * unificando duas turmas e falar de Agronegocio (deletado)
-    */
 
     int slotInicio, slotFim;
     

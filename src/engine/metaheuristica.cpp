@@ -39,9 +39,8 @@ void Metaheuristica::inserirInicio( Solucao* sol, std::set <Disciplina*> listaDi
         turma->second->print();
 
         //Gera vetor com o tamanho de cada split (mesma tecnica do Legacy)
+        cout << "Debug 1" << endl;
         for(int i = 0; i < splits; i++) tamanhoSplit[i] = minimoDiario;
-        
-        for(int i = 0; i < chPresencial % (minimoDiario * splits); i++) tamanhoSplit[i % splits]++;
 
         //Lista de dias consecutivos com o tamanho de determinado split
         list <int> horariosConsec;
@@ -54,10 +53,11 @@ void Metaheuristica::inserirInicio( Solucao* sol, std::set <Disciplina*> listaDi
             prof.push_back(sol->horarioProf.find( sol->data->professores[disc->first->professorIndex[i]] )->second);
         }
         //Lista de dias randomizados
-        int listaDias[6] = {0,1,2,3,4,5};
-        geraListaDias(listaDias, 6);
+        int listaDias[] = {0,1,2,3,4};
+        geraListaDias(listaDias, sizeof(listaDias)/sizeof(int));
 
         //Alocação de disciplinas EaD
+        cout << "Debug 2" << endl;
         if(chEad > 0){
         cout << "Disciplina EaD com ch-online de " << disc->first->chEad << " horas" << endl;
             do{
@@ -88,6 +88,11 @@ void Metaheuristica::inserirInicio( Solucao* sol, std::set <Disciplina*> listaDi
             }
         }
 
+        if(chPresencial == 0) break;
+
+        cout << "Debug 3" << endl;
+        for(int i = 0; i < chPresencial % (minimoDiario * splits); i++) tamanhoSplit[i % splits]++;
+
         horariosConsec.clear();
         
         for(int s = 0, dia = 0; s < splits; s++, dia++){
@@ -105,16 +110,20 @@ void Metaheuristica::inserirInicio( Solucao* sol, std::set <Disciplina*> listaDi
             for(int cont = 0; horariosConsec.empty(); dia++, cont++){
                 std::cout << "Contador " << cont << endl;
                 if(cont > 50) break;
-                if(dia >= 6) dia = 0;
                 
-                std::cout << "Dia passado por parametro: " << listaDias[dia] << endl;
+                if(cont < 30){
+                    if(dia >= 5) dia = 0;
+                    horariosConsec = turma->second->agendaTurma->checarConsecutivo( *d ,listaDias[dia], tamanhoSplit[s], travaDisc);
+                    //mostrarHorarios(horariosConsec, turma->second);
+                    satanasTemporario = dia;
+                    for(auto h = horariosConsec.begin(); h != horariosConsec.end(); h++) std::cout << *h << " ";
+                }
+                
                 horariosConsec = turma->second->agendaTurma->checarConsecutivo( *d ,listaDias[dia], tamanhoSplit[s], travaDisc);
-                std::cout << "Dia pós-parametro: " << listaDias[dia] << endl;
-                
                 //mostrarHorarios(horariosConsec, turma->second);
                 satanasTemporario = dia;
-                std::cout << "Dia: " << listaDias[satanasTemporario] << " | horario: ";
                 for(auto h = horariosConsec.begin(); h != horariosConsec.end(); h++) std::cout << *h << " ";
+
                 std::cout << endl;
             }//Fim da cagada
             
