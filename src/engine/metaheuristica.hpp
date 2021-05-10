@@ -14,7 +14,7 @@ class Metaheuristica{
         Metaheuristica();
     
         //algoritmoGenerico(Data* data);
-        void inserirInicio( Solucao* sol, std::set <Disciplina*> listaDisc /* <- a lista é o parametro de caso  */);
+        void inserirInicio( Solucao* sol, std::list <Disciplina*> listaDisc /* <- a lista é o parametro de caso  */);
 
         //inserirEspalhado( param )
 
@@ -36,7 +36,7 @@ class Metaheuristica{
         void printSolucoes();
         void geraListaDias(int listaDias[], int tam);
     
-        std::set <Disciplina*> geraListaDisc(Solucao* sol, int parametro);
+        std::list <Disciplina*> geraListaDisc(Solucao* sol, int parametro);
         list <SalaSol*> selecionaSala(Solucao* sol, Disciplina* disc, TurmaSol* turma, int* dia, int* horario, int* tamanho);
 
         void mostrarHorarios(list <int> listaHorarios, TurmaSol* turma);
