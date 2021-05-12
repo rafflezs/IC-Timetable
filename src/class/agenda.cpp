@@ -98,8 +98,6 @@ std::list <int> Agenda::alocaEad(Disciplina* disc, int tamanhoSplit){
 
     std::list <int> listaHorarios;
 
-    int slotBlock = 7;
-
     for(int slot = 0; slot < 16; slot++){
         if(this->agenda[5][slot] <= 0){
             listaHorarios.push_back(slot);
